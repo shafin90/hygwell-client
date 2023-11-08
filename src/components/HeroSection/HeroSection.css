@@ -1,10 +1,11 @@
 .hero-section{
-    width: 88.88888888888889vw;
+    width: 87.88888888888889vw;
 }
 .inside-container-herosection{
     width: 38.68055555555556vw;
-    position: relative;
-    top: 6.9631944444444445vw;
+    /* position: relative; */
+    margin-top: 6.9631944444444445vw;
+    margin-bottom: 10.694444444444445vw;
 }
 .hero-section-heading{
     font-family: 'Poppins', sans-serif;

@@ -1,13 +1,13 @@
 import { Container } from "react-bootstrap";
-import CustomNavbar from "../../components/CustomNavbar/CustomNavbar";
-import HeroSection from "../../components/HeroSection/HeroSection";
+import Banner from "../../components/Banner/Banner";
+import BackgroundImageContainer from "../../components/BackgroundImageContainer/BackgroundImageContainer";
 
 
 const Home = () => {
     return (
         <Container fluid className=" px-0 ">
-            <CustomNavbar></CustomNavbar>
-            <HeroSection></HeroSection>
+            <Banner></Banner>
+            <BackgroundImageContainer></BackgroundImageContainer>
         </Container>
     );
 };

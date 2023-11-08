@@ -1,0 +1,13 @@
+.right-side-image-background{
+    position: relative;
+    width: 51.31944444444444vw;
+    height: 49.791666666666664vw;
+}
+
+.left-side-image-background{
+    position: relative;
+    width:  52.90763888888889vw;
+    height: 91.24097222222223vw;
+    right: 16px;
+    
+}
