@@ -1,4 +1,4 @@
-// Component explaination:  Navbar of this website
+// Component Explaination:  Navbar of this website. It takes place at the top of this website.
 
 /* Css Class Explaination: 
 1. nav-menu-container: This class is used in Nav. It makes the width  pixel perfect
