@@ -2,3 +2,11 @@
     width: 45.416666666666664vw;
     height: 45.416666666666664vw ;
 }
+.aboutUs{
+    position: absolute;
+    top: 15vw;
+    left: 14vw;
+    color: white;
+    font-weight: 700;
+    font-size: 3.611111111111111vw;
+}
