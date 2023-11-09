@@ -1,0 +1,16 @@
+.ProductShowCaseCard_HomePage {
+    width: 25.694444444444443vw;
+    height: 22.22222222222222vw;   
+}
+.productImage {
+    width: 12.152777777777779vw;
+    height: 9.86111111111111vw;
+}
+.showMoreButton{
+    border:"none";
+    background:"transparent";
+    cursor: pointer;
+}
+.showMoreButton:hover{
+    outline: none;
+}

@@ -4,6 +4,8 @@ import BackgroundImageContainer from "../../components/BackgroundImageContainer/
 import AboutUs_HomePage from "../../components/AboutUs_HomePage/AboutUs_HomePage";
 import OurOfferings_HomePage from "../../components/OurOfferings_HomePage/OurOfferings_HomePage";
 import OurValues_HomePage from "../../components/OurValues_HomePage/OurValues_HomePage";
+import ProductShowCaseCard_HomePage from "../../components/ProductShowCaseCard_HomePage/ProductShowCaseCard_HomePage";
+import ProductShowCase_HomePage from "../../components/ProductShowCase_HomePage/ProductShowCase_HomePage";
 
 
 const Home = () => {
@@ -15,6 +17,7 @@ const Home = () => {
             <AboutUs_HomePage></AboutUs_HomePage>
             <OurOfferings_HomePage></OurOfferings_HomePage>
             <OurValues_HomePage></OurValues_HomePage>
+            <ProductShowCase_HomePage></ProductShowCase_HomePage>
         </Container>
     );
 };
