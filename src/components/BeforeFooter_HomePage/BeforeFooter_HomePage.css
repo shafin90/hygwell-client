@@ -1,0 +1,19 @@
+.beforeFooter_HomePage{
+    margin-top: 100px;
+    background-color: #057BC3;
+    border-radius: 20px;
+    padding: 3.611111111111111vw 7.222222222222222vw 2.9166666666666665vw 5.763888888888889vw;
+}
+.beforeFooter_HomePage h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.writeToUsBtn{
+
+    border: none;
+    border-radius: 12px;
+    width: 16.11111111111111vw;
+    height:  3.8194444444444446vw;
+    color: #057BC3;
+    font-weight: 500;
+}

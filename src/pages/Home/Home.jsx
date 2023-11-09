@@ -9,6 +9,7 @@ import OurVision from "../../components/OurVision/OurVision";
 import TechniqalHealthCareSection_HomPage from "../../components/TechniqalHealthCareSection_HomPage/TechniqalHealthCareSection_HomPage";
 import MeetOurTeam from "../../components/MeetOurTeam/MeetOurTeam";
 import GetYourPharmacy_HomePage from "../../components/GetYourPharmacy_HomePage/GetYourPharmacy_HomePage";
+import BeforeFooter_HomePage from "../../components/BeforeFooter_HomePage/BeforeFooter_HomePage";
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
             <TechniqalHealthCareSection_HomPage></TechniqalHealthCareSection_HomPage>
             <MeetOurTeam></MeetOurTeam>
             <GetYourPharmacy_HomePage></GetYourPharmacy_HomePage>
+            <BeforeFooter_HomePage></BeforeFooter_HomePage>
         </Container>
     );
 };
