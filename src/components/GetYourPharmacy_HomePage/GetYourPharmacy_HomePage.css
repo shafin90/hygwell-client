@@ -1,0 +1,31 @@
+.getYourPharmacy {
+    background-image: url('../../../public/assets/Images/Bg.png');
+    background-size: cover;
+    width: 90.97222222222223vw;
+    height: 35.34722222222222vw;
+    padding-left: 4.861111111111111vw;
+    padding-top: 5.416666666666667vw;
+}
+
+.getYourPharmacy h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 4.444444444444445vw;
+    line-height: 5.333333333333333vw;
+    color: white;
+}
+
+.getYourPharmacy article{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 2vw;
+    color: white;
+    margin-top: 1.7361111111111112vw;
+    margin-bottom:  2.7777777777777777vw;
+    width: 35.319444444444443vw;
+}
+.downloadApp{
+    width: 12.5vw;
+    height: 3.611111111111111vw;
+}

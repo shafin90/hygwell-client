@@ -6,6 +6,9 @@ import OurOfferings_HomePage from "../../components/OurOfferings_HomePage/OurOff
 import OurValues_HomePage from "../../components/OurValues_HomePage/OurValues_HomePage";
 import ProductShowCase_HomePage from "../../components/ProductShowCase_HomePage/ProductShowCase_HomePage";
 import OurVision from "../../components/OurVision/OurVision";
+import TechniqalHealthCareSection_HomPage from "../../components/TechniqalHealthCareSection_HomPage/TechniqalHealthCareSection_HomPage";
+import MeetOurTeam from "../../components/MeetOurTeam/MeetOurTeam";
+import GetYourPharmacy_HomePage from "../../components/GetYourPharmacy_HomePage/GetYourPharmacy_HomePage";
 
 
 const Home = () => {
@@ -19,6 +22,9 @@ const Home = () => {
             <OurValues_HomePage></OurValues_HomePage>
             <ProductShowCase_HomePage></ProductShowCase_HomePage>
             <OurVision></OurVision>
+            <TechniqalHealthCareSection_HomPage></TechniqalHealthCareSection_HomPage>
+            <MeetOurTeam></MeetOurTeam>
+            <GetYourPharmacy_HomePage></GetYourPharmacy_HomePage>
         </Container>
     );
 };

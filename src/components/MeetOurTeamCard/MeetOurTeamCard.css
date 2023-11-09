@@ -1,0 +1,23 @@
+.meetOurTeamCard{
+    width: 39.583333333333336vw;
+    height: 34.583333333333336vw;
+
+}
+
+.meetOurTeamCard img {
+    width: 14.097222222222221vw;
+    height: 14.097222222222221vw;
+    border-radius: 50%;
+}
+.name{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 2.361111111111111vw;
+    font-weight: 400;
+}
+.designation{
+    color: #247FFB;
+    margin-bottom: 10px;
+}
+.details{
+    margin-bottom: 1.8055555555555556vw;
+}
