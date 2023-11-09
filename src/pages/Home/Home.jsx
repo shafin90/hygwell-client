@@ -10,6 +10,7 @@ import TechniqalHealthCareSection_HomPage from "../../components/TechniqalHealth
 import MeetOurTeam from "../../components/MeetOurTeam/MeetOurTeam";
 import GetYourPharmacy_HomePage from "../../components/GetYourPharmacy_HomePage/GetYourPharmacy_HomePage";
 import BeforeFooter_HomePage from "../../components/BeforeFooter_HomePage/BeforeFooter_HomePage";
+import Footer from "../../components/Footer/Footer";
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
             <MeetOurTeam></MeetOurTeam>
             <GetYourPharmacy_HomePage></GetYourPharmacy_HomePage>
             <BeforeFooter_HomePage></BeforeFooter_HomePage>
+            <Footer></Footer>
         </Container>
     );
 };

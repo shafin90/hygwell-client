@@ -5,7 +5,7 @@ import './BeforeFooter_HomePage.css'
 
 const BeforeFooter_HomePage = () => {
     return (
-        <Container className="beforeFooter_HomePage d-flex  justify-content-between  align-items-center ">
+        <Container className="beforeFooter_HomePage d-flex  justify-content-between  align-items-center mb-5 ">
             <h1 className=" text-white">Ready to get started</h1>
             <button className=" writeToUsBtn">
                 Write To Us
