@@ -4,12 +4,15 @@ import "./OurValues_HomePage.css"
 
 const OurValues_HomePage = () => {
     return (
-        <Container fluid>
+        <Container fluid  className=" pt-4 ">
             <Row>
                 <Col md={6}>
-
+                    <img src="../../../public/assets/Images/Decoration.png" className=" img-fluid " alt="" />
                 </Col>
-                <Col md={6}>
+         
+         
+                <Col md={5} className=" position-relative ">
+                    <img src="../../../public/assets/Images/Subtract (1).png"  className="ourvaluesBackgroundImg" alt="" />
                     <SmallDescriptionWithHeading
                         heading="Experience the Benefits of Hygwell"
                         fontWeight="500"
@@ -20,17 +23,17 @@ const OurValues_HomePage = () => {
                         fontSizeOfArticle="1.25vw"
                     ></SmallDescriptionWithHeading>
 
-                 
 
-                    <div className="allValues">
+
+                    <div className="allValues mt-4 ">
                         <div>
-                            <img style={{width:" 3.161111111111111vw", height:" 2.561111111111111vw"}} src="../../../public/assets/Images/tick.PNG" alt="" />
-                            
+                            <img className=" mb-2 " style={{ width: " 2.361111111111111vw", height: " 2.361111111111111vw" }} src="../../../public/assets/Images/Rectangle (3).png" alt="" />
+
                             <SmallDescriptionWithHeading
                                 heading="Quality Products"
                                 article="Our pharmaceutical products meet the highest industry standards ensuring your complete satisfaction."
                                 fontSizeOfHeading="1.9444444444444444vw"
-                                fontSizeOfArticle="1.25vw"
+                                fontSizeOfArticle="1.15vw"
                                 fontWeight="500"
                                 fontFamily="font-family: 'Roboto', sans-serif"
                                 textAlign="Start"
@@ -39,13 +42,13 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img style={{width:" 3.161111111111111vw", height:" 2.561111111111111vw"}} src="../../../public/assets/Images/tick.PNG" alt="" />
-                            
+                            <img className=" mb-2 " style={{ width: " 2.361111111111111vw", height: " 2.361111111111111vw" }} src="../../../public/assets/Images/Rectangle (4).png" alt="" />
+
                             <SmallDescriptionWithHeading
-                                heading="Quality Products"
-                                article="Our pharmaceutical products meet the highest industry standards ensuring your complete satisfaction."
+                                heading="Professional Team"
+                                article="Our team ensures to bring quality and satisfactory service, driven by expertise and unwavering dedication."
                                 fontSizeOfHeading="1.9444444444444444vw"
-                                fontSizeOfArticle="1.25vw"
+                                fontSizeOfArticle="1.15vw"
                                 fontWeight="500"
                                 fontFamily="font-family: 'Roboto', sans-serif"
                                 textAlign="Start"
@@ -54,13 +57,13 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img style={{width:" 3.161111111111111vw", height:" 2.561111111111111vw"}} src="../../../public/assets/Images/tick.PNG" alt="" />
-                            
+                            <img className=" mb-2 " style={{width: " 2.361111111111111vw", height: " 2.361111111111111vw" }} src="../../../public/assets/Images/Rectangle (5).png" alt="" />
+
                             <SmallDescriptionWithHeading
-                                heading="Quality Products"
-                                article="Our pharmaceutical products meet the highest industry standards ensuring your complete satisfaction."
+                                heading="Customer Satisfaction"
+                                article="Providing top-notch healthcare solutions is our utmost priority. Your satisfaction is our success."
                                 fontSizeOfHeading="1.9444444444444444vw"
-                                fontSizeOfArticle="1.25vw"
+                                fontSizeOfArticle="1.15vw"
                                 fontWeight="500"
                                 fontFamily="font-family: 'Roboto', sans-serif"
                                 textAlign="Start"
@@ -69,13 +72,13 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img style={{width:" 3.161111111111111vw", height:" 2.561111111111111vw"}} src="../../../public/assets/Images/tick.PNG" alt="" />
-                            
+                            <img className=" mb-2 " style={{ width: " 2.361111111111111vw", height: " 2.361111111111111vw"}} src="../../../public/assets/Images/Rectangle (6).png" alt="" />
+
                             <SmallDescriptionWithHeading
-                                heading="Quality Products"
-                                article="Our pharmaceutical products meet the highest industry standards ensuring your complete satisfaction."
+                                heading="Innovative Solutions"
+                                article="We constantly push the boundaries to provide cutting-edge packing solutions for your needs."
                                 fontSizeOfHeading="1.9444444444444444vw"
-                                fontSizeOfArticle="1.25vw"
+                                fontSizeOfArticle="1.15vw"
                                 fontWeight="500"
                                 fontFamily="font-family: 'Roboto', sans-serif"
                                 textAlign="Start"

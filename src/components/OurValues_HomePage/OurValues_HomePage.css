@@ -2,4 +2,11 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.ourvaluesBackgroundImg{
+    position: absolute;
+    z-index: -1;
+    width: 52.90763888888889vw;
+    height: 91.24097222222223vw;
 }

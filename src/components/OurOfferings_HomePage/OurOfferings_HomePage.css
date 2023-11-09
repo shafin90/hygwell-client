@@ -1,13 +1,25 @@
 .heading-offer-homepage{
     font-family: 'Poppins', sans-serif;
+    font-size: 3.923611111111111vw;
+    margin-bottom: 6.492361111111111vw;
+    font-weight: 600;
 }
 .btn-explore{
     border: 1px solid #3BAD46;
     border-radius: 8px;
     color: #3BAD46;
     font-size: 1.6666666666666667vw;
+    width: 12.5vw;
+    height:  4.444444444444445vw;
+    background: transparent;
 }
 .offerings_homepage{
     background-color: #f3f3eb ;
-    padding-top: 2.0833333333333335vw;
+    padding-top: 2.833333333333335vw;
+    padding-bottom: 3.6805555555555554vw;
+}
+.sliderBtn{
+    width: 3.3333333333333335vw;
+    margin-right:  1.6666666666666667vw;
+    cursor: pointer;
 }

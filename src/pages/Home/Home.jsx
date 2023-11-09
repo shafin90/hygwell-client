@@ -18,7 +18,9 @@ const Home = () => {
         <Container fluid className=" px-0 ">
             <Banner></Banner>
             {/* background image of banner */}
-            <BackgroundImageContainer></BackgroundImageContainer>
+            <BackgroundImageContainer 
+            rightSideImg="../../../public/assets/Images/right-img-of-banner-homepage.png"
+            ></BackgroundImageContainer>
             <AboutUs_HomePage></AboutUs_HomePage>
             <OurOfferings_HomePage></OurOfferings_HomePage>
             <OurValues_HomePage></OurValues_HomePage>

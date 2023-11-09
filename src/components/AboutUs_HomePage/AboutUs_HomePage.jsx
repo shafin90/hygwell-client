@@ -13,7 +13,7 @@ const AboutUs_HomePage = () => {
             <Row >
                 <Col className=" position-relative " md={6}>
                     <h1 className=" aboutUs">About <br></br> Us</h1>
-                    <img className="aboutUsImage_Homepage_image" src="../../../public/assets/Images/aboutUsHomePage.png" alt="" />
+                    <img className="aboutUsImage_Homepage_image" src="../../../public/assets/Images/Artwork.png" alt="" />
                 </Col>
                 <Col md={5} className=" d-flex flex-column  justify-content-center  align-items-center ">
                     <SmallDescriptionWithHeading

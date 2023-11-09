@@ -1,3 +1,17 @@
-.offerCardHomePage{
+.offerCardHomePage {
     width: 36.458333333333336vw;
+}
+
+.ourOffersHeading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.8055555555555556vw;
+    position: relative;
+    left: 2.4305555555555554vw;
+}
+/* ui */
+.offers_homePage{
+    left: 1.4305555555555554vw;
+    width: 13.88888888888889vw;
+    color: #5F6980;
 }
