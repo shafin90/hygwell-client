@@ -16,7 +16,11 @@ import Footer from "../../components/Footer/Footer";
 const Home = () => {
     return (
         <Container fluid className=" px-0 ">
-            <Banner></Banner>
+            <Banner
+            heading="Welcome to HYGWELL"
+            article="Your Trusted Partner in Healthcare Solutions"
+            btn={true}
+            ></Banner>
             {/* background image of banner */}
             <BackgroundImageContainer 
             rightSideImg="../../../public/assets/Images/right-img-of-banner-homepage.png"

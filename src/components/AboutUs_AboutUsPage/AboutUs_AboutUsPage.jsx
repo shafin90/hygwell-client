@@ -16,7 +16,7 @@ const AboutUs_AboutUsPage = () => {
                 </article>
 
 
-                <ul>
+                <ul className=" mt-4">
                     <li className=" d-flex  justify-content-center  align-items-start ">
                         <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="../../../public/assets/Images/Subtract (2).png" alt="" />
                         <p >
