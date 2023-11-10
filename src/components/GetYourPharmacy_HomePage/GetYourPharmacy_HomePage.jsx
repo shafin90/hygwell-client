@@ -20,10 +20,11 @@ const GetYourPharmacy_HomePage = () => {
                     <div>
                         <img className="downloadApp" src="../../../public/assets/Images/App Store.png" alt="" />
                         <img className="downloadApp ms-3 " src="../../../public/assets/Images/Group.png" alt="" />
+                        <img className="indicatorOfApp" src="../../../public/assets/Images/idicator.png" alt="" />
                     </div>
                 </Col>
                 <Col md={5}>
-                    {/* <img className=" img-fluid " src="../../../public/assets/Images/phone.png" alt="" /> */}
+                    <img className=" phoneImg " src="../../../public/assets/Images/phone (1).png" alt="" />
                 </Col>
             </Row>
         </Container>

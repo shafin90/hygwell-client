@@ -2,6 +2,8 @@ import { Container } from "react-bootstrap";
 import Banner from "../../components/Banner/Banner";
 import BackgroundImageContainer from "../../components/BackgroundImageContainer/BackgroundImageContainer";
 import ContactUs_ContactUsPage from "../../components/ContactUs_ContactUsPage/ContactUs_ContactUsPage";
+import ContactInformation_ContactUsPage from "../../components/ContactInformation_ContactUsPage/ContactInformation_ContactUsPage";
+import Footer from "../../components/Footer/Footer";
 
 
 const ContactUs = () => {
@@ -18,6 +20,8 @@ const ContactUs = () => {
             ></BackgroundImageContainer>
 
             <ContactUs_ContactUsPage></ContactUs_ContactUsPage>
+            <ContactInformation_ContactUsPage></ContactInformation_ContactUsPage>
+            <Footer></Footer>
         </Container>
     );
 };

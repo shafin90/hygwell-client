@@ -1,23 +1,32 @@
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import './ProductShowCaseCard_HomePage.css'
 
-const ProductShowCaseCard_HomePage = () => {
+const ProductShowCaseCard_HomePage = ({moveTop,productImg,category,productImgWidth,productImgHeight}) => {
+    
+    const liftUP = {
+        position: "relative",
+        bottom: moveTop?"2.5vw":"0vw"
+    }
     return (
-        <div  className="ProductShowCaseCard_HomePage position-relative d-flex  flex-column  justify-content-start align-items-center  ">
-            {/* Product Image */}
-            <img src="../../../public/assets/Images/kindpng_5568993 1.png" className="productImage mx-auto  position-relative  z-1 " alt="" />
+        <div className="ProductShowCaseCard_HomePage position-relative d-flex  flex-column  justify-content-start align-items-start  ">
+            
+            {/* Product Image ================================*/}
+            <div style={{ marginBottom: "1.4583333333333333vw" }} className=' d-flex  justify-content-center  align-items-center  w-100 '>
+                <img style={{width:`${productImgWidth}vw`, height:`${productImgHeight}vw`}} src={productImg} className=" mx-auto  position-relative  z-1 " alt="" />
+            </div>
 
-            {/* Heading */}
-            <h2 style={{ marginBottom: "1.25vw" }} className="productCategory_heading position-relative  z-1 text-start  ">
-                Pharmaceuticals
+            {/* Heading ======================================*/}
+            <h2 style={liftUP} className="productCategory_heading position-relative  z-1 text-start  ">
+                {category}
             </h2>
 
-            {/* Show more button */}
-            <button className="showMoreButton position-relative z-1 ">
+            {/* Show more button =============================*/}
+            <button style={{ border: "none", background: "transparent", fontWeight: "700", paddingLeft: "1.9444444444444444vw", bottom: moveTop&&"2.5vw" }} className="shopNowButton position-relative z-1">
                 Shop Now
                 <AiOutlineArrowRight></AiOutlineArrowRight>
             </button>
 
+            {/* background transparent image================== */}
             <img src="../../../public/assets/Images/Group 44.png" className=' w-100  h-75  position-absolute  z-0  bottom-0 ' alt="" />
 
 

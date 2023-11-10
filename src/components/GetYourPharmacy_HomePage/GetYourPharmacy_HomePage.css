@@ -29,3 +29,18 @@
     width: 12.5vw;
     height: 3.611111111111111vw;
 }
+.phoneImg{
+    width: 49.02777777777778vw;
+    height: 48.47222222222222vw;
+    position: relative;
+    top: -12vw;
+    left: -18vw;
+}
+.indicatorOfApp{
+    width: 6.417361vw;
+    height: 8.179861vw;
+    position: relative;
+    top: -2.5vw;
+    left: 5vw;
+    transform: rotate(-18deg);
+}

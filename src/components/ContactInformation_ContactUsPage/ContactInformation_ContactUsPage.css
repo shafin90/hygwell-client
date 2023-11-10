@@ -1,0 +1,43 @@
+.contactInformation_ContactUsPage {
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 100px;
+    width: 71.94444444444444vw;
+    height: 53.541666666666664vw;
+    margin-bottom: 16vw;
+}
+
+.contactInformationContainer {
+    /* padding-left:  2.7777777777777777vw;
+    padding-top:  2.7777777777777777vw; */
+    background: #545E3B;
+    height: 42.93055555555556vw;
+    width: 100%;
+    position: relative;
+    top: 2vw;
+    border-radius: 20px;
+}
+
+.contactInformationContainer h1 {
+    font-size:  1.9444444444444444vw;
+    color:  white;
+    font-family: 'Poppins', sans-serif;
+}
+.floatingImageOne_ContactUsPage{
+    width: 15.680556vw;
+    height: 15.680556vw;
+    position: relative;
+    left: 18vw;
+    top: 5vw;
+    z-index: 0;
+    margin-bottom: 9vw;
+    
+}
+.floatingImageTwo_ContactUsPage{
+    width: 10.583333vw;
+    height: 10.583333vw;
+    position: relative;
+    
+    top: -4vw;
+    z-index: 1;
+}

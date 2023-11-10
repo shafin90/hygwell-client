@@ -1,6 +1,9 @@
 .meetOurTeamCard{
     width: 39.583333333333336vw;
     height: 34.583333333333336vw;
+    z-index: 100;
+    position: relative;
+    background-color: white;
 
 }
 
@@ -20,4 +23,8 @@
 }
 .details{
     margin-bottom: 1.8055555555555556vw;
+}
+.card_social_link img{
+    width: 2.5vw;
+    height: 2.5vw;
 }

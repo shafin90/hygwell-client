@@ -3,7 +3,7 @@ import './ContactUs_ContactUsPage.css'
 
 const ContactUs_ContactUsPage = () => {
     return (
-        <Container className="contactUs_ContactUsPage">
+        <Container className="contactUs_ContactUsPage position-relative ">
             <h1 className=" text-center  fw-bold ">
                 Contact Us
             </h1>
@@ -111,6 +111,8 @@ const ContactUs_ContactUsPage = () => {
                     <img  className="lastImageOfTheContactUsForm" src="../../../public/assets/Images/letter_send 1.png" alt="" />
                 </div>
             </form>
+
+            <img className="rightSideBgImgContactPage" src="../../../public/assets/Images/Subtract (3).png" alt="" />
         </Container>
     );
 };

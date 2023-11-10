@@ -1,12 +1,19 @@
+.ourValues_HomePage{
+    margin-bottom: 7vw;
+}
+
 .allValues{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 1.0416666666666667vw;
 }
 .ourvaluesBackgroundImg{
     position: absolute;
     z-index: -1;
-    width: 52.90763888888889vw;
-    height: 91.24097222222223vw;
+    width: 36.907639vw;
+    height: 96.240972vw;
+    top: -20vw;
+    transform: rotate(1deg);
+    left: 14vw;
 }

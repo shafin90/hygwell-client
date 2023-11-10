@@ -2,7 +2,7 @@ import "./OfferCard_HomePage.css"
 
 const OfferCard_HomePage = ({leftImg, rightImg, heading, offer1, offer2, offer3, offer4}) => {
     return (
-        <div style={{marginRight:"1.8055555555555556vw"}} className="offerCardHomePage position-relative ">
+        <div  className="offerCardHomePage position-relative ">
             {/* Image partition = two image space between */}
             <div style={{marginBottom:"3.3333333333333335vw", zIndex:1}} className="imagePartitionOfOffers w-100  d-flex  justify-content-between  align-items-center  position-relative ">
                

@@ -4,3 +4,17 @@
     height: 24.1625vw;
     z-index: 0;
 }
+.takingHealthCareHeading{
+    font-size: 3.923611111111111vw;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 2.361111111111111vw;
+}
+.takingHealthCarepara{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 2.361111111111111vw;
+    font-size: 1.25vw;
+    font-weight: 400;
+}

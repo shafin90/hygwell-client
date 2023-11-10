@@ -80,3 +80,11 @@
     position: relative;
     top: 10px;
 }
+.rightSideBgImgContactPage{
+    width: 55.225vw;
+    height: 103.240972vw;
+    position: absolute;
+    top: -26vw;
+    left: 36vw;
+    z-index: -1;
+}
