@@ -62,35 +62,41 @@
 }
 
 @media screen and (max-width:575px) {
+    .hero-section{
+        margin-top: 15vw;
+    }
     .inside-container-herosection {
-        width: 70.680556vw;
+        width: 90.680556vw;
     }
 
     .hero-section-heading {
         font-family: 'Poppins', sans-serif;
         font-weight: 800;
-        font-size: 8.923611vw;
-        line-height: 9.492361vw;
-        margin-bottom: 1.291667vw;
+        font-size: 10.923611vw;
+        line-height: 14.492361vw;
+        margin-bottom: 3.291667vw;
     }
 
     .hero-section-article {
         font-family: 'Roboto', sans-serif;
-        font-size: 3.666667vw;
+        font-size: 5vw;
         font-weight: 500;
-        line-height: 4.5vw;
-        margin-bottom: 2.013889vw;
+        line-height: 6.5vw;
+        margin-bottom: 9.013889vw;
+        width: 80vw;
     }
 
-    .get-started, .watch-video {
-        border-radius: 1.555556vw;
-        width: 19.583333vw;
-        height: 6.888889vw;
-        font-size: 2.111111vw;
+    .get-started,
+    .watch-video {
+        border-radius: 2.555556vw;
+        width: 37.583333vw;
+        height: 12.888889vw;
+        font-size: 4vw;
     }
+
     .play-icon {
-        width: 2.6666666666666667vw;
-        height: 2.6666666666666667vw;
+        width: 6.6666666666666667vw;
+        height: 6.6666666666666667vw;
         position: relative;
         right: 8px;
     }

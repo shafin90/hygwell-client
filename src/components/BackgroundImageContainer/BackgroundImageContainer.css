@@ -11,3 +11,11 @@
     right: 16px;
     
 }
+@media screen and (max-width:575px) {
+    .right-side-image-background{
+        position: relative;
+        width: 100.31944444444444vw;
+        height: 98.791666666666664vw;
+        left: -15vw;
+    }    
+}

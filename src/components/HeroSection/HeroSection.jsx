@@ -21,7 +21,7 @@ const HeroSection = ({heading, article, btn, fontweightOfArticle}) => {
                 </article>
 
                 {/* hero-section-button-container */}
-                <div className={!btn?" d-none ":" d-flex  justify-content-start  align-content-center "}>
+                <div className={!btn?" d-none ":" d-flex  justify-content-start  align-content-center w-100 "}>
                     <button className="get-started">Get Started</button>
                     <button className="watch-video">
                         <img className="play-icon" src="/assets/Images/play-icon.png" alt="" />

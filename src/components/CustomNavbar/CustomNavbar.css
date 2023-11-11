@@ -34,7 +34,12 @@
 
 @media screen and (max-width:576px) {
     .logo {
-        width: 10.972222vw;
-        height: 8.722222vw;
+        width: 28.972222vw;
+        height: 22.722222vw;
     }
+    .nav-menu {
+        font-size: 5vw;
+        margin-bottom: 8vw;
+        width: 30vw;
+    }    
 }
