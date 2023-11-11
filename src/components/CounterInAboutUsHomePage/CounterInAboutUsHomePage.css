@@ -19,17 +19,18 @@
 
 @media screen and (max-width:575px) {
     .counterInAboutUs_heading {
-        font-size: 8.333333vw;
+        font-size: 13.333333vw;
         line-height: 7.888889vw;
+        margin-bottom: 4vw;
     }
     .counterInAboutUs_img {
-        width: 13.756944vw;
+        width: 18.756944vw;
         height: 1.798611vw;
     }
     .counterInAboutUs_para {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
-        font-size: 2.666667vw;
+        font-size: 4vw;
         line-height: 3.3333333333333335vw;
         margin-top: 1vw;
     }

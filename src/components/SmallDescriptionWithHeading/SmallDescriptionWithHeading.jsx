@@ -11,11 +11,11 @@ const SmallDescriptionWithHeading = ({ fontWeight, fontFamily, textAlign, headin
     
     return (
         <div style={style}>
-            <h1 className={screenWidth<575&&"mb-2"} style={{fontWeight:`${screenWidth<575?"600":fontWeight}`, fontSize:`${screenWidth<575?"6vw":fontSizeOfHeading}`}}>
+            <h1 className={screenWidth<575&&"mb-2"} style={{fontWeight:`${screenWidth<575?"600":fontWeight}`, fontSize:`${screenWidth<575?"9vw":fontSizeOfHeading}`}}>
                 {heading}
             </h1>
 
-            <article style={{fontSize:`${screenWidth<575?"2.2vw":fontSizeOfArticle}`, fontFamily:fontFamily}}>
+            <article style={{fontSize:`${screenWidth<575?"4vw":fontSizeOfArticle}`, fontFamily:fontFamily}}>
                 {article}
             </article>
         </div>

@@ -26,27 +26,27 @@ const OurVision = () => {
                         fontSizeOfArticle="1.25vw"
                     ></SmallDescriptionWithHeading>
 
-                    <p  style={{ marginTop: "3.263888888888889vw", fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500" }}>
+                    <p  style={{ marginTop: "3.263888888888889vw", fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500" }}>
                         <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Adapting to Consumer Preferences
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
+                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
                         <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         International presence & high-quality healthcare.
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
+                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
                         <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Personalized and AI Crafted Products
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
+                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
                         <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Ethical & Responsible Practices
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
+                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
                         <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Sustainable Compliance Approach
                     </p>

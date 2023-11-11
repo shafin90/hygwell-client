@@ -8,7 +8,8 @@ const ProductShowCase_HomePage = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth); // Contains screen Width
     return (
         <Container fluid className="productShowCaseHomePage ">
-            <div style={{marginBottom:"3.888888888888889vw"}} className=" d-flex justify-content-between  align-items-center ">
+            <div style={{marginBottom:"3.888888888888889vw"}} className=" d-flex flex-column 
+            flex-md-row flex-lg-row justify-content-between  align-items-center ">
                 <h1 className="heading-productShowCase">
                     Product Showcase
                 </h1>
@@ -18,7 +19,7 @@ const ProductShowCase_HomePage = () => {
                 </button>
             </div>
 
-            <div className=" d-flex flex-column  flex-mid-row flex-lg-row   justify-content-between  align-items-center ">
+            <div className="mt-5 mt-md-0 mt-lg-0 d-flex flex-column  flex-mid-row flex-lg-row   justify-content-between  align-items-center ">
 
                 <ProductShowCaseCard_HomePage
                 productImg="/assets/Images/kindpng_5568993 1.png"

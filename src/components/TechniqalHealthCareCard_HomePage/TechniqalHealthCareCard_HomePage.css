@@ -1,51 +1,82 @@
-.techniqalHealthCareCard_HomePage{
-   width: 20.13888888888889vw;
-   background-color: white;
-   z-index: 1;
-   border-top-right-radius:2.0833333333333335vw ;
-   border-top-left-radius:2.0833333333333335vw ;
-   padding-left: 3vw;
-   padding-right: 3vw;
+.techniqalHealthCareCard_HomePage {
+    width: 20.13888888888889vw;
+    background-color: white;
+    z-index: 1;
+    border-top-right-radius: 2.0833333333333335vw;
+    border-top-left-radius: 2.0833333333333335vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 
 }
-.techniqalHealthCareCard_HomePage img{
+
+.techniqalHealthCareCard_HomePage img {
     width: 8.26388888888889vw;
     height: 8.26388888888889vw;
     z-index: 1;
     position: relative;
     top: -4vw;
 }
-.techniqalHealthCareCard_HomePage_text{
+
+.techniqalHealthCareCard_HomePage_text {
     position: relative;
     top: -3vw;
 }
 
 @media screen and (max-width:576px) {
-    .techniqalHealthCareCard_HomePage img{
+    .techniqalHealthCareCard_HomePage img {
         width: 8.26388888888889vw;
         height: 8.26388888888889vw;
         z-index: 1;
         position: relative;
-        
+
     }
-    .techniqalHealthCareCard_HomePage_text{
-        position: relative; 
+
+    .techniqalHealthCareCard_HomePage_text {
+        position: relative;
     }
-    .techniqalHealthCareCard_HomePage{
+
+    .techniqalHealthCareCard_HomePage {
         width: 80.13888888888889vw;
         background-color: white;
         z-index: 1;
-        border-radius:2.0833333333333335vw ;
+        border-radius: 2.0833333333333335vw;
         padding-left: 3vw;
         padding-right: 3vw;
         border: 0.5px solid rgb(238, 234, 234);
         margin-bottom: 10vw;
-     }
-     .techniqalHealthCareCard_HomePage img{
-        width: 12.26388888888889vw;
-        height: 12.26388888888889vw;
+    }
+
+    .techniqalHealthCareCard_HomePage img {
+        width: 18.263889vw;
+        height: 18.263889vw;
         z-index: 1;
         position: relative;
-        top: -4vw;
+        top: -9vw;
+    }
+
+    .techniqalHealthCareSection_HomPage>img {
+        position: absolute;
+        width: 200vw;
+        height: 58.1625vw;
+        z-index: 0;
+        left: -5vw;
+    }
+
+    .takingHealthCareHeading {
+        font-size: 8vw;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 4.361111111111111vw;
+    }
+
+    .takingHealthCarepara {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 3.361111111111111vw;
+        font-size: 4vw;
+        font-weight: 400;
+        width: 80vw;
+        margin: auto;
     }
 }

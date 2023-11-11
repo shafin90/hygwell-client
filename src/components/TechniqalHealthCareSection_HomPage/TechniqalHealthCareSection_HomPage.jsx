@@ -1,8 +1,11 @@
 import { Container } from "react-bootstrap";
 import "./TechniqalHealthCareSection_HomPage.css"
 import TechniqalHealthCareCard_HomePage from "../TechniqalHealthCareCard_HomePage/TechniqalHealthCareCard_HomePage";
+import { useState } from "react";
 
 const TechniqalHealthCareSection_HomPage = () => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
     return (
         <Container fluid className="techniqalHealthCareSection_HomPage px-0 ">
             <img src="/assets/Images/Group 1171282611.png" alt="" />
@@ -13,7 +16,9 @@ const TechniqalHealthCareSection_HomPage = () => {
                 Discover the core aspects that drive our organization, and make us a leading choice for pharmaceutical exports.
             </p>
 
-            <Container fluid className="d-flex flex-column  flex-md-row flex-lg-row justify-content-between  align-items-center w-75  px-0 " style={{ marginTop: "9.208333333333333vw" }}>
+            <Container fluid 
+            className="d-flex flex-column  flex-md-row flex-lg-row justify-content-between  align-items-center w-75  px-0 " 
+            style={{ marginTop: `${screenWidth<576?"18vw":"9.208333333333333vw"}` }}>
                 <TechniqalHealthCareCard_HomePage
                     cardImg="/assets/Images/Group 1171282609 (3).png"
                     heading="Global Reach"

@@ -37,11 +37,12 @@
 @media screen and (max-width: 576px) {
     .meetOurTeamCard {
         width: 80.583333333333336vw;
-        height: 80.583333333333336vw;
+        height: 110.583333333333336vw;
         z-index: 100;
         position: relative;
         background-color: white;
         margin-bottom: 3vw;
+       
     }
 
     .meetOurTeamCard img {
@@ -51,12 +52,13 @@
         margin-bottom: 3vw;
     }
     .card_social_link img {
-        width: 6.5vw;
-        height:6.5vw;
+        width: 9.5vw;
+        height:9.5vw;
     }
     .name {
         font-family: 'Poppins', sans-serif;
-        font-size: 4.5vw;
+        font-size: 7vw;
         font-weight: 400;
+        text-align: center;
     }
 }

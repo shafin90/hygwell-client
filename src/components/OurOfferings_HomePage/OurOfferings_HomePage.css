@@ -57,30 +57,40 @@
 
     .btn-explore {
         border: 2px solid #3BAD46;
-        border-radius: 8px;
+        border-radius: 13px;
         color: #3BAD46;
-        font-size: 2vw;
-        width: 16.5vw;
-        height: 5.444444vw;
+        font-size: 4vw;
+        width: 38.5vw;
+        height: 10.444444vw;
         background: transparent;
         cursor: pointer;
         font-weight: 700;
     }
 
     .heading-offer-homepage {
-        font-size: 5.923611vw
+        font-size: 9.923611vw;
+        margin-bottom: 3vw;
+        font-weight: 700;
     }
     .offersContainer{
         width: 250.986vw;
     }
     .leftBand{
-        top: 64.5vw;
+        top: 90.5vw;
+        width: 50vw;
+        height: 15vw;
+        left: -4vw;
     }
     .rightBand{
-        top: 55.5vw;
+        top: 77.5vw;
+        /* right: -10vw; */
+        width: 50vw;
+        height: 20vw;
+      
+        
     }
     .sliderBtn {
-        width: 8.333333vw;
+        width: 15.333333vw;
         margin-right: 1.6666666666666667vw;
         cursor: pointer;
     }

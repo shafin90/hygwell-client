@@ -29,23 +29,23 @@
 
 @media screen and (max-width:575px) {
     .productShowCaseHomePage{
-        height: 220vw;
+        height: 270vw;
         padding-top: 10vw;
     }
     .heading-productShowCase {
-        font-size: 6vw;
+        font-size: 9vw;
         font-weight: 600;
+        margin-bottom: 5vw;
     }
     .btn-explore-productShowCase {
         border: 2px solid #3BAD46;
-        border-radius: 8px;
+        border-radius: 13px;
         color: #3BAD46;
-        font-size: 2.5vw;
-        width: 16.5vw;
-        height: 6.444444444444445vw;
+        font-size: 4vw;
+        width: 41.5vw;
+        height: 10.444444vw;
         background: transparent;
         cursor: pointer;
         font-weight: 700;
-    }
-    
+    }    
 }
