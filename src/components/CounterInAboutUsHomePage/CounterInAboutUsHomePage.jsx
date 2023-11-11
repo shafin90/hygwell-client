@@ -8,7 +8,7 @@ const CounterInAboutUsHomePage = ({ num, category }) => {
                 {num}
             </h1>
 
-            <img className='counterInAboutUs_img' src="../../../public/assets/Images/Rectangle.png" alt="" />
+            <img className='counterInAboutUs_img' src="/assets/Images/Rectangle.png" alt="" />
             <p className='counterInAboutUs_para'>{category}</p>
         </div>
     );

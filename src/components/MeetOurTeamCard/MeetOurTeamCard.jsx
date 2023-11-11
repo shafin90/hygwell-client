@@ -12,9 +12,9 @@ const MeetOurTeamCard = ({ img, name, designation, details }) => {
                 {details}
             </article>
             <div className=" card_social_link d-flex  justify-content-between  align-content-center w-50 w-md-25 w-lg-25  ">
-                <img src="../../../public/assets/Images/Icon Box.png" alt="" />
-                <img src="../../../public/assets/Images/Icon Box (1).png" alt="" />
-                <img src="../../../public/assets/Images/Icon Box (2).png" alt="" />
+                <img src="/assets/Images/Icon Box.png" alt="" />
+                <img src="/assets/Images/Icon Box (1).png" alt="" />
+                <img src="/assets/Images/Icon Box (2).png" alt="" />
             </div>
         </div>
     );

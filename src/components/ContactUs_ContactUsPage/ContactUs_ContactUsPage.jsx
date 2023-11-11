@@ -108,11 +108,11 @@ const ContactUs_ContactUsPage = () => {
 
                 {/* Image at the last */}
                 <div style={{height:"10.677466863033873vw"}} className=" w-100  d-flex  justify-content-end  align-items-center ">
-                    <img  className="lastImageOfTheContactUsForm" src="../../../public/assets/Images/letter_send 1.png" alt="" />
+                    <img  className="lastImageOfTheContactUsForm" src="/assets/Images/letter_send 1.png" alt="" />
                 </div>
             </form>
 
-            <img className="rightSideBgImgContactPage" src="../../../public/assets/Images/Subtract (3).png" alt="" />
+            <img className="rightSideBgImgContactPage" src="/assets/Images/Subtract (3).png" alt="" />
         </Container>
     );
 };

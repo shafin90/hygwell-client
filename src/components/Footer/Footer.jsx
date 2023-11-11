@@ -9,7 +9,7 @@ const Footer = () => {
             <Row>
                 <Col md={4}  className=" position-relative ">
 
-                    <img className="logo" src="../../../public/assets/Images/logo.png" alt="" />
+                    <img className="logo" src="/assets/Images/logo.png" alt="" />
                     <article style={{ width:`${screenWidth<575?"90.791666668vw":"19.791666666666668vw"}` , marginTop: "1.8055555555555556vw", marginBottom: "0.8333333333333334vw" }}>
                         HYGWELL - Your premier source for top-notch healthcare solutions, designed to enhance health and well-being worldwide.
                     </article>
@@ -17,8 +17,8 @@ const Footer = () => {
                     <p>© HYGWELL - 2023. All Rights Reserved.</p>
 
                     {/* Background */}
-                    <img className="bg2Footer" src="../../../public/assets/Images/Rectangle (1).png" alt="" />
-                    <img className="bg1Footer" src="../../../public/assets/Images/Rectangle (2).png" alt="" />
+                    <img className="bg2Footer" src="/assets/Images/Rectangle (1).png" alt="" />
+                    <img className="bg1Footer" src="/assets/Images/Rectangle (2).png" alt="" />
                     
                 </Col>
 
@@ -48,10 +48,10 @@ const Footer = () => {
 
                 <Col md={4}>
                     <ul className=" social_link d-flex  justify-content-center  align-items-center ">
-                        <li className=" me-3 "><a href="#"><img src="../../../public/assets/Images/Group 9.png" alt="" /></a></li>
-                        <li className=" me-3 "><a href="#"><img src="../../../public/assets/Images/Group 9 Copy.png" alt="" /></a></li>
-                        <li className=" me-3 "><a href="#"><img src="../../../public/assets/Images/Group 9 Copy 2.png" alt="" /></a></li>
-                        <li><a href="#"><img src="../../../public/assets/Images/Group 9 Copy 3.png" alt="" /></a></li>
+                        <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9.png" alt="" /></a></li>
+                        <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy.png" alt="" /></a></li>
+                        <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy 2.png" alt="" /></a></li>
+                        <li><a href="#"><img src="/assets/Images/Group 9 Copy 3.png" alt="" /></a></li>
                     </ul>
                 </Col>
 

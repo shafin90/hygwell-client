@@ -11,7 +11,7 @@ const MeetOurTeam = () => {
             <h1 className="z-1 meetOurTeamHeading" >Meet our team</h1>
             <Container className=" d-flex flex-column flex-md-row flex-lg-row  justify-content-between align-items-center  z-3   position-relative ">
                 <MeetOurTeamCard
-                    img="../../../public/assets/Images/Ellipse 15.png"
+                    img="/assets/Images/Ellipse 15.png"
                     name="Nancharaiah Gowd Nasina"
                     designation="Managing director/Co-Founder"
                     details="The Managing Director orchestrates visionary strategies, driving organizational success with unwavering leadership."
@@ -19,7 +19,7 @@ const MeetOurTeam = () => {
 
                 <MeetOurTeamCard
 
-                    img="../../../public/assets/Images/Ellipse 14.png"
+                    img="/assets/Images/Ellipse 14.png"
                     name="Vajrala Amith Babu"
                     designation="CEO & Co-Founder"
                     details="The Director steers the organization towards its goals, inspiring teams to achieve excellence."

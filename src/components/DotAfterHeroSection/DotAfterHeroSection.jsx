@@ -4,7 +4,7 @@ import './DotAfterHeroSection.css'
 const DotAfterHeroSection = () => {
     return (
         <Container  className=" d-flex  justify-content-center  align-content-center ">
-            <img className="dotAfterHeroSectionImg" src="../../../public/assets/Images/dot_after_hero_section.png" alt="" />
+            <img className="dotAfterHeroSectionImg" src="/assets/Images/dot_after_hero_section.png" alt="" />
         </Container>
     );
 };

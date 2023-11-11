@@ -5,7 +5,7 @@ const AboutUs_AboutUsPage = () => {
     return (
         <Container fluid className=" position-relative ">
             {/* background-right-side image */}
-            <img className="bgRightSideImgAboutPage" src="/public/assets/Images/Subtract (3).png" alt="" />
+            <img className="bgRightSideImgAboutPage" src="/assets/Images/Subtract (3).png" alt="" />
             <Container fluid className="aboutUs_AboutUsPage">
                 <h1>
                     About Us
@@ -18,21 +18,21 @@ const AboutUs_AboutUsPage = () => {
 
                 <ul className=" mt-4">
                     <li className=" d-flex  justify-content-center  align-items-start ">
-                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="/public/assets/Images/Subtract (2).png" alt="" />
+                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="/assets/Images/Subtract (2).png" alt="" />
                         <p >
                             Every product we produce or sell meets the highest industry standards and is designed with the utmost care to ensure its effectiveness.
                         </p>
                     </li>
 
                     <li className=" d-flex  justify-content-center  align-items-start ">
-                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="/public/assets/Images/Subtract (2).png" alt="" />
+                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="assets/Images/Subtract (2).png" alt="" />
                         <p>
                             Our services go beyond just pharmaceuticals, offering an array of products and services including neutraceuticals, cosmetics, hotel amenities, packaging solutions and more.
                         </p>
                     </li>
 
                     <li className=" d-flex  justify-content-center  align-items-start ">
-                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="/public/assets/Images/Subtract (2).png" alt="" />
+                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="assets/Images/Subtract (2).png" alt="" />
                         <p>
                             We strongly believe in fostering innovation and excellence in everything we do, setting new standards in the pharmaceutical world.
                         </p>

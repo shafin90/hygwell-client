@@ -16,7 +16,7 @@ const AboutUs = () => {
             fontweightOfArticle="500"
             ></Banner>
             <BackgroundImageContainer
-            rightSideImg="../../../public/assets/Images/Group 1171282607.png"
+            rightSideImg="/assets/Images/Group 1171282607.png"
             ></BackgroundImageContainer>
             <AboutUs_AboutUsPage></AboutUs_AboutUsPage>
             <Certification_AboutUsPage></Certification_AboutUsPage>

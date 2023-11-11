@@ -59,8 +59,8 @@ const OurOfferings_HomePage = () => {
 
             <div style={{ transition: "1s", position: "relative", right: `${right}vw` }} className=' offersContainer d-flex  justify-content-between  align-items-center '>
                 <OfferCard_HomePage
-                    leftImg="../../../public/assets/Images/Group 1171282609.png"
-                    rightImg="../../../public/assets/Images/Mask group.png"
+                    leftImg="/assets/Images/Group 1171282609.png"
+                    rightImg="/assets/Images/Mask group.png"
                     heading="Hotel and Hospitality"
                     offer1="Shower Gels (Body and Hair)"
                     offer2="Hand Wash"
@@ -69,8 +69,8 @@ const OurOfferings_HomePage = () => {
                 ></OfferCard_HomePage>
 
                 <OfferCard_HomePage
-                    leftImg="../../../public/assets/Images/Group 1171282609 (1).png"
-                    rightImg="../../../public/assets/Images/Mask group (1).png"
+                    leftImg="/assets/Images/Group 1171282609 (1).png"
+                    rightImg="/assets/Images/Mask group (1).png"
                     heading="Private Labelling"
                     offer1="Custom Labeling"
                     offer2="Innovative Packaging"
@@ -80,8 +80,8 @@ const OurOfferings_HomePage = () => {
                 ></OfferCard_HomePage>
 
                 <OfferCard_HomePage
-                    leftImg="../../../public/assets/Images/Group 1171282609 (2).png"
-                    rightImg="../../../public/assets/Images/Mask group (1).png"
+                    leftImg="/assets/Images/Group 1171282609 (2).png"
+                    rightImg="/assets/Images/Mask group (1).png"
                     heading="Turnkey Consultants"
                     offer1="Turnkey Consultation"
                     offer2="Project Execution"
@@ -93,13 +93,13 @@ const OurOfferings_HomePage = () => {
 
             {/* Slider buttons */}
             <div className=' d-flex  justify-content-end  align-items-center mt-5 mt-md-0 mt-lg-0 ' >
-                <img onClick={handleSliderMoveToRight} className='sliderBtn' src="../../../public/assets/Images/Button (1).png" alt="" />
-                <img onClick={handleSliderMoveToLeft} className='sliderBtn' src="../../../public/assets/Images/Button.png" alt="" />
+                <img onClick={handleSliderMoveToRight} className='sliderBtn' src="/assets/Images/Button (1).png" alt="" />
+                <img onClick={handleSliderMoveToLeft} className='sliderBtn' src="/assets/Images/Button.png" alt="" />
             </div>
 
             {/* left band and right band = those are floating object  */}
-            <img className=' leftBand' src="../../../public/assets/Images/Left Band 1.png" alt="" />
-            <img className=' rightBand' src="../../../public/assets/Images/Right Band 2.png" alt="" />
+            <img className=' leftBand' src="/assets/Images/Left Band 1.png" alt="" />
+            <img className=' rightBand' src="/assets/Images/Right Band 2.png" alt="" />
 
         </div>
     );

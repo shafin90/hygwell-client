@@ -21,13 +21,13 @@ const GetYourPharmacy_HomePage = () => {
                     </article>
 
                     <div>
-                        <img className="downloadApp" src="../../../public/assets/Images/App Store.png" alt="" />
-                        <img className="downloadApp ms-3 " src="../../../public/assets/Images/Group.png" alt="" />
-                        <img className="indicatorOfApp" src="../../../public/assets/Images/idicator.png" alt="" />
+                        <img className="downloadApp" src="/assets/Images/App Store.png" alt="" />
+                        <img className="downloadApp ms-3 " src="/assets/Images/Group.png" alt="" />
+                        <img className="indicatorOfApp" src="/assets/Images/idicator.png" alt="" />
                     </div>
                 </Col>
                 <Col md={5}>
-                    <img className=" phoneImg " src="../../../public/assets/Images/phone (1).png" alt="" />
+                    <img className=" phoneImg " src="/assets/Images/phone (1).png" alt="" />
                 </Col>
             </Row>
         </Container>

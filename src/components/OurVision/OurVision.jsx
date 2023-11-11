@@ -10,9 +10,9 @@ const OurVision = () => {
             <Row>
                 <Col md={6}>
                     {/* background image */}
-                    <img className='bgImgOfOurVisionSection' src="../../../public/assets/Images/Group 64.png" alt="" />
+                    <img className='bgImgOfOurVisionSection' src="/assets/Images/Group 64.png" alt="" />
                     {/* Our Vision image */}
-                    <img className=' img-fluid ' src="../../../public/assets/Images/Shapes.png" alt="" />
+                    <img className=' img-fluid ' src="/assets/Images/Shapes.png" alt="" />
                 </Col>
 
                 <Col className=' mb-5 mb-md-0 mb-lg-0  ps-5 ps-md-0 ps-lg-0' style={{ marginTop: " 4.040972222222222vw" }} md={6}>
@@ -27,27 +27,27 @@ const OurVision = () => {
                     ></SmallDescriptionWithHeading>
 
                     <p  style={{ marginTop: "3.263888888888889vw", fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500" }}>
-                        <img className='tickSign' src="../../../public/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Adapting to Consumer Preferences
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="../../../public/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         International presence & high-quality healthcare.
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="../../../public/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Personalized and AI Crafted Products
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="../../../public/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Ethical & Responsible Practices
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"2.25vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="../../../public/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
                         Sustainable Compliance Approach
                     </p>
                 </Col>
