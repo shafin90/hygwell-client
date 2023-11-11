@@ -24,7 +24,7 @@ const Footer = () => {
 
 
 
-                <Col lg={4} md={6} className="px-0">
+                <Col lg={4} md={6} className="px-3 px-md-0 px-lg-0">
                     <h1 className=" quick_links">Quick Links</h1>
 
                     <ul className=" mb-5">
