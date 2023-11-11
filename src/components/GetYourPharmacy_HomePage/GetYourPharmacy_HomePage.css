@@ -15,28 +15,31 @@
     color: white;
 }
 
-.getYourPharmacy article{
+.getYourPharmacy article {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.25vw;
     line-height: 2vw;
     color: white;
     margin-top: 1.7361111111111112vw;
-    margin-bottom:  2.7777777777777777vw;
+    margin-bottom: 2.7777777777777777vw;
     width: 35.319444444444443vw;
 }
-.downloadApp{
+
+.downloadApp {
     width: 12.5vw;
     height: 3.611111111111111vw;
 }
-.phoneImg{
+
+.phoneImg {
     width: 49.02777777777778vw;
     height: 48.47222222222222vw;
     position: relative;
     top: -12vw;
     left: -18vw;
 }
-.indicatorOfApp{
+
+.indicatorOfApp {
     width: 6.417361vw;
     height: 8.179861vw;
     position: relative;
@@ -46,14 +49,52 @@
 }
 
 @media screen and (max-width:575px) {
-    .phoneImg{
-        width: 32.027778vw;
-        height: 29.472222vw;
+    .phoneImg {
+        width: 52.027778vw;
+        height: 50.472222vw;
         position: relative;
-        top: -24vw;
-        left: 37vw;
+        top: -31vw;
+        left: 52vw;
     }
-    .indicatorOfApp{
-        top: 0.5vw;
+
+    .indicatorOfApp {
+        top: 11.5vw;
+        left: -3vw;
+    }
+
+    .getYourPharmacy {
+        width: 200vw;
+        height: 100vw;
+        position: relative;
+        right: 10vw;
+    }
+    .getYourPharmacy h1{
+        font-size: 6vw;
+        position: relative;
+        left: 10vw;
+    }
+    .getYourPharmacy article {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 5vw;
+        color: white;
+        margin-top: 1.7361111111111112vw;
+        margin-bottom: 2.7777777777777777vw;
+        width: 59.319444vw;
+        position: relative;
+        left: 10vw;
+    }
+    .downloadApp {
+        width: 24.5vw;
+        height: 7.611111vw;
+        margin-top: 4vw;
+        position: relative;
+        left: 10vw;
+
+    }
+    .deviderImg{
+        position: relative;
+        left: 10vw;
     }
 }

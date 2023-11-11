@@ -8,12 +8,12 @@ const GetYourPharmacy_HomePage = () => {
     return (
         <Container fluid className="getYourPharmacy">
             <Row>
-                <Col md={7}>
+                <Col sm={12} md={7} order={2} >
                     <h1>
                         Get your pharmacy
                         very easily
                     </h1>
-                    <img style={{ width:`${screenWidth<575?"100px":"139px"}`, height:`${screenWidth<575?"2px":"6px"}` }} src="../../../public/assets/Images/Rectangle 42567.png" alt="" />
+                    <img className="deviderImg" style={{ width:`${screenWidth<575?"100px":"139px"}`, height:`${screenWidth<575?"2px":"6px"}` }} src="/assets/Images/Rectangle 42567.png" alt="" />
 
                     <article>
                         You can download app  in Playstore or Appstore. After
@@ -26,7 +26,7 @@ const GetYourPharmacy_HomePage = () => {
                         <img className="indicatorOfApp" src="/assets/Images/idicator.png" alt="" />
                     </div>
                 </Col>
-                <Col md={5}>
+                <Col sm={12} md={5} order={1}>
                     <img className=" phoneImg " src="/assets/Images/phone (1).png" alt="" />
                 </Col>
             </Row>
