@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <Container className="footer" fluid>
             <Row>
-                <Col md={4}  className=" position-relative ">
+                <Col lg={4} md={4}  className=" position-relative ">
 
                     <img className="logo" src="/assets/Images/logo.png" alt="" />
                     <article style={{ width:`${screenWidth<575?"90.791666668vw":"19.791666666666668vw"}` , marginTop: "1.8055555555555556vw", marginBottom: "0.8333333333333334vw" }}>
@@ -24,7 +24,7 @@ const Footer = () => {
 
 
 
-                <Col md={4}>
+                <Col lg={4} md={6} className="px-0">
                     <h1 className=" quick_links">Quick Links</h1>
 
                     <ul className=" mb-5">
@@ -46,7 +46,7 @@ const Footer = () => {
 
 
 
-                <Col md={4}>
+                <Col lg={4} md={2} className=" px-0 " >
                     <ul className=" social_link d-flex  justify-content-center  align-items-center ">
                         <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9.png" alt="" /></a></li>
                         <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy.png" alt="" /></a></li>

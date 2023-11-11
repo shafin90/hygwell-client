@@ -81,3 +81,14 @@
         z-index: 1;
     }
 }
+
+@media screen and ( min-width: 575px) and (max-width: 990px) {
+    .contactInformationContainer {
+        background: #545E3B;
+        height: 62.930556vw;
+        width: 100%;
+        position: relative;
+        top: 2vw;
+        border-radius: 20px;
+    }
+}

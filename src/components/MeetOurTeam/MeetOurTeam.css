@@ -47,3 +47,15 @@
         top: -4vw;
     }
 }
+
+@media screen and (min-width:577px) and (max-width: 990px) {
+    .meetOurTeamHomePage {
+        width: 100vw;
+        height: 120vw;
+    }
+
+    .meetOurTeamHomePageBehind {
+        width: 100Vw;
+        height: 100vw;
+    }
+}

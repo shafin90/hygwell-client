@@ -19,7 +19,7 @@ const ProductShowCase_HomePage = () => {
                 </button>
             </div>
 
-            <div className="mt-5 mt-md-0 mt-lg-0 d-flex flex-column  flex-mid-row flex-lg-row   justify-content-between  align-items-center ">
+            <div className="mt-5 mt-md-0 mt-lg-0 d-flex flex-column flex-md-row flex-lg-row     justify-content-between  align-items-center ">
 
                 <ProductShowCaseCard_HomePage
                 productImg="/assets/Images/kindpng_5568993 1.png"
