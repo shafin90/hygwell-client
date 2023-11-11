@@ -19,3 +19,33 @@
     position: relative;
     top: -3vw;
 }
+
+@media screen and (max-width:576px) {
+    .techniqalHealthCareCard_HomePage img{
+        width: 8.26388888888889vw;
+        height: 8.26388888888889vw;
+        z-index: 1;
+        position: relative;
+        
+    }
+    .techniqalHealthCareCard_HomePage_text{
+        position: relative; 
+    }
+    .techniqalHealthCareCard_HomePage{
+        width: 80.13888888888889vw;
+        background-color: white;
+        z-index: 1;
+        border-radius:2.0833333333333335vw ;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        border: 0.5px solid rgb(238, 234, 234);
+        margin-bottom: 10vw;
+     }
+     .techniqalHealthCareCard_HomePage img{
+        width: 12.26388888888889vw;
+        height: 12.26388888888889vw;
+        z-index: 1;
+        position: relative;
+        top: -4vw;
+    }
+}

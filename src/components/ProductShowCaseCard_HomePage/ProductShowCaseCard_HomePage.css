@@ -10,3 +10,17 @@
     font-size:  1.8055555555555556vw;
     font-weight: 700;
 }
+
+@media screen and (max-width: 575px) {
+    .ProductShowCaseCard_HomePage {
+        width: 50.694444444444443vw;
+        height: 60.22222222222222vw;   
+        margin-bottom: 5vw;
+    }
+    .productCategory_heading{
+        margin-top: 2vw;
+        font-size: 5vw;
+        margin-bottom: 4vw;
+    }
+    
+}

@@ -1,6 +1,7 @@
 .offerCardHomePage {
     width: 36.458333333333336vw;
 }
+
 /* style={{marginRight:"1.8055555555555556vw"}} */
 .ourOffersHeading {
     font-family: 'Poppins', sans-serif;
@@ -9,9 +10,24 @@
     position: relative;
     left: 2.4305555555555554vw;
 }
+
 /* ui */
-.offers_homePage{
+.offers_homePage {
     left: 1.4305555555555554vw;
     width: 13.88888888888889vw;
     color: #5F6980;
+}
+
+@media screen and (max-width: 575px) {
+    /* Card==== */
+    .offerCardHomePage {
+        width: 80.458333333333336vw;
+    }
+    /* ul ===*/
+    .offers_homePage{
+        width: 70vw;
+    }
+    .ourOffersHeading{
+        font-size: 4.805556vw;
+    }
 }

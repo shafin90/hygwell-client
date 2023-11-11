@@ -26,3 +26,26 @@
     font-size: 3.923611111111111vw;
     font-weight: 600;
 }
+
+@media screen and (max-width:575px) {
+    .productShowCaseHomePage{
+        height: 220vw;
+        padding-top: 10vw;
+    }
+    .heading-productShowCase {
+        font-size: 6vw;
+        font-weight: 600;
+    }
+    .btn-explore-productShowCase {
+        border: 2px solid #3BAD46;
+        border-radius: 8px;
+        color: #3BAD46;
+        font-size: 2.5vw;
+        width: 16.5vw;
+        height: 6.444444444444445vw;
+        background: transparent;
+        cursor: pointer;
+        font-weight: 700;
+    }
+    
+}

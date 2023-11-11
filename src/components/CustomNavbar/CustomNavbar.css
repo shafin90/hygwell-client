@@ -8,14 +8,15 @@
 }
 
 /* Nav that contains all the menu of this website = .nav-menu-container */
-.nav-menu-container{
+.nav-menu-container {
     width: 67.63888888888889vw;
     font-size: 1.25vw;
     font-weight: 500;
 }
-.nav-menu{
-    width:9.027777777777779vw;
-    height:2.5vw;
+
+.nav-menu {
+    width: 9.027777777777779vw;
+    height: 2.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,9 +24,17 @@
     border-radius: 6.944444444444445vw;
     color: #040404;
 }
-.nav-menu:hover{
+
+.nav-menu:hover {
     background-color: #9acb56;
     transition: all;
     font-weight: 600;
     color: #3BAD46;
+}
+
+@media screen and (max-width:576px) {
+    .logo {
+        width: 10.972222vw;
+        height: 8.722222vw;
+    }
 }

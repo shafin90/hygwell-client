@@ -1,12 +1,40 @@
-.aboutUsImage_Homepage_image{
+.aboutUsImage_Homepage_image {
     width: 45.416666666666664vw;
-    height: 45.416666666666664vw ;
+    height: 45.416666666666664vw;
 }
-.aboutUs{
+
+.aboutUs {
     position: absolute;
     top: 15vw;
     left: 14vw;
     color: white;
     font-weight: 700;
     font-size: 3.611111111111111vw;
+}
+.counterInAbout_HomePage_Container{
+    margin-top: 2.2916666666666665vw;
+}
+
+@media screen and (max-width:575px) {
+    .aboutUsImage_Homepage_image {
+        margin: auto;
+        display: block;
+        width: 90.416666666666664vw;
+        height: 90.416666666666664vw;
+        margin-bottom: 10vw;
+    }
+    .counterInAbout_HomePage_Container{
+        margin-top: 10vw;
+        margin-bottom: 20vw;
+    }
+
+    .aboutUs {
+        position: absolute;
+        top: 29vw;
+        left: 29vw;
+        color: white;
+        font-weight: 700;
+        font-size: 7.611111vw;
+    }
+
 }

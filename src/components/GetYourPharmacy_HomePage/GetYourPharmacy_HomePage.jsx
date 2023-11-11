@@ -1,7 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './GetYourPharmacy_HomePage.css'
+import { useState } from "react";
 
 const GetYourPharmacy_HomePage = () => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+    
     return (
         <Container fluid className="getYourPharmacy">
             <Row>
@@ -10,7 +13,7 @@ const GetYourPharmacy_HomePage = () => {
                         Get your pharmacy
                         very easily
                     </h1>
-                    <img style={{ width: "139px", height: "6px" }} src="../../../public/assets/Images/Rectangle 42567.png" alt="" />
+                    <img style={{ width:`${screenWidth<575?"100px":"139px"}`, height:`${screenWidth<575?"2px":"6px"}` }} src="../../../public/assets/Images/Rectangle 42567.png" alt="" />
 
                     <article>
                         You can download app  in Playstore or Appstore. After

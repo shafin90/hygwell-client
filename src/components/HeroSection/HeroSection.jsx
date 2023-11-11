@@ -4,9 +4,10 @@
 import { Container } from "react-bootstrap";
 import './HeroSection.css'
 
-const HeroSection = ({heading, article, btn}) => {
+
+const HeroSection = ({heading, article, btn, fontweightOfArticle}) => {
     return (
-        <Container fluid className="hero-section d-flex  justify-content-lg-start  align-content-center ">
+        <Container fluid className="hero-section d-flex  justify-content-lg-start  align-content-center px-0  ">
             <div className="inside-container-herosection">
 
                 {/*===== Hero section heading =======*/}
@@ -15,7 +16,7 @@ const HeroSection = ({heading, article, btn}) => {
                 </h1>
 
                 {/* hero-section-article */}
-                <article className="hero-section-article">
+                <article style={{fontWeight:fontweightOfArticle}} className="hero-section-article">
                     {article}
                 </article>
 

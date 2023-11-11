@@ -1,0 +1,17 @@
+.leftBgImg_ourTeam{
+    position: absolute;
+    z-index: -1;
+    width: 26vw;
+    height: 99vw;
+    left: -14vw;
+    top: -9vw;
+}
+
+.rightBgImg_ourTeam{
+    position: absolute;
+    z-index: -1;
+    width: 41vw;
+    height: 99vw;
+    left: 58vw;
+    top: 26vw;
+}

@@ -44,3 +44,16 @@
     left: 5vw;
     transform: rotate(-18deg);
 }
+
+@media screen and (max-width:575px) {
+    .phoneImg{
+        width: 32.027778vw;
+        height: 29.472222vw;
+        position: relative;
+        top: -24vw;
+        left: 37vw;
+    }
+    .indicatorOfApp{
+        top: 0.5vw;
+    }
+}

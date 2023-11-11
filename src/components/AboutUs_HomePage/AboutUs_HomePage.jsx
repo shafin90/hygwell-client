@@ -7,11 +7,13 @@ import './AboutUs_HomePage.css'
 import CounterInAboutUsHomePage from "../CounterInAboutUsHomePage/CounterInAboutUsHomePage";
 
 
+
 const AboutUs_HomePage = () => {
+    
     return (
         <Container fluid>
             <Row >
-                <Col className=" position-relative " md={6}>
+                <Col className=" position-relative  d-sm-flex justify-content-sm-center  align-items-sm-center " md={6}>
                     <h1 className=" aboutUs">About <br></br> Us</h1>
                     <img className="aboutUsImage_Homepage_image" src="../../../public/assets/Images/Artwork.png" alt="" />
                 </Col>
@@ -22,14 +24,14 @@ const AboutUs_HomePage = () => {
                         article="At HygWell , we are dedicated to delivering top-quality pharmaceutical and healthcare solutions. Explore our wide range of products and services designed to enhance health and well-being."
                         width="100%"
                         textAlign="start"
-                        fontSizeOfHeading="1.9444444444444444vw"
+                        fontSizeOfHeading= "1.9444444444444444vw"
                         fontSizeOfArticle="1.15vw"
                         fontWeight="500"
                         fontFamily="'Roboto', sans-serif"
 
                     ></SmallDescriptionWithHeading>
 
-                    <div style={{marginTop:"2.2916666666666665vw"}} className=" d-flex justify-content-around   align-content-center w-100  ">
+                    <div  className="counterInAbout_HomePage_Container d-flex justify-content-around   align-content-center w-100  ">
                         <CounterInAboutUsHomePage
                             num="+20"
                             category="Employee"

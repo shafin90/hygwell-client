@@ -6,3 +6,26 @@
     top: -38vw;
     left: 1vw;
 }
+
+.tickSign {
+    width: 2.2222222222222223vw;
+    height: 2.2222222222222223vw;
+    margin-right: 1.3888888888888888vw;
+}
+
+@media screen and (max-width: 575px) {
+    .bgImgOfOurVisionSection {
+        width: 97.277778vw;
+        height: 128.166667vw;
+        z-index: -1;
+        position: absolute;
+        top: -38vw;
+        left: 1vw;
+    }
+
+    .tickSign {
+        width: 3.2222222222222223vw;
+        height: 3.2222222222222223vw;
+        margin-right: 2.3888888888888888vw;
+    }
+}

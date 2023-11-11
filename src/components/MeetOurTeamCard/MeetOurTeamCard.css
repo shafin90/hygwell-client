@@ -1,4 +1,4 @@
-.meetOurTeamCard{
+.meetOurTeamCard {
     width: 39.583333333333336vw;
     height: 34.583333333333336vw;
     z-index: 100;
@@ -12,19 +12,51 @@
     height: 14.097222222222221vw;
     border-radius: 50%;
 }
-.name{
-    font-family: 'Poppins', sans-serif ;
+
+.name {
+    font-family: 'Poppins', sans-serif;
     font-size: 2.361111111111111vw;
     font-weight: 400;
 }
-.designation{
+
+.designation {
     color: #247FFB;
     margin-bottom: 10px;
+    font-weight: 600;
 }
-.details{
+
+.details {
     margin-bottom: 1.8055555555555556vw;
 }
-.card_social_link img{
+
+.card_social_link img {
     width: 2.5vw;
     height: 2.5vw;
+}
+
+@media screen and (max-width: 576px) {
+    .meetOurTeamCard {
+        width: 80.583333333333336vw;
+        height: 80.583333333333336vw;
+        z-index: 100;
+        position: relative;
+        background-color: white;
+        margin-bottom: 3vw;
+    }
+
+    .meetOurTeamCard img {
+        width: 28.097222222222221vw;
+        height:28.097222222222221vw;
+        border-radius: 50%;
+        margin-bottom: 3vw;
+    }
+    .card_social_link img {
+        width: 6.5vw;
+        height:6.5vw;
+    }
+    .name {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4.5vw;
+        font-weight: 400;
+    }
 }

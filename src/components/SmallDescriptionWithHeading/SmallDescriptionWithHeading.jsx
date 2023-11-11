@@ -1,7 +1,8 @@
+import { useState } from "react";
 
 
 const SmallDescriptionWithHeading = ({ fontWeight, fontFamily, textAlign, heading, article, fontSizeOfHeading, fontSizeOfArticle}) => {
-    
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth) // Contains the width of screen
     const style={
         // width: width,
         textAlign: textAlign,
@@ -10,11 +11,11 @@ const SmallDescriptionWithHeading = ({ fontWeight, fontFamily, textAlign, headin
     
     return (
         <div style={style}>
-            <h1 style={{fontWeight:fontWeight, fontSize:fontSizeOfHeading}}>
+            <h1 className={screenWidth<575&&"mb-2"} style={{fontWeight:`${screenWidth<575?"600":fontWeight}`, fontSize:`${screenWidth<575?"6vw":fontSizeOfHeading}`}}>
                 {heading}
             </h1>
 
-            <article style={{fontSize:fontSizeOfArticle, fontFamily:fontFamily}}>
+            <article style={{fontSize:`${screenWidth<575?"2.2vw":fontSizeOfArticle}`, fontFamily:fontFamily}}>
                 {article}
             </article>
         </div>

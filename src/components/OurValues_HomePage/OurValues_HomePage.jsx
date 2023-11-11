@@ -12,7 +12,7 @@ const OurValues_HomePage = () => {
                 </Col>
 
                 {/* Right side text */}
-                <Col md={5} className=" position-relative  px-0 ">
+                <Col md={5} className=" position-relative px-5 px-md-0 ">
                     {/* Background image============== */}
                     <img src="../../../public/assets/Images/Subtract (1).png" className="ourvaluesBackgroundImg" alt="" />
                     <SmallDescriptionWithHeading
@@ -29,7 +29,7 @@ const OurValues_HomePage = () => {
 
                     <div className="allValues mt-4 ">
                         <div>
-                            <img className=" mb-2 " style={{ width: " 2.361111111111111vw", height: " 2.361111111111111vw" }} src="../../../public/assets/Images/Rectangle (3).png" alt="" />
+                            <img className=" mb-2 "  src="../../../public/assets/Images/Rectangle (3).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Quality Products"
@@ -44,7 +44,7 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 " style={{ width: " 2.361111111111111vw", height: " 2.361111111111111vw" }} src="../../../public/assets/Images/Rectangle (4).png" alt="" />
+                            <img className=" mb-2 " src="../../../public/assets/Images/Rectangle (4).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Professional Team"
@@ -59,7 +59,7 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 " style={{ width: " 2.361111111111111vw", height: " 2.361111111111111vw" }} src="../../../public/assets/Images/Rectangle (5).png" alt="" />
+                            <img className=" mb-2 "  src="../../../public/assets/Images/Rectangle (5).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Customer Satisfaction"
@@ -74,7 +74,7 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 " style={{ width: " 2.361111111111111vw", height: " 2.361111111111111vw" }} src="../../../public/assets/Images/Rectangle (6).png" alt="" />
+                            <img className=" mb-2 "  src="../../../public/assets/Images/Rectangle (6).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Innovative Solutions"

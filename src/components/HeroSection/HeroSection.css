@@ -1,28 +1,31 @@
-.hero-section{
+.hero-section {
     width: 87.88888888888889vw;
 }
-.inside-container-herosection{
+
+.inside-container-herosection {
     width: 38.68055555555556vw;
     /* position: relative; */
     margin-top: 6.9631944444444445vw;
     margin-bottom: 10.694444444444445vw;
 }
-.hero-section-heading{
+
+.hero-section-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 3.923611111111111vw;
     line-height: 4.492361111111111vw;
     margin-bottom: 4.291666666666667vw;
 }
-.hero-section-article{
+
+.hero-section-article {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6666666666666667vw;
     font-weight: 500;
     line-height: 2.5vw;
-    margin-bottom:  7.013888888888889vw;
+    margin-bottom: 7.013888888888889vw;
 }
 
-.get-started{
+.get-started {
     font-family: 'Inter', sans-serif;
     border-radius: 0.5555555555555556vw;
     color: white;
@@ -36,7 +39,7 @@
     line-height: 1.6666666666666667vw;
 }
 
-.watch-video{
+.watch-video {
     font-family: 'Inter', sans-serif;
     width: 12.430555555555555vw;
     height: 3.888888888888889vw;
@@ -51,10 +54,44 @@
     background-color: white;
 }
 
-.play-icon{
+.play-icon {
     width: 1.6666666666666667vw;
     height: 1.6666666666666667vw;
     position: relative;
     right: 8px;
-    
+}
+
+@media screen and (max-width:575px) {
+    .inside-container-herosection {
+        width: 70.680556vw;
+    }
+
+    .hero-section-heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 8.923611vw;
+        line-height: 9.492361vw;
+        margin-bottom: 1.291667vw;
+    }
+
+    .hero-section-article {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.666667vw;
+        font-weight: 500;
+        line-height: 4.5vw;
+        margin-bottom: 2.013889vw;
+    }
+
+    .get-started, .watch-video {
+        border-radius: 1.555556vw;
+        width: 19.583333vw;
+        height: 6.888889vw;
+        font-size: 2.111111vw;
+    }
+    .play-icon {
+        width: 2.6666666666666667vw;
+        height: 2.6666666666666667vw;
+        position: relative;
+        right: 8px;
+    }
 }

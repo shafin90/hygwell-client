@@ -13,7 +13,7 @@ const TechniqalHealthCareSection_HomPage = () => {
                 Discover the core aspects that drive our organization, and make us a leading choice for pharmaceutical exports.
             </p>
 
-            <Container fluid className="d-flex justify-content-between  align-items-center w-75  px-0 " style={{ marginTop: "9.208333333333333" }}>
+            <Container fluid className="d-flex flex-column  flex-md-row flex-lg-row justify-content-between  align-items-center w-75  px-0 " style={{ marginTop: "9.208333333333333vw" }}>
                 <TechniqalHealthCareCard_HomePage
                     cardImg="../../../public/assets/Images/Group 1171282609 (3).png"
                     heading="Global Reach"

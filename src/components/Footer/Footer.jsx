@@ -1,14 +1,16 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './Footer.css'
+import { useState } from "react";
 
 const Footer = () => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
     return (
         <Container className="footer" fluid>
             <Row>
                 <Col md={4}  className=" position-relative ">
 
                     <img className="logo" src="../../../public/assets/Images/logo.png" alt="" />
-                    <article style={{ width: "19.791666666666668vw", marginTop: "1.8055555555555556vw", marginBottom: "0.8333333333333334vw" }}>
+                    <article style={{ width:`${screenWidth<575?"90.791666668vw":"19.791666666666668vw"}` , marginTop: "1.8055555555555556vw", marginBottom: "0.8333333333333334vw" }}>
                         HYGWELL - Your premier source for top-notch healthcare solutions, designed to enhance health and well-being worldwide.
                     </article>
 

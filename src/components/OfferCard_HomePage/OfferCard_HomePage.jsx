@@ -1,14 +1,17 @@
+import { useState } from "react";
 import "./OfferCard_HomePage.css"
 
 const OfferCard_HomePage = ({leftImg, rightImg, heading, offer1, offer2, offer3, offer4}) => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    
     return (
         <div  className="offerCardHomePage position-relative ">
             {/* Image partition = two image space between */}
             <div style={{marginBottom:"3.3333333333333335vw", zIndex:1}} className="imagePartitionOfOffers w-100  d-flex  justify-content-between  align-items-center  position-relative ">
                
-                <img style={{ width: "6.25vw", height: '6.25vw', position:"relative", left:"2.4305555555555554vw" }} src={leftImg} alt="" />
+                <img style={{ width: `${screenWidth<575?"15vw":"6.25vw"}` , height:`${screenWidth<575?"15vw": '6.25vw'}`, position:"relative", left:"2.4305555555555554vw" }} src={leftImg} alt="" />
                
-                <img style={{ width: "18.541666666666668vw", height: "10.694444444444445vw", position:"relative", right:"3.75vw"  }} src={rightImg} alt="" />
+                <img style={{ width: `${screenWidth<575?"36.5417vw":"18.541666666666668vw"}` , height: `${screenWidth<575?"21.6944vw":"10.694444444444445vw"}` , position:"relative", right:"3.75vw"  }} src={rightImg} alt="" />
             </div>
 
             {/* Offers */}

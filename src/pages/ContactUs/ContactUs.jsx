@@ -13,6 +13,7 @@ const ContactUs = () => {
             heading="Contact Us"
             article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."
             btn={false}
+            fontweightOfArticle="500"
             ></Banner>
              {/* background image of banner */}
              <BackgroundImageContainer 

@@ -7,6 +7,7 @@
 
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./CustomNavbar.css"
+import { Link } from "react-router-dom";
 
 
 const CustomNavbar = () => {
@@ -24,13 +25,13 @@ const CustomNavbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto d-flex  justify-content-between  align-content-center nav-menu-container">
-                        <Nav.Link className="nav-menu" href="#link">Home</Nav.Link>
-                        <Nav.Link className="nav-menu" href="#link">Products</Nav.Link>
-                        <Nav.Link className="nav-menu" href="#link">Services</Nav.Link>
-                        <Nav.Link className="nav-menu" href="#link">Exports</Nav.Link>
-                        <Nav.Link className="nav-menu" href="#link">About Us</Nav.Link>
-                        <Nav.Link className="nav-menu" href="#link">Our Team</Nav.Link>
-                        <Nav.Link className="nav-menu" href="#link">Contact Us</Nav.Link>
+                        <Link className="nav-menu text-decoration-none" to="/">Home</Link>
+                        <Link className="nav-menu text-decoration-none" to="#link">Products</Link>
+                        <Link className="nav-menu text-decoration-none" to="#link">Services</Link>
+                        <Link className="nav-menu text-decoration-none" to="#link">Exports</Link>
+                        <Link className="nav-menu text-decoration-none " to="/about_us">About Us</Link>
+                        <Link className="nav-menu text-decoration-none" to="/our_team">Our Team</Link>
+                        <Link className="nav-menu text-decoration-none" to="/contact_us">Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

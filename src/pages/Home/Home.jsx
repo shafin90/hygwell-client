@@ -20,6 +20,7 @@ const Home = () => {
             heading="Welcome to HYGWELL"
             article="Your Trusted Partner in Healthcare Solutions"
             btn={true}
+            fontweightOfArticle="500"
             ></Banner>
             {/* background image of banner */}
             <BackgroundImageContainer 

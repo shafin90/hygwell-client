@@ -9,6 +9,7 @@ import './index.css'
 import Home from './pages/Home/Home';
 import AboutUs from './pages/AboutUs/AboutUs';
 import ContactUs from './pages/ContactUs/ContactUs';
+import OurTeam from './pages/OurTeam/OurTeam';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,12 @@ const router = createBrowserRouter([
   {
     path:"/contact_us",
     element:<ContactUs></ContactUs>
+  },
+  {
+    path:"/our_team",
+    element:<OurTeam></OurTeam>
   }
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

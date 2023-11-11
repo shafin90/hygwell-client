@@ -1,4 +1,4 @@
-.seeFullTime{
+.seeFullTime {
     width: 166px;
     height: 50px;
     background-color: #3BAD46;
@@ -10,7 +10,7 @@
     top: 5vw;
 }
 
-.meetOurTeamHomePageBehind{
+.meetOurTeamHomePageBehind {
     position: absolute;
     width: 100vw;
     height: 62.15277777777778vw;
@@ -19,10 +19,31 @@
     z-index: -2;
     background-color: #F5F5F5;
 }
-.meetOurTeamHeading{
+
+.meetOurTeamHeading {
     font-size: 4.444444444444445vw;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     position: relative;
     top: -4vw;
+}
+
+@media screen and (max-width:576px) {
+    .meetOurTeamHomePage {
+        width: 100vw;
+        height: 230vw;
+    }
+
+    .meetOurTeamHomePageBehind {
+        width: 100Vw;
+        height: 230vw;
+    }
+
+    .meetOurTeamHeading {
+        font-size: 8.444444vw;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: -4vw;
+    }
 }

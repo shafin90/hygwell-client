@@ -13,6 +13,7 @@ const AboutUs = () => {
             heading="About Us"
             article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."
             btn={false}
+            fontweightOfArticle="500"
             ></Banner>
             <BackgroundImageContainer
             rightSideImg="../../../public/assets/Images/Group 1171282607.png"
