@@ -41,5 +41,13 @@
         font-size: 5vw;
         margin-bottom: 8vw;
         width: 30vw;
-    }    
+    }   
+    .nav-menu:hover {
+        background-color: #9acb56;
+        transition: all;
+        font-weight: 600;
+        color: #3BAD46;
+        height: 10vw;
+    }
+     
 }
