@@ -46,7 +46,7 @@ const OurOfferings_HomePage = () => {
 
     return (
         <div className="offerings_homepage position-relative " >
-            <div className="mb-5 mb-md-0 mb-lg-0  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start   ">
+            <div className="mb-5 mb-md-0 mb-lg-0  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start   mx-0  mx-md-5  mx-lg-5  ">
                 <h1 className="heading-offer-homepage ">
                     Our Offerings
                 </h1>

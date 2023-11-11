@@ -1,7 +1,9 @@
 import { Container } from "react-bootstrap";
 import './AboutUs_AboutUsPage.css'
+import { useState } from "react";
 
 const AboutUs_AboutUsPage = () => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
     return (
         <Container fluid className=" position-relative ">
             {/* background-right-side image */}
@@ -18,21 +20,21 @@ const AboutUs_AboutUsPage = () => {
 
                 <ul className=" mt-4">
                     <li className=" d-flex  justify-content-center  align-items-start ">
-                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="/assets/Images/Subtract (2).png" alt="" />
+                        <img style={{ width: `${screenWidth < 575 ? "4.2222222vw" : "2.2222222222222223vw"}`, height: `${screenWidth < 575 ? "4.2222222vw" : "2.2222222222222223vw"}` }} src="assets/Images/Subtract (2).png" alt="" />
                         <p >
                             Every product we produce or sell meets the highest industry standards and is designed with the utmost care to ensure its effectiveness.
                         </p>
                     </li>
 
                     <li className=" d-flex  justify-content-center  align-items-start ">
-                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="assets/Images/Subtract (2).png" alt="" />
+                        <img style={{ width: `${screenWidth < 575 ? "4.2222222vw" : "2.2222222222222223vw"}`, height: `${screenWidth < 575 ? "4.2222222vw" : "2.2222222222222223vw"}` }} src="assets/Images/Subtract (2).png" alt="" />
                         <p>
                             Our services go beyond just pharmaceuticals, offering an array of products and services including neutraceuticals, cosmetics, hotel amenities, packaging solutions and more.
                         </p>
                     </li>
 
                     <li className=" d-flex  justify-content-center  align-items-start ">
-                        <img style={{ width: "2.2222222222222223vw", height: "2.2222222222222223vw" }} src="assets/Images/Subtract (2).png" alt="" />
+                        <img style={{ width: `${screenWidth < 575 ? "4.2222222vw" : "2.2222222222222223vw"}`, height: `${screenWidth < 575 ? "4.2222222vw" : "2.2222222222222223vw"}` }} src="assets/Images/Subtract (2).png" alt="" />
                         <p>
                             We strongly believe in fostering innovation and excellence in everything we do, setting new standards in the pharmaceutical world.
                         </p>
