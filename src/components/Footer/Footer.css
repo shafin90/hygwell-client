@@ -54,14 +54,14 @@
 @media screen and (max-width:575px) {
 
     .footer .social_link img {
-        width: 4.5694444444444446vw;
-        height: 4.5694444444444446vw;
+        width: 6.5694444444444446vw;
+        height: 6.5694444444444446vw;
     }
 
     .quick_links {
         margin-top: 15px;
-        font-size: 3.9666666666666667vw;
+        font-size: 6.9666666666666667vw;
         margin-bottom: 3.1vw;
-        font-weight: 500;
+        font-weight: 600;
     }
 }

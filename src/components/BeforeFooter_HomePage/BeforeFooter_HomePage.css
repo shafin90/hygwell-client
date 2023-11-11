@@ -22,15 +22,16 @@
 @media screen and (max-width:575px) {
     .writeToUsBtn {
         border: none;
-        border-radius: 12px;
-        width: 25.11111111111111vw;
-        height: 6.8194444444444446vw;
+        border-radius: 16px;
+        width: 50.111111vw;
+        height: 10.819444vw;
         color: #057BC3;
         font-weight: 500;
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .beforeFooter_HomePage h1 {
-        font-size: 3.5vw;
+        font-size: 6vw;
         font-weight: 700;
+        margin-bottom: 4vw;
     }
 }
