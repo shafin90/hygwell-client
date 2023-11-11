@@ -1,33 +1,35 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './ContactInformation_ContactUsPage.css'
+import { useState } from "react";
 
 const ContactInformation_ContactUsPage = () => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
     return (
-        <Container className="contactInformation_ContactUsPage d-flex justify-content-center align-items-center shadow-lg px-0  py-5 ">
+        <Container className="contactInformation_ContactUsPage d-flex justify-content-center align-items-center  px-0  py-5 ">
             <Row className=" w-100 " >
                 {/* Contact information========== */}
                 <Col md={6} className=" h-100  px-0">
-                    <div className="contactInformationContainer pt-5 ps-5 " >
+                    <div className="contactInformationContainer pt-md-5 pt-lg-5  pt-3 ps-3 ps-md-5 ps-lg-5  " >
                         <h1 className=" mb-3 ">Contact Information</h1>
                         <p className=" text-white ">Say something to start a live chat!</p>
 
                         <p style={{ top: "5vw" }} className="phone_number text-white mb-4  position-relative ">
-                            <img className=" me-4 " style={{ width: "1.6666666666666667vw", height: "1.6666666666666667vw" }} src="/assets/Images/bxs_phone-call.png" alt="" />
+                            <img className=" me-4 " style={{ width: `${screenWidth<575?"8.66666667vw":"1.6666666666666667vw"}` , height: `${screenWidth<575?"8.66666666667vw":"1.6666666666666667vw"}`  }} src="/assets/Images/bxs_phone-call.png" alt="" />
                             <span>
                                 +91 <span className=" text-decoration-underline ">9010345117</span>
                             </span>
                         </p>
 
                         <p style={{ top: "5vw" }} className="phone_number mb-4 text-white position-relative   ">
-                            <img className=" me-4 " style={{ width: "1.6666666666666667vw", height: "1.6666666666666667vw" }} src="/assets/Images/ic_sharp-email.png" alt="" />
+                            <img className=" me-4 " style={{ width: `${screenWidth<575?"8.66666667vw":"1.6666666666666667vw"}` , height: `${screenWidth<575?"8.66666666667vw":"1.6666666666666667vw"}`  }}  src="/assets/Images/ic_sharp-email.png" alt="" />
                             <span>
                                 hello<span className=" text-decoration-underline ">@hygwell.com</span>
                             </span>
                         </p>
 
                         <p style={{ top: "5vw" }} className="phone_number text-white d-flex justify-content-start  align-items-center  position-relative  ">
-                            <img className=" me-4 " style={{ width: "1.6666666666666667vw", height: "1.6666666666666667vw" }} src="/assets/Images/carbon_location-filled.png" alt="" />
-                            <span className=" w-50">
+                            <img className=" me-4 " style={{ width: `${screenWidth<575?"8.66666667vw":"1.6666666666666667vw"}` , height: `${screenWidth<575?"8.66666666667vw":"1.6666666666666667vw"}`  }}  src="/assets/Images/carbon_location-filled.png" alt="" />
+                            <span className="  w-50 ">
                                 D.NO.24-6-707/1 military colony, opp: Lic office, kondayapaleam gate, Nellore 524003
                             </span>
                         </p>

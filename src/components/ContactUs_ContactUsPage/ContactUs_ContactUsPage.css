@@ -1,6 +1,6 @@
 .contactUs_ContactUsPage {
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .contactUs_ContactUsPage article {
@@ -9,7 +9,7 @@
     font-size: 1.25vw;
 }
 
-.form{
+.form {
     margin: auto;
     background-color: white;
     border-radius: 20px;
@@ -21,36 +21,42 @@
     z-index: 1000;
     position: relative;
     width: 48.75vw;
-    
+
 }
-.contactUsFormInput{
+
+.contactUsFormInput {
     border: none;
 }
-.contactUsFormInput{
+
+.contactUsFormInput {
     outline: none;
 }
 
-.eachSectionOfForm{
+.eachSectionOfForm {
     border-bottom: 0.5px solid #8D8D8D;
-    font-size:  0.8333333333333334vw;
+    font-size: 0.8333333333333334vw;
     color: #717171;
 }
-.selectSubject{
+
+.selectSubject {
     font-size: 0.9722222222222222vw;
     font-weight: 600;
     margin-bottom: 1.3888888888888888vw;
 }
-.label{
+
+.label {
     font-size: 0.8333333333333334vw;
     margin-left: 8px;
 }
-.messageLabel{
+
+.messageLabel {
     color: #8D8D8D;
     font-size: 0.8333333333333334vw;
     font-weight: 500;
     margin-bottom: 1.3888888888888888vw;
 }
-.messageInput{
+
+.messageInput {
     border-top: none;
     border-right: none;
     border-left: none;
@@ -59,10 +65,12 @@
     color: #717171;
     font-size: 0.9722222222222222vw;
 }
-.messageInput:focus{
+
+.messageInput:focus {
     outline: none;
 }
-.sendMessages{
+
+.sendMessages {
     width: 14.86111111111111vw;
     height: 3.75vw;
     border-radius: 10px;
@@ -70,21 +78,100 @@
     background-color: #3BAD46;
     color: white;
 }
-.termsAndCondition{
+
+.termsAndCondition {
     font-size: 0.9722222222222222vw;
     color: #C4C4C4;
 }
-.lastImageOfTheContactUsForm{
+
+.lastImageOfTheContactUsForm {
     width: 18.75vw;
     height: 12.799305555555556vw;
     position: relative;
     top: 10px;
 }
-.rightSideBgImgContactPage{
+
+.rightSideBgImgContactPage {
     width: 55.225vw;
     height: 103.240972vw;
     position: absolute;
     top: -26vw;
     left: 36vw;
     z-index: -1;
+}
+
+@media screen and (max-width:575px) {
+    .contactUs_ContactUsPage article {
+        color: #717171;
+        font-weight: 500;
+        font-size: 4vw;
+    }
+
+    .eachSectionOfFormLabel {
+        font-size: 4vw;
+    }
+
+    .form {
+        width: 90vw;
+    }
+
+    .eachSectionOfForm {
+        padding-top: 10vw;
+        width: 70vw;
+        margin: auto;
+        font-size: 4vw;
+    }
+
+    .selectSubject {
+        font-size: 6.972222vw;
+        font-weight: 600;
+        margin-bottom: 8.3888888888888888vw;
+    }
+
+    .radioInput label {
+        font-size: 5vw;
+    }
+
+    .messageLabel {
+        color: #8D8D8D;
+        font-size: 4vw;
+        font-weight: 500;
+        margin-bottom: 3.3888888888888888vw;
+    }
+
+    .messageInput {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #8D8D8D;
+        width: 90%;
+        color: #717171;
+        font-size: 4vw;
+    }
+
+    .termsAndCondition {
+        font-size: 4vw;
+        color: #C4C4C4;
+    }
+
+    .sendMessages {
+        width: 79.861111vw;
+        height: 10.75vw;
+        border-radius: 19px;
+        border: none;
+        background-color: #3BAD46;
+        color: white;
+        margin-top: 5vw;
+    }
+
+    .rightSideBgImgContactPage {
+        width: 88.225vw;
+        height: 310.240972vw;
+        position: absolute;
+        top: -26vw;
+        left: 12vw;
+        z-index: -1;
+    }
+
+
 }

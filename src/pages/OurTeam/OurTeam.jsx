@@ -19,7 +19,7 @@ const OurTeam = () => {
 
             <Container fluid className=" pt-4 ">
                 <Row className=" d-flex  justify-content-center  align-items-center  mb-4">
-                    <Col md={5}>
+                    <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
                         <MeetOurTeamCard
                             img="/assets/Images/Ellipse 15 (1).png"
                             name="Nasina Lavanya"
@@ -28,7 +28,7 @@ const OurTeam = () => {
                         ></MeetOurTeamCard>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
                         <MeetOurTeamCard
                             img="/assets/Images/Ellipse 15.png"
                             name="Nancharaiah Gowd Nasina"
@@ -39,7 +39,7 @@ const OurTeam = () => {
                 </Row>
 
                 <Row className=" d-flex  justify-content-center  align-items-center mb-4 ">
-                    <Col md={5}>
+                    <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
                         <MeetOurTeamCard
                             img="/assets/Images/Ellipse 14.png"
                             name="Vajrala Amith Babu"
@@ -48,7 +48,7 @@ const OurTeam = () => {
                         ></MeetOurTeamCard>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
                         <MeetOurTeamCard
                             img="/assets/Images/Ellipse 14 (1).png"
                             name="Vajrala Asish babu"

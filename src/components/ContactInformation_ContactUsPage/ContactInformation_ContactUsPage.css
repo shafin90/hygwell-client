@@ -41,3 +41,43 @@
     top: -4vw;
     z-index: 1;
 }
+
+@media screen and (max-width: 575px) {
+    .contactInformation_ContactUsPage {
+        border-radius: 30px;
+        background-color: white;
+        margin-top: 120vw;
+        width: 71.94444444444444vw;
+        height: 53.541666666666664vw;
+        margin-bottom: 120vw;
+    }
+    .contactInformationContainer {
+        background: #545E3B;
+        height: 153.930556vw;
+        width: 100%;
+        position: relative;
+        top: 2vw;
+        border-radius: 20px;
+    }
+    .contactInformationContainer h1 {
+        font-size:  5.9444444444444444vw;
+        color:  white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .floatingImageOne_ContactUsPage {
+        width: 32.680556vw;
+        height: 30.680556vw;
+        position: relative;
+        left: 35vw;
+        top: 25vw;
+        z-index: 0;
+        margin-bottom: 9vw;
+    }
+    .floatingImageTwo_ContactUsPage {
+        width: 25.583333vw;
+        height: 25.583333vw;
+        position: relative;
+        top: 8vw;
+        z-index: 1;
+    }
+}

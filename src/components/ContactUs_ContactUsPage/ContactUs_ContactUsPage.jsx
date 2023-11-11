@@ -16,9 +16,9 @@ const ContactUs_ContactUsPage = () => {
             {/* Form of this page */}
             <form className=" form shadow-lg">
                 {/* Fisrt name , Last Name */}
-                <Row className="mb-5  d-flex  justify-content-between  align-items-center ">
+                <Row className="mb-0 mb-md-5 mb-lg-5  d-flex  justify-content-between  align-items-center ">
                     {/* First name */}
-                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
+                    <Col  md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
                         <label className="eachSectionOfFormLabel mb-2">
                             First Name
                         </label>
@@ -26,7 +26,7 @@ const ContactUs_ContactUsPage = () => {
                     </Col>
 
                     {/* Last Name */}
-                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
+                    <Col  md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
                         <label className="eachSectionOfFormLabel mb-2">
                             Last Name
                         </label>
@@ -57,20 +57,20 @@ const ContactUs_ContactUsPage = () => {
 
                 {/* Radio input ===select subject======= */}
                 <h3 className=" selectSubject">Select Subject</h3>
-                <Row className=" mb-5 ">
-                    <Col md={3} className=" d-flex  justify-content-center align-items-center ">
+                <Row className=" radioInput mb-5 ">
+                    <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center   align-items-center ">
                         <input type="radio" name="radio-group" id="radio-1" />
                         <label className="label" htmlFor="radio-1">General Inquary</label>
                     </Col>
-                    <Col md={3} className=" d-flex  justify-content-center align-items-center ">
+                    <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
                         <input type="radio" name="radio-group" id="radio-2" />
                         <label className="label" htmlFor="radio-2">Prducts</label>
                     </Col>
-                    <Col md={3} className=" d-flex  justify-content-center align-items-center ">
+                    <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
                         <input type="radio" name="radio-group" id="radio-3" />
                         <label className="label" htmlFor="radio-3">Exports</label>
                     </Col>
-                    <Col md={3} className=" d-flex  justify-content-center align-items-center ">
+                    <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
                         <input type="radio" name="radio-group" id="radio-4" />
                         <label className="label" htmlFor="radio-4">Compliance</label>
                     </Col>
@@ -92,7 +92,7 @@ const ContactUs_ContactUsPage = () => {
                         <label className="termsAndCondition ms-2 " htmlFor="terms-and-conditions">
                             Send me updates about HYGWELL
                             products and services.
-                            <span className=" text-danger ">
+                            <span className=" text-danger ms-3  ms-md-0 ms-lg-0  ">
                                 Privacy policy
                             </span>
                         </label>
