@@ -30,7 +30,7 @@ const CustomNavbar = () => {
                         <Link className="nav-menu text-decoration-none" to="#link">Services</Link>
                         <Link className="nav-menu text-decoration-none" to="#link">Exports</Link>
                         <Link className="nav-menu text-decoration-none " to="/about_us">About Us</Link>
-                        <Link className="nav-menu text-decoration-none" to="/our_team">Our Team</Link>
+                        <Link className="nav-menu text-decoration-none" to="/products_pharma">Our Team</Link>
                         <Link className="nav-menu text-decoration-none" to="/contact_us">Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
