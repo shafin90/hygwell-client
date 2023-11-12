@@ -9,7 +9,7 @@ const Footer = () => {
             <Row>
                 <Col lg={4} md={4}  className=" position-relative ">
 
-                    <img className="logo" src="/assets/Images/logo.png" alt="" />
+                    <img className="logo" src="/assets/Images/HYGWELL-_-Logo-_-Final-1 1.png" alt="" />
                     <article style={{ width:`${screenWidth<575?"90.791666668vw":"19.791666666666668vw"}` , marginTop: "1.8055555555555556vw", marginBottom: "0.8333333333333334vw" }}>
                         HYGWELL - Your premier source for top-notch healthcare solutions, designed to enhance health and well-being worldwide.
                     </article>
@@ -17,8 +17,8 @@ const Footer = () => {
                     <p>© HYGWELL - 2023. All Rights Reserved.</p>
 
                     {/* Background */}
-                    <img className="bg2Footer" src="/assets/Images/Rectangle (1).png" alt="" />
-                    <img className="bg1Footer" src="/assets/Images/Rectangle (2).png" alt="" />
+                    <img className="bg2Footer" src="/assets/Images/Rectangle (5).png" alt="" />
+                    <img className="bg1Footer" src="/assets/Images/Rectangle (6).png" alt="" />
                     
                 </Col>
 

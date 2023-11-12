@@ -8,7 +8,7 @@ const OurValues_HomePage = () => {
             <Row>
                 {/* Left side image */}
                 <Col md={6}>
-                    <img src="/assets/Images/Decoration.png" className=" img-fluid " alt="" />
+                    <img src="/assets/Images/Shapes.png" className=" img-fluid " alt="" />
                 </Col>
 
                 {/* Right side text */}
@@ -29,7 +29,7 @@ const OurValues_HomePage = () => {
 
                     <div className="allValues mt-4 ">
                         <div>
-                            <img className=" mb-2 "  src="/assets/Images/Rectangle (3).png" alt="" />
+                            <img className=" mb-2 "  src="/assets/Images/Rectangle (1).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Quality Products"
@@ -44,7 +44,7 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 " src="/assets/Images/Rectangle (4).png" alt="" />
+                            <img className=" mb-2 " src="/assets/Images/Rectangle (3).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Professional Team"
@@ -59,7 +59,7 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 "  src="/assets/Images/Rectangle (5).png" alt="" />
+                            <img className=" mb-2 "  src="/assets/Images/Rectangle (3).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Customer Satisfaction"
@@ -74,7 +74,7 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 "  src="/assets/Images/Rectangle (6).png" alt="" />
+                            <img className=" mb-2 "  src="/assets/Images/Rectangle (4).png" alt="" />
 
                             <SmallDescriptionWithHeading
                                 heading="Innovative Solutions"

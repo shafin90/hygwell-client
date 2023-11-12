@@ -27,27 +27,27 @@ const OurVision = () => {
                     ></SmallDescriptionWithHeading>
 
                     <p  style={{ marginTop: "3.263888888888889vw", fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500" }}>
-                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
                         Adapting to Consumer Preferences
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
                         International presence & high-quality healthcare.
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
                         Personalized and AI Crafted Products
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
                         Ethical & Responsible Practices
                     </p>
 
                     <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract.png"  alt="" />
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
                         Sustainable Compliance Approach
                     </p>
                 </Col>

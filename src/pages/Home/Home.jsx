@@ -24,7 +24,7 @@ const Home = () => {
             ></Banner>
             {/* background image of banner */}
             <BackgroundImageContainer 
-            rightSideImg="/assets/Images/right-img-of-banner-homepage.png"
+            rightSideImg="/assets/Images/Group 1171282607.png"
             ></BackgroundImageContainer>
             <AboutUs_HomePage></AboutUs_HomePage>
             <OurOfferings_HomePage></OurOfferings_HomePage>

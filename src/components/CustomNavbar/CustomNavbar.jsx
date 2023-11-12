@@ -18,7 +18,7 @@ const CustomNavbar = () => {
 
                 {/* Logo of this website */}
                 <Navbar.Brand href="#home">
-                    <img className="logo" src="/assets/Images/logo.png" alt="" />
+                    <img className="logo" src="/assets/Images/HYGWELL-_-Logo-_-Final-1 1.png" alt="" />
                 </Navbar.Brand>
 
                 {/* Options */}

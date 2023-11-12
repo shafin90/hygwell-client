@@ -22,7 +22,7 @@ const GetYourPharmacy_HomePage = () => {
 
                     <div>
                         <img className="downloadApp" src="/assets/Images/App Store.png" alt="" />
-                        <img className="downloadApp ms-3 " src="/assets/Images/Group.png" alt="" />
+                        <img className="downloadApp ms-3 " src="/assets/Images/Google Play.png" alt="" />
                         <img className="indicatorOfApp" src="/assets/Images/idicator.png" alt="" />
                     </div>
                 </Col>
