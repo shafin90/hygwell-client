@@ -27,7 +27,7 @@ const GetYourPharmacy_HomePage = () => {
                     </div>
                 </Col>
                 <Col sm={12} md={5} order={1}>
-                    <img className=" phoneImg " src="/assets/Images/phone (1).png" alt="" />
+                    <img className=" phoneImg " src="/assets/Images/phone.png" alt="" />
                 </Col>
             </Row>
         </Container>

@@ -22,47 +22,50 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
-  },
-  {
-    path: "/about_us",
-    element: <AboutUs></AboutUs>
-  },
-  {
-    path: "/contact_us",
-    element: <ContactUs></ContactUs>
-  },
-  {
-    path: "/our_team",
-    element: <OurTeam></OurTeam>
-  },
-  {
-    path: "/products_pharma",
-    element: <Products_Pharma></Products_Pharma>
-  },
-  {
-    path: "/products_nutra",
-    element: <Products_Nutra></Products_Nutra>
-  },
-  {
-    path: "/products_vetarn",
-    element: <Products_vetarn></Products_vetarn>
-  },
-  {
-    path: "/products_herbal",
-    element: <Products_herbal></Products_herbal>
-  },
-  {
-    path: "/products_cosmetics",
-    element: <Products_Cosmetics></Products_Cosmetics>
-  },
-  {
-    path: "/products_fragrance",
-    element: <Products_Fragrance></Products_Fragrance>
-  },
-  {
-    path: "/products_sexual",
-    element:<Products_Sexual></Products_Sexual>
+    children: [
+      {
+        path: "/about_us",
+        element: <AboutUs></AboutUs>
+      },
+      {
+        path: "/contact_us",
+        element: <ContactUs></ContactUs>
+      },
+      {
+        path: "/our_team",
+        element: <OurTeam></OurTeam>
+      },
+      {
+        path: "/products_pharma",
+        element: <Products_Pharma></Products_Pharma>
+      },
+      {
+        path: "/products_nutra",
+        element: <Products_Nutra></Products_Nutra>
+      },
+      {
+        path: "/products_vetarn",
+        element: <Products_vetarn></Products_vetarn>
+      },
+      {
+        path: "/products_herbal",
+        element: <Products_herbal></Products_herbal>
+      },
+      {
+        path: "/products_cosmetics",
+        element: <Products_Cosmetics></Products_Cosmetics>
+      },
+      {
+        path: "/products_fragrance",
+        element: <Products_Fragrance></Products_Fragrance>
+      },
+      {
+        path: "/products_sexual",
+        element: <Products_Sexual></Products_Sexual>
+      }
+    ]
   }
+
 
 ]);
 
