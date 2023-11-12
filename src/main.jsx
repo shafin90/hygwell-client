@@ -24,43 +24,43 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/about_us",
+    path: "/aboutUs",
     element: <AboutUs></AboutUs>
   },
   {
-    path: "/contact_us",
+    path: "/contactUs",
     element: <ContactUs></ContactUs>
   },
   {
-    path: "/our_team",
+    path: "/ourTeam",
     element: <OurTeam></OurTeam>
   },
   {
-    path: "/products_pharma",
+    path: "/productsPharma",
     element: <Products_Pharma></Products_Pharma>
   },
   {
-    path: "/products_nutra",
+    path: "/productsNutra",
     element: <Products_Nutra></Products_Nutra>
   },
   {
-    path: "/products_vetarn",
+    path: "/productsVetarn",
     element: <Products_vetarn></Products_vetarn>
   },
   {
-    path: "/products_herbal",
+    path: "/productsHerbal",
     element: <Products_herbal></Products_herbal>
   },
   {
-    path: "/products_cosmetics",
+    path: "/productsCosmetics",
     element: <Products_Cosmetics></Products_Cosmetics>
   },
   {
-    path: "/products_fragrance",
+    path: "/productsFragrance",
     element: <Products_Fragrance></Products_Fragrance>
   },
   {
-    path: "/products_sexual",
+    path: "/productsSexual",
     element:<Products_Sexual></Products_Sexual>
   }
 
