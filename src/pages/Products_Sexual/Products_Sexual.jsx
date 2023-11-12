@@ -1,0 +1,54 @@
+import BackgroundImageContainer from "../../components/BackgroundImageContainer/BackgroundImageContainer";
+import Banner from "../../components/Banner/Banner";
+import Products from "../../components/Prodcuts/Products";
+
+
+const Products_Sexual = () => {
+    return (
+        <div>
+            <Banner
+                heading="Products"
+                article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."
+                fontweightOfArticle="400"
+            ></Banner>
+
+            <BackgroundImageContainer
+                rightSideImg="/assets/Images/Group 1171282607.png"
+            ></BackgroundImageContainer>
+
+            <Products
+                bgColor="linear-gradient(180deg, rgba(240, 84, 168, 0.27) 0%, rgba(255, 255, 255, 0) 100%)"
+                headingText1="ELEVATE"
+                headingText2="INTIMACY"
+                headingText3="AWAKEN"
+                headingText4="PLEASURE"
+                headingTextColor1="#365F42"
+                headingTextColor2="##C89595"
+                headingTextColor3="#365F42"
+                headingTextColor4="##C89595"
+                firstProductImg="/assets/Images/Veterinary (6).png"
+                secondProductImg="/assets/Images/Nutraceuticals (6).png"
+                thirdProductImg="/assets/Images/Nutraceuticals (6).png"
+                bottomTextheading= "Let your desire guide you, your intimate mantra."
+                bottomTextArticle="The power of sensuality is that
+                it speaks to your core, ... and sparks
+                deep connections."
+            
+                bottomTextBlob="/assets/Images/Blob (5).png"
+                bottomTextBlobWidth="22.58"
+                bottomTextBlobHeight="32.606944444444444"
+                bottomTextImg="../../../public/assets/Images/Daco_247602 1.png"
+                bottomTextImgWidth="16"
+                bottomTextImgHeight="23" 
+                bottomTextImgLeft="2"
+                bottomTextBlobRight="16"
+                borderColor="#F054A8"
+                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (5).png"                                
+            >                
+            </Products>
+
+        </div>
+    );
+};
+
+export default Products_Sexual;

@@ -1,0 +1,81 @@
+.products {
+    padding-top: 4.791666666666667vw;
+    padding-bottom: 15vw;
+    background: transparent;
+}
+.productsBehindDiv{
+    position: absolute;
+    z-index: -3;
+    top: 0px;
+    width: 100vw;
+    height: 270vh;
+}
+
+.productSection {
+    width: 90.41666666666667vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 6.458333333333333vw;
+}
+
+.detailBoxImg {
+    width: 71.11111111111111vw;
+    height: 24.666666666666668vw;
+    margin: auto;
+    display: block;
+    margin-bottom: -14.26388888888889vw;
+}
+
+.detailBoxImgBG {
+    width: 88.61111111111111vw;
+    height: 16.52777777777778vw;
+    z-index: -1;
+    position: relative;
+    top: -6vw;
+}
+
+.detailBoxHeading {
+    margin-top: 8.333333333333334vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 4.444444444444445vw;
+    margin-bottom: 2.0833333333333335vw;
+}
+
+.spotlightHeading {
+    font-family: 'Quattrocento', serif;
+    font-size: 2.2222222222222223vw;
+    font-weight: 700;
+    line-height: 2.4305555555555554vw;
+}
+
+.pcc {
+    width: 71.11111111111111vw;
+}
+
+
+
+
+.productBottomTextHeading {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.4722222222222223vw;
+    font-weight: 400;
+    line-height: 3.7465277777777777vw;
+    width: 62.77777777777778vw;
+}
+
+.productBottomTextArticle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2.0833333333333335vw;
+    line-height: 3.3229166666666665vw;
+    width: 41.875vw;
+}
+
+.productBottomText {
+    position: absolute;
+    bottom: 7vw;
+    left: 26vw;
+}
