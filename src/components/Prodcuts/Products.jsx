@@ -118,7 +118,7 @@ const productBottomRightIMG = {
 
                     <ProductContainer
 
-                        imgSrc="../../../public/assets/Images/img (1).png"
+                        imgSrc="/assets/Images/img (1).png"
                         imgWidth="21.88888888888889vw"
                         imgHeight="10.208333333333334vw"
                         width="41.041666666666664vw"
@@ -134,7 +134,7 @@ const productBottomRightIMG = {
 
                 <div className=' d-flex  justify-content-between  align-items-center mx-auto pcc '>
                     <ProductContainer
-                        imgSrc="../../../public/assets/Images/img (2).png"
+                        imgSrc="/assets/Images/img (2).png"
                         imgWidth="13.88888888888889vw"
                         imgHeight="9vw"
                         width="22.98611111111111vw"
@@ -147,7 +147,7 @@ const productBottomRightIMG = {
 
 
                     <ProductContainer
-                        imgSrc="../../../public/assets/Images/img (3).png"
+                        imgSrc="/assets/Images/img (3).png"
                         imgWidth="21.88888888888889vw"
                         imgHeight="10.208333333333334vw"
                         width="22.916666666666668vw"

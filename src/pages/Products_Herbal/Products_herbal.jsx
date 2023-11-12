@@ -34,13 +34,13 @@ const Products_herbal = () => {
                 bottomTextBlob="/assets/Images/Blob (3).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
-                bottomTextImg="../../../public/assets/Images/Image.png"
+                bottomTextImg="/assets/Images/Image.png"
                 bottomTextImgWidth="15"
                 bottomTextImgHeight="19" 
                 bottomTextImgLeft="2"
                 bottomTextBlobRight="15"
                 borderColor="#D9D6B8"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (3).png"                 
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (3).png"                 
             >
                 
             </Products>

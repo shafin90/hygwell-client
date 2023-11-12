@@ -34,13 +34,13 @@ const Products_vetarn = () => {
                 bottomTextBlob="/assets/Images/Blob (2).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
-                bottomTextImg="../../../public/assets/Images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsb2ZmaWNlNl9mZW1hbGVfaHVnZ2luZ19hbmRfa2lzc2luZ19oZXJfcHVwcHlfYmFzZW5qaV9kb183MzIyZmU2Ny0yMGFlLTRhMzItOGRh.png"
+                bottomTextImg="/assets/Images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsb2ZmaWNlNl9mZW1hbGVfaHVnZ2luZ19hbmRfa2lzc2luZ19oZXJfcHVwcHlfYmFzZW5qaV9kb183MzIyZmU2Ny0yMGFlLTRhMzItOGRh.png"
                 bottomTextImgWidth="20"
                 bottomTextImgHeight="23" 
                 bottomTextImgLeft="0"
                 bottomTextBlobRight="20"    
                 borderColor="#DE9DA570"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (2).png"             
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (2).png"             
             >                
             </Products>
 

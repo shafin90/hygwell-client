@@ -35,13 +35,13 @@ const Products_Cosmetics = () => {
                 bottomTextBlob="/assets/Images/Blob (4).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
-                bottomTextImg="../../../public/assets/Images/pngegg 1.png"
+                bottomTextImg="/assets/Images/pngegg 1.png"
                 bottomTextImgWidth="20"
                 bottomTextImgHeight="23" 
                 bottomTextImgLeft="0"
                 bottomTextBlobRight="20" 
                 borderColor="#B9A792"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (4).png"
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (4).png"
                                
             >                
             </Products>

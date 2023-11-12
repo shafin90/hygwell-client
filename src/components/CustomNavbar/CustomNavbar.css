@@ -23,6 +23,8 @@
     cursor: pointer;
     border-radius: 6.944444444444445vw;
     color: #040404;
+    transition: 1s;
+    transition-timing-function: ease;
 }
 
 .nav-menu:hover {
@@ -41,10 +43,10 @@
         font-size: 5vw;
         margin-bottom: 8vw;
         width: 30vw;
+        transition: "1s";
     }   
     .nav-menu:hover {
         background-color: #9acb56;
-        transition: all;
         font-weight: 600;
         color: #3BAD46;
         height: 10vw;

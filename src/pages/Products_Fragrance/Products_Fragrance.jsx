@@ -37,13 +37,13 @@ const Products_Fragrance = () => {
                 bottomTextBlob="/assets/Images/Blob (5).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
-                bottomTextImg="../../../public/assets/Images/Daco_4503636 1.png"
+                bottomTextImg="/assets/Images/Daco_4503636 1.png"
                 bottomTextImgWidth="16"
                 bottomTextImgHeight="23" 
                 bottomTextImgLeft="0"
                 bottomTextBlobRight="16"
                 borderColor="#5FD788"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (5).png"                               
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (5).png"                               
             >                
             </Products>
 

@@ -44,7 +44,7 @@ const Products_Pharma = () => {
                 bottomTextImgLeft= "3.5"
                 bottomTextBlobRight="25"
                 borderColor="#043CAA75"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628.png"     
+                detailBoxBGIMG="/assets/Images/Group 1171282628.png"     
             ></Products>
 
         </div>

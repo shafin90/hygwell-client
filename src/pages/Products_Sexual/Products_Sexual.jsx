@@ -37,13 +37,13 @@ const Products_Sexual = () => {
                 bottomTextBlob="/assets/Images/Blob (6).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
-                bottomTextImg="../../../public/assets/Images/Daco_247602 1.png"
+                bottomTextImg="/assets/Images/Daco_247602 1.png"
                 bottomTextImgWidth="16"
                 bottomTextImgHeight="23" 
                 bottomTextImgLeft="2"
                 bottomTextBlobRight="16"
                 borderColor="#F054A8"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (6).png"                                
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (6).png"                                
             >                
             </Products>
 

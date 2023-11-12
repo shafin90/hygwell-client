@@ -42,7 +42,7 @@ const Products_Nutra = () => {
                 bottomTextImgLeft="3"
                 bottomTextBlobRight="14"  
                 borderColor="#D75F83BD"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (7).png"              
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (7).png"              
             >
                 
             </Products>
