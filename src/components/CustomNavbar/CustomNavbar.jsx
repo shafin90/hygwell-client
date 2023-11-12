@@ -5,7 +5,7 @@
 2. nav-menu: This class is used in Nav.Link. it ensure the pixel perfect design of list item. 
 */
 
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "./CustomNavbar.css"
 import { Link } from "react-router-dom";
 
@@ -24,13 +24,25 @@ const CustomNavbar = () => {
                 {/* Options */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto d-flex  justify-content-between  align-content-center nav-menu-container">
+                    <Nav className="ms-auto d-flex  justify-content-between  align-items-center nav-menu-container">
                         <Link className="nav-menu text-decoration-none" to="/">Home</Link>
-                        <Link className="nav-menu text-decoration-none" to="#link">Products</Link>
+                        {/* <Link className="nav-menu text-decoration-none" to="#link"></Link> */}
+                       
+                        <NavDropdown className="nav-menu" title="Products" id="basic-nav-dropdown" >
+                            <NavDropdown.Item as={Link} to="/productsPharma">Pharma</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/productsNutra">Nutra </NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/productsVetarn">Vetarn</NavDropdown.Item>
+                            {/* <NavDropdown.Divider /> */}
+                            <NavDropdown.Item as={Link} to="/productsHerbal"> Herbal </NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/productsCosmetics"> Cosmetics </NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/productsFragrance"> Fragrance </NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/productsSexual"> Sexual </NavDropdown.Item>
+                        </NavDropdown>
+                       
                         <Link className="nav-menu text-decoration-none" to="#link">Services</Link>
                         <Link className="nav-menu text-decoration-none" to="#link">Exports</Link>
                         <Link className="nav-menu text-decoration-none " to="/aboutUs">About Us</Link>
-                        <Link className="nav-menu text-decoration-none" to="/productsPharma">Our Team</Link>
+                        <Link className="nav-menu text-decoration-none" to="/ourTeam">Our Team</Link>
                         <Link className="nav-menu text-decoration-none" to="/contactUs">Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>

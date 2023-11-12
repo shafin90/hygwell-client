@@ -8,7 +8,7 @@ const OurTeam = () => {
     return (
         <Container fluid className=" px-0 ">
             {/* background image */}
-            <img src="/assets/Images/Mask group (3).png" style={{width:"100vw", height:"320vh", position:"absolute", zIndex:"-2"}} alt="" />
+            {/* <img src="/assets/Images/Mask group (3).png" style={{width:"100vw", height:"320vh", position:"absolute", zIndex:"-2"}} alt="" /> */}
             {/* left bg image */}
             <img className=" leftBgImg_ourTeam" src="/assets/Images/Subtract (1).png" alt="" />
 

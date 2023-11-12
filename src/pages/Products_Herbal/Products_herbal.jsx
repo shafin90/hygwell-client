@@ -31,7 +31,7 @@ const Products_herbal = () => {
                 thirdProductImg="/assets/Images/Nutraceuticals (3).png"
                 bottomTextheading= "Let herbs guide you,your wellness pledge"
                 bottomTextArticle="The power of herbs is that they resonate within, ... and cultivate a naturally healthy you."
-                bottomTextBlob="/assets/Images/Blob (2).png"
+                bottomTextBlob="/assets/Images/Blob (3).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="../../../public/assets/Images/Image.png"

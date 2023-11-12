@@ -33,16 +33,16 @@ const Products_Nutra = () => {
                 thirdProductImg="/assets/Images/Nutraceuticals (1).png"
                 bottomTextheading= "Express your commitment to health your health vow"
                 bottomTextArticle="The power of pharmaceuticals is that they speak to your body, ... and script a healthier future."
-                bottomTextBlob="/assets/Images/Blob.png"
+                bottomTextBlob="/assets/Images/Blob (1).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="/assets/Images/Daco_4503636 1.png"
                 bottomTextImgWidth="14"
                 bottomTextImgHeight="23" 
-                bottomTextImgLeft="30"
+                bottomTextImgLeft="3"
                 bottomTextBlobRight="14"  
                 borderColor="#D75F83BD"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (4).png"              
+                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (7).png"              
             >
                 
             </Products>

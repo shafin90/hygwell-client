@@ -34,7 +34,7 @@ const Products_Fragrance = () => {
                 it speaks to your heart, … and hopefully
                 someone else's."
             
-                bottomTextBlob="/assets/Images/Blob (4).png"
+                bottomTextBlob="/assets/Images/Blob (5).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="../../../public/assets/Images/Daco_4503636 1.png"
@@ -43,7 +43,7 @@ const Products_Fragrance = () => {
                 bottomTextImgLeft="0"
                 bottomTextBlobRight="16"
                 borderColor="#5FD788"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (2).png"                               
+                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (5).png"                               
             >                
             </Products>
 

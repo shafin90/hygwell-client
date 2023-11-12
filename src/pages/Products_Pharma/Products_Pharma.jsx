@@ -35,9 +35,9 @@ const Products_Pharma = () => {
                 bottomTextArticle="The power of pharmaceuticals is that
                 they speak to your body, ... and script
                 a healthier future."
-                bottomTextBlob="/public/assets/Images/Photo.png"
-                bottomTextImg="/assets/Images/Group (1).png"
-                bottomTextBlobWidth="32.58"
+                bottomTextBlob="/public/assets/Images/Blob.png"
+                bottomTextImg="/assets/Images/2454167.png"
+                bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImgWidth="24.90138888888889"
                 bottomTextImgHeight="17.01388888888889"

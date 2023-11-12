@@ -31,7 +31,7 @@ const Products_vetarn = () => {
                 thirdProductImg="/assets/Images/Nutraceuticals (2).png"
                 bottomTextheading= "Pet Health Mastery,Your Furry Friend's Sanctuary."
                 bottomTextArticle="our Beloved Companion,Our Compassionate Care,Nurturing Lifelong Wellness."
-                bottomTextBlob="/assets/Images/Blob (1).png"
+                bottomTextBlob="/assets/Images/Blob (2).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="../../../public/assets/Images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsb2ZmaWNlNl9mZW1hbGVfaHVnZ2luZ19hbmRfa2lzc2luZ19oZXJfcHVwcHlfYmFzZW5qaV9kb183MzIyZmU2Ny0yMGFlLTRhMzItOGRh.png"
@@ -40,7 +40,7 @@ const Products_vetarn = () => {
                 bottomTextImgLeft="0"
                 bottomTextBlobRight="20"    
                 borderColor="#DE9DA570"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (6).png"             
+                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (2).png"             
             >                
             </Products>
 
