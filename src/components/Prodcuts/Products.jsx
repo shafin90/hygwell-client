@@ -1,9 +1,10 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './Product.css'
-import ProductContainer from './ProductContainer/ProductContainer';
+import ProductContainer from '../ProductContainer/ProductContainer';
 
 
-const Products = ({bgColor,headingText1,headingText2,headingText3, headingText4, headingTextColor1, headingTextColor2, headingTextColor3, headingTextColor4, firstProductImg, secondProductImg, thirdProductImg, bottomTextheading, bottomTextArticle, bottomTextBlob, bottomTextImg, bottomTextBlobWidth, bottomTextBlobHeight, bottomTextImgWidth, bottomTextImgHeight,  bottomTextImgLeft, bottomTextBlobRight,shortTheFont, borderColor, detailBoxBGIMG}) => {
+
+const Products = ({ bgColor, headingText1, headingText2, headingText3, headingText4, headingTextColor1, headingTextColor2, headingTextColor3, headingTextColor4, firstProductImg, secondProductImg, thirdProductImg, bottomTextheading, bottomTextArticle, bottomTextBlob, bottomTextImg, bottomTextBlobWidth, bottomTextBlobHeight, bottomTextImgWidth, bottomTextImgHeight, bottomTextImgLeft, bottomTextBlobRight, shortTheFont, borderColor, detailBoxBGIMG }) => {
     const style = {
         background: bgColor,
     }
@@ -18,24 +19,24 @@ const Products = ({bgColor,headingText1,headingText2,headingText3, headingText4,
 
 
 
-const productBottomLeftFrontIMg ={
-    width: `${bottomTextImgWidth}vw` ,
-    height: `${bottomTextImgHeight}vw`,
-    zIndex: 1,
-    position: "relative",
-    top: "5vw",
-    left:  `${bottomTextImgLeft}vw`,
-}
-const productBottomRightIMG = {
-    width: `${bottomTextBlobWidth}vw`,
-    height: `${bottomTextBlobHeight}vw`,
-    zIndex: -1,
-    position: "relative",
-    right: `${bottomTextBlobRight}vw`
-} 
+    const productBottomLeftFrontIMg = {
+        width: `${bottomTextImgWidth}vw`,
+        height: `${bottomTextImgHeight}vw`,
+        zIndex: 1,
+        position: "relative",
+        top: "5vw",
+        left: `${bottomTextImgLeft}vw`,
+    }
+    const productBottomRightIMG = {
+        width: `${bottomTextBlobWidth}vw`,
+        height: `${bottomTextBlobHeight}vw`,
+        zIndex: -1,
+        position: "relative",
+        right: `${bottomTextBlobRight}vw`
+    }
 
     return (
-        <Container  fluid className='products px-0 products z-3  position-relative '>
+        <Container fluid className='products px-0 products z-3  position-relative '>
 
             {/* backside div that contains background's gradient color */}
             <div style={style} className='productsBehindDiv'></div>
@@ -169,24 +170,28 @@ const productBottomRightIMG = {
 
                 </div>
 
-                <div className=' productBottom d-flex  justify-content-start  align-items-center '>
-                    {/* Left side front image */}
-                    <img style={productBottomLeftFrontIMg} src={bottomTextImg} alt="" />
+                <div className='bottom_stuff_product'>
+                    <div className=' productBottom d-flex  justify-content-start  align-items-center '>
+                        {/* Left side front image */}
+                        <img style={productBottomLeftFrontIMg} src={bottomTextImg} alt="" />
 
-                    {/* left side image  back side */}
-                    <img style={productBottomRightIMG} src={bottomTextBlob} alt="" />
+                        {/* left side image  back side */}
+                        <img style={productBottomRightIMG} src={bottomTextBlob} alt="" />
+                    </div>
+
+                    {/* Bottom text */}
+                    <div className="productBottomText d-flex  flex-column  justify-content-between  align-items-end">
+                        <h1 style={{ color: borderColor }} className='productBottomTextHeading text-end'>{bottomTextheading}</h1>
+                        <article style={{ fontSize: shortTheFont && "1vw", lineHeight: shortTheFont && "1.3vw" }} className='productBottomTextArticle text-end '>
+                            {bottomTextArticle}
+                        </article>
+                    </div>
+
+                    {/* Right-bottom backside image */}
+                    <img className='right_bottom_backSide_img_productPage' src="../../../public/assets/Images/Frame.png" alt="" />
+
+
                 </div>
-
-                <div className="productBottomText d-flex  flex-column  justify-content-between  align-items-end">
-                    <h1 style={{color:borderColor}} className='productBottomTextHeading text-end'>{bottomTextheading}</h1>
-                    <article style={{fontSize:shortTheFont&&"1vw", lineHeight:shortTheFont&&"1.3vw"}} className='productBottomTextArticle text-end '>
-                        {bottomTextArticle}
-                    </article>
-                </div>
-
-
-
-
 
             </div>
 

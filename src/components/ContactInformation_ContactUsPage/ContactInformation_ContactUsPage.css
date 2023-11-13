@@ -19,36 +19,42 @@
 }
 
 .contactInformationContainer h1 {
-    font-size:  1.9444444444444444vw;
-    color:  white;
+    font-size: 1.9444444444444444vw;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
-.floatingImageOne_ContactUsPage{
+
+.floatingImageOne_ContactUsPage {
     width: 15.680556vw;
     height: 15.680556vw;
     position: relative;
-    left: 18vw;
-    top: 5vw;
+    left: 17vw;
+    /* top: 8vw; */
     z-index: 0;
     margin-bottom: 9vw;
-    
+
 }
-.floatingImageTwo_ContactUsPage{
+
+.floatingImageTwo_ContactUsPage {
     width: 10.583333vw;
     height: 10.583333vw;
     position: relative;
-    top: -4vw;
+    top: -6vw;
     z-index: 1;
+    left: -1vw;
 }
-.social_icon_contact_information_container{
+
+.social_icon_contact_information_container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
     top: 13vw;
+
 }
+
 /*  each div inside of  .social_icon_contact_information_container*/
-.social_icon_contact_information_container div{
+.social_icon_contact_information_container div {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -72,19 +78,23 @@
         height: 53.541666666666664vw;
         margin-bottom: 120vw;
     }
+
     .contactInformationContainer {
         background: #545E3B;
-        height: 153.930556vw;
-        width: 100%;
+        height: 193.930556vw;
+        width: 126%;
         position: relative;
         top: 2vw;
         border-radius: 20px;
+        left: -9vw;
     }
+
     .contactInformationContainer h1 {
-        font-size:  5.9444444444444444vw;
-        color:  white;
+        font-size: 5.9444444444444444vw;
+        color: white;
         font-family: 'Poppins', sans-serif;
     }
+
     .floatingImageOne_ContactUsPage {
         width: 32.680556vw;
         height: 30.680556vw;
@@ -94,6 +104,7 @@
         z-index: 0;
         margin-bottom: 9vw;
     }
+
     .floatingImageTwo_ContactUsPage {
         width: 25.583333vw;
         height: 25.583333vw;
@@ -101,13 +112,14 @@
         top: 8vw;
         z-index: 1;
     }
-    .social_icon_contact_information_container{
-        
-        top:50vw;
+
+    .social_icon_contact_information_container {
+
+        top: 50vw;
     }
 }
 
-@media screen and ( min-width: 575px) and (max-width: 990px) {
+@media screen and (min-width: 575px) and (max-width: 1115px) {
     .contactInformationContainer {
         background: #545E3B;
         height: 62.930556vw;
@@ -116,8 +128,20 @@
         top: 2vw;
         border-radius: 20px;
     }
-    .floatingImageOne_ContactUsPage{
+
+    .floatingImageOne_ContactUsPage {
         top: 30vw;
     }
-    
+
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1921px) {
+    .contactInformationContainer {
+        background: #545E3B;
+        height: 35.930556vw;
+        width: 100%;
+        position: relative;
+        top: 2vw;
+        border-radius: 20px;
+    }
 }

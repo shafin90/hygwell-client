@@ -11,7 +11,7 @@ const ContactInformation_ContactUsPage = () => {
 
 
     return (
-        <Container className="contactInformation_ContactUsPage d-flex justify-content-center align-items-center  px-0  py-5 ">
+        <Container className="contactInformation_ContactUsPage d-flex justify-content-center align-items-center  px-0  py-5  ">
             <Row className=" w-100 " >
                 {/* Contact information========== */}
                 <Col md={6} className=" h-100  px-0">
@@ -78,9 +78,9 @@ const ContactInformation_ContactUsPage = () => {
                             </div>
 
                         </div>
-
+{/* 
                         <img className="floatingImageOne_ContactUsPage" src="/assets/Images/Ellipse 793.png" alt="" />
-                        <img className="floatingImageTwo_ContactUsPage" src="/assets/Images/Ellipse 794.png" alt="" />
+                        <img className="floatingImageTwo_ContactUsPage" src="/assets/Images/Ellipse 794.png" alt="" /> */}
 
                     </div>
                 </Col>
