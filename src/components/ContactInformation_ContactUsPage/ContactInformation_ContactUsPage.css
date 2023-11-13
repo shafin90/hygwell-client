@@ -37,10 +37,10 @@
     width: 10.583333vw;
     height: 10.583333vw;
     position: relative;
-    
     top: -4vw;
     z-index: 1;
 }
+
 
 @media screen and (max-width: 575px) {
     .contactInformation_ContactUsPage {
@@ -80,6 +80,26 @@
         top: 8vw;
         z-index: 1;
     }
+}
+
+.social_icon_contact_information_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 13vw;
+}
+
+.social_icon_contact_information_container div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F6AF03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+    cursor: pointer;
 }
 
 @media screen and ( min-width: 575px) and (max-width: 990px) {

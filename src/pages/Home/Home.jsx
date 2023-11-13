@@ -15,15 +15,14 @@ import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
     return (
-        <Container fluid className=" px-0  overflow-x-hidden ">
-            <Banner
+        <Container fluid className=" px-0  overflow-x-hidden ">            
+            <Banner      
             heading="Welcome to HYGWELL"
             article="Your Trusted Partner in Healthcare Solutions"
             btn={true}
             fontweightOfArticle="500"
             ></Banner>
-            {/* background image of banner */}
-            <BackgroundImageContainer 
+            <BackgroundImageContainer  
             rightSideImg="/assets/Images/Group 1171282607.png"
             ></BackgroundImageContainer>
             <AboutUs_HomePage></AboutUs_HomePage>

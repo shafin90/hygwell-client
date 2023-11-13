@@ -28,8 +28,7 @@ const ProductShowCaseCard_HomePage = ({moveTop,productImg,category,productImgWid
 
             {/* background transparent image================== */}
             <img src="/assets/Images/Group 44.png" className=' w-100  h-75  position-absolute  z-0  bottom-0 ' alt="" />
-
-
+            
         </div>
     );
 };
