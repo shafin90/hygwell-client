@@ -1,6 +1,6 @@
 .meetOurTeamCard {
     width: 39.583333333333336vw;
-    height: 34.583333333333336vw;
+    height: 39.583333333333336vw;
     z-index: 100;
     position: relative;
     background-color: white;
@@ -17,12 +17,14 @@
     font-family: 'Poppins', sans-serif;
     font-size: 2.361111111111111vw;
     font-weight: 400;
+    text-align: center;
 }
 
 .designation {
     color: #247FFB;
     margin-bottom: 10px;
     font-weight: 600;
+    text-align: center;
 }
 
 .details {
