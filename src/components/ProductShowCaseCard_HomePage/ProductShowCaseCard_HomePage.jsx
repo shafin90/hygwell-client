@@ -21,7 +21,7 @@ const ProductShowCaseCard_HomePage = ({moveTop,productImg,category,productImgWid
             </h2>
 
             {/* Show more button =============================*/}
-            <button style={{ border: "none", background: "transparent", fontWeight: "700", paddingLeft: "1.9444444444444444vw", bottom: moveTop&&"2.5vw" }} className="shopNowButton position-relative z-1">
+            <button style={{  bottom: moveTop&&"2.5vw" }} className="shopNowButton shopNowBtn position-relative z-1">
                 Shop Now
                 <AiOutlineArrowRight></AiOutlineArrowRight>
             </button>
