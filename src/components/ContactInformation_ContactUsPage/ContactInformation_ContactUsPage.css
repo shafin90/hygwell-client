@@ -40,6 +40,27 @@
     top: -4vw;
     z-index: 1;
 }
+.social_icon_contact_information_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 13vw;
+}
+/*  each div inside of  .social_icon_contact_information_container*/
+.social_icon_contact_information_container div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F6AF03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 
 
 @media screen and (max-width: 575px) {
@@ -80,26 +101,10 @@
         top: 8vw;
         z-index: 1;
     }
-}
-
-.social_icon_contact_information_container{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    top: 13vw;
-}
-
-.social_icon_contact_information_container div{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #F6AF03;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 1vw;
-    cursor: pointer;
+    .social_icon_contact_information_container{
+        
+        top:50vw;
+    }
 }
 
 @media screen and ( min-width: 575px) and (max-width: 990px) {
@@ -111,4 +116,8 @@
         top: 2vw;
         border-radius: 20px;
     }
+    .floatingImageOne_ContactUsPage{
+        top: 30vw;
+    }
+    
 }
