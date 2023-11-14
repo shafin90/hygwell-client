@@ -1,15 +1,18 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './ContactInformation_ContactUsPage.css'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BsDiscord, BsInstagram, BsTwitter } from 'react-icons/bs'
 
 const ContactInformation_ContactUsPage = () => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    const [screenWidth, setScreenWidth] = useState()
     const [isHoverTwitterIcon, setIsHoverTwitterIcon] = useState(false);
     const [isHoverInstaIcon, setIsHoverInstaIcon] = useState(false);
     const [isHoverDiscordIcon, setIsHoverDiscordIcon] = useState(false);
 
-
+    
+    useEffect(()=>{
+        setScreenWidth(window.innerWidth)
+    },[])
     return (
         <Container className="contactInformation_ContactUsPage d-flex justify-content-center align-items-center  px-0  py-5  ">
             <Row className=" w-100 " >
