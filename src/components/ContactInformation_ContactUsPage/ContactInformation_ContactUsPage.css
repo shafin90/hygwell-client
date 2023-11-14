@@ -5,6 +5,7 @@
     width: 71.94444444444444vw;
     height: 53.541666666666664vw;
     margin-bottom: 16vw;
+    box-shadow: 50px 70px 100px rgba(197, 194, 194, 0.5);
 }
 
 .contactInformationContainer {
