@@ -20,7 +20,7 @@ import Products_Sexual from './pages/Products_Sexual/Products_Sexual';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/home",
     element: <Home></Home>,
   },
   {
