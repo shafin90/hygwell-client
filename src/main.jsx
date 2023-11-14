@@ -17,6 +17,7 @@ import Products_herbal from './pages/Products_Herbal/Products_herbal';
 import Products_Cosmetics from './pages/Products_Cosmetics/Products_Cosmetics';
 import Products_Fragrance from './pages/Products_Fragrance/Products_Fragrance';
 import Products_Sexual from './pages/Products_Sexual/Products_Sexual';
+import NotFound from './pages/NotFound/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "/productsSexual",
     element:<Products_Sexual></Products_Sexual>
+  },
+  {
+    path:"*",
+    element:<NotFound></NotFound>
   }
 
 ]);
