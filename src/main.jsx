@@ -17,52 +17,60 @@ import Products_herbal from './pages/Products_Herbal/Products_herbal';
 import Products_Cosmetics from './pages/Products_Cosmetics/Products_Cosmetics';
 import Products_Fragrance from './pages/Products_Fragrance/Products_Fragrance';
 import Products_Sexual from './pages/Products_Sexual/Products_Sexual';
+import Window from './pages/Window/Window';
 
 const router = createBrowserRouter([
   {
-    path: "/home",
-    element: <Home></Home>,
+    path: "/",
+    element: <Window></Window>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/aboutUs",
+        element: <AboutUs></AboutUs>
+      },
+      {
+        path: "/contactUs",
+        element: <ContactUs></ContactUs>
+      },
+      {
+        path: "/ourTeam",
+        element: <OurTeam></OurTeam>
+      },
+      {
+        path: "/productsPharma",
+        element: <Products_Pharma></Products_Pharma>
+      },
+      {
+        path: "/productsNutra",
+        element: <Products_Nutra></Products_Nutra>
+      },
+      {
+        path: "/productsVetarn",
+        element: <Products_vetarn></Products_vetarn>
+      },
+      {
+        path: "/productsHerbal",
+        element: <Products_herbal></Products_herbal>
+      },
+      {
+        path: "/productsCosmetics",
+        element: <Products_Cosmetics></Products_Cosmetics>
+      },
+      {
+        path: "/productsFragrance",
+        element: <Products_Fragrance></Products_Fragrance>
+      },
+      {
+        path: "/productsSexual",
+        element: <Products_Sexual></Products_Sexual>
+      }
+    ]
   },
-  {
-    path: "/aboutUs",
-    element: <AboutUs></AboutUs>
-  },
-  {
-    path: "/contactUs",
-    element: <ContactUs></ContactUs>
-  },
-  {
-    path: "/ourTeam",
-    element: <OurTeam></OurTeam>
-  },
-  {
-    path: "/productsPharma",
-    element: <Products_Pharma></Products_Pharma>
-  },
-  {
-    path: "/productsNutra",
-    element: <Products_Nutra></Products_Nutra>
-  },
-  {
-    path: "/productsVetarn",
-    element: <Products_vetarn></Products_vetarn>
-  },
-  {
-    path: "/productsHerbal",
-    element: <Products_herbal></Products_herbal>
-  },
-  {
-    path: "/productsCosmetics",
-    element: <Products_Cosmetics></Products_Cosmetics>
-  },
-  {
-    path: "/productsFragrance",
-    element: <Products_Fragrance></Products_Fragrance>
-  },
-  {
-    path: "/productsSexual",
-    element:<Products_Sexual></Products_Sexual>
-  }
+
 
 ]);
 
