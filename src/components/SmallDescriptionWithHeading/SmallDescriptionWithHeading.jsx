@@ -1,8 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const SmallDescriptionWithHeading = ({ fontWeight, fontFamily, textAlign, heading, article, fontSizeOfHeading, fontSizeOfArticle}) => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth) // Contains the width of screen
+    const [screenWidth, setScreenWidth] = useState() // Contains the width of screen
+    
+    useEffect(()=>{
+        setScreenWidth(window.innerWidth)
+    },[])
+    
     const style={
         // width: width,
         textAlign: textAlign,
