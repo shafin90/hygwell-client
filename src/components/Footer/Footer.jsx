@@ -1,9 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './Footer.css'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Footer = () => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+    const [screenWidth, setScreenWidth] = useState()
+    useEffect(()=>{
+        setScreenWidth(window.innerWidth)
+    },[])
     return (
         <Container className="footer" fluid>
             <Row>
