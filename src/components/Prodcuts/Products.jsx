@@ -12,6 +12,8 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
     // useEffect(()=>{
     //     setScreenWidth(window.screenWidth)
     // },[])
+
+    console.log(screenWidth)
     
     const style = {
         background: bgColor,
@@ -105,7 +107,6 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
                         imgLeft={screenWidth<575?"4vw":"5vw"} 
                         textWidth={screenWidth<575?"10vw":"7vw"} 
                     ></ProductContainer>
-
                 </div>
 
                 <div className=' mb-0 mb-md-3  mb-lg-3   d-flex flex-column  flex-md-row  flex-lg-row  justify-content-between  align-items-center mx-auto pcc '>
@@ -149,7 +150,6 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
                         imgLeft="4vw"
                         textWidth="10vw"
                     ></ProductContainer>
-
 
                     <ProductContainer
                         imgSrc="/assets/Images/img (3).png"
