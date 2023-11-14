@@ -194,7 +194,7 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
                     </div>
 
                     {/* Right-bottom backside image */}
-                    <img className='right_bottom_backSide_img_productPage' src="../../../public/assets/Images/Frame.png" alt="" />
+                    <img className='right_bottom_backSide_img_productPage' src="/assets/Images/Frame.png" alt="" />
 
                 </div>
             </div>
