@@ -163,7 +163,7 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
                     ></ProductContainer>
 
                     <ProductContainer
-                        imgSrc="../../../public/assets/Images/img (4).png"
+                        imgSrc="/assets/Images/img (4).png"
                         imgWidth={screenWidth<575?"27.8888889vw":"18.88888888888889vw"} 
                         imgHeight={screenWidth<565?"15.203vw":"8.208333333333334vw"} 
                         width={screenWidth<575?"70vw":"22.98611111111111vw"} 
