@@ -18,16 +18,13 @@ const ProductContainer = ({ imgWidth, imgHeight, width, height, imgLeft, imgSrc,
         left: imgLeft
     }
     return (
-        <div style={style} className="d-flex  justify-content-between  align-items-center rounded-3 productContainer  pe-3  ">
+        <div style={style} className="productContainer mb-2 mb-md-0 mb-lg-0 d-flex  justify-content-between  align-items-center rounded-3 productContainer  pe-3  ">
 
             {/* product image */}
-        
-                <img style={imgStyle} src={imgSrc} alt="" />
-            
+            <img style={imgStyle} src={imgSrc} alt="" />
 
             {/* product headline */}
-            <div style={{width: textWidth}}><h3  className=" text">{text}</h3></div>
-
+            <div style={{ width: textWidth }}><h3 className=" text">{text}</h3></div>
         </div>
     );
 };
