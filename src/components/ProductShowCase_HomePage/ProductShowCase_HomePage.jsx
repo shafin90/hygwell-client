@@ -40,7 +40,7 @@ const ProductShowCase_HomePage = () => {
                 <ProductShowCaseCard_HomePage
                 productImg="/assets/Images/pngwing 1.png"
                 category="OTC Products"
-                productImgWidth= {screenWidth<576?"56.4167":"10.416666666666666"}
+                productImgWidth= {screenWidth<576?"50.4167":"10.416666666666666"}
                 productImgHeight={screenWidth<576?"53.8472":"12.847222222222221"} 
                 moveTop={true}
                 ></ProductShowCaseCard_HomePage>
