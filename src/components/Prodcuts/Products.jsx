@@ -1,6 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './Product.css'
 import ProductContainer from '../ProductContainer/ProductContainer';
+import { useState } from 'react';
 
 
 const Products = ({ bgColor, headingText1, headingText2, headingText3, headingText4, headingTextColor1, headingTextColor2, headingTextColor3, headingTextColor4, firstProductImg, secondProductImg, thirdProductImg, bottomTextheading, bottomTextArticle, bottomTextBlob, bottomTextImg, bottomTextBlobWidth, bottomTextBlobHeight, bottomTextImgWidth, bottomTextImgHeight, bottomTextImgLeft, bottomTextBlobRight, shortTheFont, borderColor, detailBoxBGIMG }) => {
