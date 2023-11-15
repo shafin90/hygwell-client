@@ -1,19 +1,11 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './Product.css'
 import ProductContainer from '../ProductContainer/ProductContainer';
-import { useEffect, useState } from 'react';
-
 
 
 const Products = ({ bgColor, headingText1, headingText2, headingText3, headingText4, headingTextColor1, headingTextColor2, headingTextColor3, headingTextColor4, firstProductImg, secondProductImg, thirdProductImg, bottomTextheading, bottomTextArticle, bottomTextBlob, bottomTextImg, bottomTextBlobWidth, bottomTextBlobHeight, bottomTextImgWidth, bottomTextImgHeight, bottomTextImgLeft, bottomTextBlobRight, shortTheFont, borderColor, detailBoxBGIMG }) => {
-    
+
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-    // useEffect(()=>{
-    //     setScreenWidth(window.screenWidth)
-    // },[])
-
-    console.log(screenWidth)
     
     const style = {
         background: bgColor,
@@ -26,8 +18,6 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
         position: "relative",
         left: "6.041666666666667vw"
     }
-
-
 
     const productBottomLeftFrontIMg = {
         width: `${bottomTextImgWidth}vw`,

@@ -18,7 +18,7 @@ import Products_Cosmetics from './pages/Products_Cosmetics/Products_Cosmetics';
 import Products_Fragrance from './pages/Products_Fragrance/Products_Fragrance';
 import Products_Sexual from './pages/Products_Sexual/Products_Sexual';
 import NotFound from './pages/NotFound/NotFound';
-
+import Exports from './pages/Exports/Exports';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/ourTeam",
     element: <OurTeam></OurTeam>
+  },
+  {
+    path:"/exports",
+    element: <Exports></Exports>
   },
   {
     path: "/productsPharma",
@@ -63,17 +67,20 @@ const router = createBrowserRouter([
   },
   {
     path: "/productsSexual",
-    element:<Products_Sexual></Products_Sexual>
+    element: <Products_Sexual></Products_Sexual>
   },
   {
-    path:"*",
-    element:<NotFound></NotFound>
-  }
+    path: "*",
+    element: <NotFound></NotFound>
+  },
+  
 
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+
+      <RouterProvider router={router} />
+    
   </React.StrictMode>
 );

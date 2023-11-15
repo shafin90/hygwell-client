@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import './AboutUs_AboutUsPage.css'
 import { useState } from "react";
 
-const AboutUs_AboutUsPage = () => {
+const AboutUs_AboutUsPage = ({heading}) => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
     return (
         <Container fluid className=" position-relative ">
@@ -10,7 +10,7 @@ const AboutUs_AboutUsPage = () => {
             <img className="bgRightSideImgAboutPage" src="/assets/Images/Subtract (3).png" alt="" />
             <Container fluid className="aboutUs_AboutUsPage">
                 <h1>
-                    About Us
+                    {heading}
                 </h1>
 
                 <article>

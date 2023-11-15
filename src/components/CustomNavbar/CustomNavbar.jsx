@@ -39,7 +39,7 @@ const CustomNavbar = () => {
                         {/*Dropdown menu---------------  */}
 
                         <Link className="nav-menu text-decoration-none" to="#link">Services</Link>
-                        <Link className="nav-menu text-decoration-none" to="#link">Exports</Link>
+                        <Link className="nav-menu text-decoration-none" to="/exports">Exports</Link>
                         <Link className="nav-menu text-decoration-none " to="/aboutUs">About Us</Link>
                         <Link className="nav-menu text-decoration-none" to="/ourTeam">Our Team</Link>
                         <Link className="nav-menu text-decoration-none" to="/contactUs">Contact Us</Link>

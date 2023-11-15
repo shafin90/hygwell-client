@@ -5,6 +5,7 @@
 1. rightSideImg: different pages contain different image at the top-right corner. this props take that image.
 */
 
+import LazyLoad from 'react-lazy-load';
 import './BackgroundImageContainer.css'
 const BackgroundImageContainer = ({ rightSideImg }) => {
     return (
@@ -12,9 +13,13 @@ const BackgroundImageContainer = ({ rightSideImg }) => {
         <div style={{ zIndex: "0" }} className=" d-flex  justify-content-between  align-content-center position-absolute top-0  w-100 ">
 
             {/* left-side-image-background: This is the left side imaage */}
-            <img className="left-side-image-background" src="/assets/Images/Subtract.png" alt="" />
+            <LazyLoad >
+                <img className="left-side-image-background" src="/assets/Images/Subtract.png" alt="" />
+            </LazyLoad>
             {/* right-side-image-background: This is the right side image */}
-            <img className="right-side-image-background" src={rightSideImg} alt="" />
+            <LazyLoad >
+                <img className="right-side-image-background" src={rightSideImg} alt="" />
+            </LazyLoad>
         </div>
     );
 };
