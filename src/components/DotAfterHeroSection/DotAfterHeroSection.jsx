@@ -3,8 +3,8 @@ import './DotAfterHeroSection.css'
 
 const DotAfterHeroSection = () => {
     return (
-        <Container  className=" d-flex  justify-content-center  align-content-center ">
-            <img className="dotAfterHeroSectionImg" src="/assets/Images/Slider Cues.png" alt="" />
+        <Container  className=" d-flex  justify-content-center  align-content-center pt-5  mb-5 ">
+            <img className="dotAfterHeroSectionImg mb-5 " src="/assets/Images/Slider Cues.png" alt="" />
         </Container>
     );
 };

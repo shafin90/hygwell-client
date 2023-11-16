@@ -1,31 +1,23 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-
-const SmallDescriptionWithHeading = ({ fontWeight, fontFamily, textAlign, heading, article, fontSizeOfHeading, fontSizeOfArticle }) => {
+const SmallDescriptionWithHeading = ({ headingClass, heading, article }) => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth) // Contains the width of screen
 
+    // Use the useEffect hook to update the screenWidth state whenever the window size changes
+    useEffect(() => {
+        const handleResize = () => setScreenWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
-    const style = {
-        // width: width,
-        textAlign: textAlign,
-        fontFamily: fontFamily
-    }
 
     return (
-        <div style={style}>
-            <h1 className={screenWidth < 575 && "mb-2"}
-                style={{
-                    fontWeight: `${screenWidth < 575 ? "600" : fontWeight}`,
-                    fontSize: `${screenWidth < 575 ? "9vw" : fontSizeOfHeading}`
-                }}>
+        <div>
+            <h1 className={headingClass}>
                 {heading}
             </h1>
 
-            <article
-                style={{
-                    fontSize: `${screenWidth < 575 ? "4vw" : fontSizeOfArticle}`,
-                    fontFamily: fontFamily
-                }}>
+            <article className=" text-muted " >
                 {article}
             </article>
         </div>

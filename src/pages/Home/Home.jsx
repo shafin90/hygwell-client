@@ -15,9 +15,9 @@ import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
     return (
-        <Container fluid className=" px-0  overflow-x-hidden overflow-y-hidden  ">            
+        <Container fluid className=" px-0  overflow-x-hidden overflow-y-hidden ">            
             <Banner      
-            heading="Welcome to HYGWELL"
+            heading="Welcome To HYGWELL"
             article="Your Trusted Partner in Healthcare Solutions"
             btn={true}
             fontweightOfArticle="500"

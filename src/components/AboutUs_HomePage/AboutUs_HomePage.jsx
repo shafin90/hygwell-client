@@ -8,13 +8,12 @@ import CounterInAboutUsHomePage from "../CounterInAboutUsHomePage/CounterInAbout
 
 const AboutUs_HomePage = () => {
     return (
-        <Container fluid>
-            <Row >
-
+        <Container fluid className=" mb-5 ">
+            <Row className=" d-flex  justify-content-evenly  align-content-center " >
                 {/* left side that contains image====================== */}
-                <Col className=" position-relative  d-sm-flex justify-content-sm-center  align-items-sm-center " md={6}>
-                    <h1 className=" aboutUs">About <br></br> Us</h1>
-                    <img className="aboutUsImage_Homepage_image" src="/assets/Images/Artwork (1).png" alt="" />
+                <Col md={5} className=" position-relative  d-sm-flex justify-content-sm-center  align-items-sm-center ">
+                    <h1 className=" aboutUs text-white h1 fw-bold  display-5 ">About <br></br> Us</h1>
+                    <img className=" img-fluid  " src="/assets/Images/Artwork (1).png" alt="" />
                 </Col>
 
                 {/* Right side that contains text======================= */}
@@ -24,12 +23,8 @@ const AboutUs_HomePage = () => {
                     <SmallDescriptionWithHeading
                         heading="We Have You Covered!"
                         article="At HygWell , we are dedicated to delivering top-quality pharmaceutical and healthcare solutions. Explore our wide range of products and services designed to enhance health and well-being."
-                        width="100%"
-                        textAlign="start"
-                        fontSizeOfHeading="1.9444444444444444vw"
-                        fontSizeOfArticle="1.15vw"
-                        fontWeight="500"
-                        fontFamily="'Roboto', sans-serif"
+                       headingClass="h3 fw-bold "
+
                     ></SmallDescriptionWithHeading>
 
                     <div className="counterInAbout_HomePage_Container d-flex justify-content-around   align-content-center w-100  ">

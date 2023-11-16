@@ -4,15 +4,19 @@ import { useEffect, useState } from "react";
 import { BsDiscord, BsInstagram, BsTwitter } from 'react-icons/bs'
 
 const ContactInformation_ContactUsPage = () => {
-    const [screenWidth, setScreenWidth] = useState()
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
     const [isHoverTwitterIcon, setIsHoverTwitterIcon] = useState(false);
     const [isHoverInstaIcon, setIsHoverInstaIcon] = useState(false);
     const [isHoverDiscordIcon, setIsHoverDiscordIcon] = useState(false);
 
+
+    // Use the useEffect hook to update the screenWidth state whenever the window size changes
+    useEffect(() => {
+        const handleResize = () => setScreenWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
     
-    useEffect(()=>{
-        setScreenWidth(window.innerWidth)
-    },[])
     return (
         <Container className="contactInformation_ContactUsPage d-flex justify-content-center align-items-center  px-0  py-5  ">
             <Row className=" w-100 " >
@@ -52,9 +56,9 @@ const ContactInformation_ContactUsPage = () => {
                                 onMouseLeave={() => setIsHoverTwitterIcon(false)}
                                 className={isHoverTwitterIcon && "bg-white"}
                             >
-                                <BsTwitter 
-                                
-                                style={{color:isHoverTwitterIcon?"#545E3B":"white"}}
+                                <BsTwitter
+
+                                    style={{ color: isHoverTwitterIcon ? "#545E3B" : "white" }}
                                 ></BsTwitter>
                             </div>
 
@@ -63,9 +67,9 @@ const ContactInformation_ContactUsPage = () => {
                                 onMouseLeave={() => setIsHoverInstaIcon(false)}
                                 className={isHoverInstaIcon && "bg-white"}
                             >
-                                <BsInstagram 
-                                
-                                style={{color:isHoverInstaIcon?"#545E3B":"white"}}
+                                <BsInstagram
+
+                                    style={{ color: isHoverInstaIcon ? "#545E3B" : "white" }}
                                 ></BsInstagram>
                             </div>
 
@@ -74,14 +78,14 @@ const ContactInformation_ContactUsPage = () => {
                                 onMouseLeave={() => setIsHoverDiscordIcon(false)}
                                 className={isHoverDiscordIcon && "bg-white"}
                             >
-                                <BsDiscord 
-                                
-                                style={{color:isHoverDiscordIcon?"#545E3B":"white"}}
+                                <BsDiscord
+
+                                    style={{ color: isHoverDiscordIcon ? "#545E3B" : "white" }}
                                 ></BsDiscord>
                             </div>
 
                         </div>
-{/* 
+                        {/* 
                         <img className="floatingImageOne_ContactUsPage" src="/assets/Images/Ellipse 793.png" alt="" />
                         <img className="floatingImageTwo_ContactUsPage" src="/assets/Images/Ellipse 794.png" alt="" /> */}
 

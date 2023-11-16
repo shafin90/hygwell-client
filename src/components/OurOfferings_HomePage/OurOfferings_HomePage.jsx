@@ -10,6 +10,8 @@ CSS class explaination:
 import { useEffect, useState } from 'react';
 import OfferCard_HomePage from '../OfferCard_HomePage/OfferCard_HomePage';
 import './OurOfferings_HomePage.css'
+import { Col, Container, Row } from 'react-bootstrap';
+import { IoArrowForwardSharp, IoArrowBackOutline } from "react-icons/io5";
 
 const OurOfferings_HomePage = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -45,63 +47,65 @@ const OurOfferings_HomePage = () => {
     }
 
     return (
-        <div className="offerings_homepage position-relative " >
-            <div className="mb-5 mb-md-0 mb-lg-0  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start   mx-0  mx-md-5  mx-lg-5  ">
-                <h1 className="heading-offer-homepage ">
+        <Container style={{ backgroundColor: "#f3f3eb" }} fluid className="position-relative  py-5 px-0 mb-5 ">
+            <Container className="mb-5  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start  px-0  ">
+                <h1 className="h1 fw-bold  display-5  ">
                     Our Offerings
                 </h1>
 
-                <button className="btn-explore">
+                <button className="btn btn-outline-success  fw-bold  px-5  py-3  rounded-3 ">
                     Explore
                 </button>
-            </div>
+            </Container>
 
 
-            <div style={{ transition: "1s", position: "relative", right: `${right}vw` }} className=' offersContainer d-flex  justify-content-between  align-items-center '>
-                <OfferCard_HomePage
-                    leftImg="/assets/Images/Group 1171282609.png"
-                    rightImg="/assets/Images/Mask group.png"
-                    heading="Hotel and Hospitality"
-                    offer1="Shower Gels (Body and Hair)"
-                    offer2="Hand Wash"
-                    offer3="Lotions"
-                    offer4="Hair Conditioner"
-                ></OfferCard_HomePage>
+            <Container className='px-0 position-relative d-flex justify-content-start  align-items-center mb-5'>
 
-                <OfferCard_HomePage
-                    leftImg="/assets/Images/Group 1171282609 (1).png"
-                    rightImg="/assets/Images/Mask group (1).png"
-                    heading="Private Labelling"
-                    offer1="Custom Labeling"
-                    offer2="Innovative Packaging"
-                    offer3="Various Product Formats"
-                    offer4=""
+                <Row>
+                    <Col md={4}>
+                        <OfferCard_HomePage
+                            leftImg="/assets/Images/Group 1171282609.png"
+                            rightImg="/assets/Images/Mask group.png"
+                            heading="Hotel and Hospitality"
+                            offer1="Shower Gels (Body and Hair)"
+                            offer2="Hand Wash"
+                            offer3="Lotions"
+                            offer4="Hair Conditioner"
+                        ></OfferCard_HomePage>
+                    </Col>
 
-                ></OfferCard_HomePage>
+                    <Col md={4}>
+                        <OfferCard_HomePage
+                            leftImg="/assets/Images/Group 1171282609 (1).png"
+                            rightImg="/assets/Images/Mask group (1).png"
+                            heading="Private Labelling"
+                            offer1="Custom Labeling"
+                            offer2="Innovative Packaging"
+                            offer3="Various Product Formats"
+                            offer4=""
+                        ></OfferCard_HomePage>
+                    </Col>
 
-                <OfferCard_HomePage
-                    leftImg="/assets/Images/Group 1171282609 (2).png"
-                    rightImg="/assets/Images/Mask group (1).png"
-                    heading="Turnkey Consultants"
-                    offer1="Turnkey Consultation"
-                    offer2="Project Execution"
-                    offer3="Enterprise for Pharma, Herbal, etc."
-                    offer4=""
+                    <Col md={4}>
+                        <OfferCard_HomePage
+                            leftImg="/assets/Images/Group 1171282609 (2).png"
+                            rightImg="/assets/Images/Mask group (1).png"
+                            heading="Turnkey Consultants"
+                            offer1="Turnkey Consultation"
+                            offer2="Project Execution"
+                            offer3="Enterprise for Pharma, Herbal, etc."
+                            offer4=""
+                        ></OfferCard_HomePage>
+                    </Col>
+                </Row>
 
-                ></OfferCard_HomePage>
-            </div>
-
-            {/* Slider buttons */}
-            <div className=' d-flex  justify-content-end  align-items-center mt-5 mt-md-0 mt-lg-0 ' >
-                <img onClick={handleSliderMoveToRight} className='sliderBtn' src="/assets/Images/Button (1).png" alt="" />
-                <img onClick={handleSliderMoveToLeft} className='sliderBtn' src="/assets/Images/Button.png" alt="" />
-            </div>
+            </Container>
 
             {/* left band and right band = those are floating object  */}
             <img className=' leftBand' src="/assets/Images/Left Band 1.png" alt="" />
             <img className=' rightBand' src="/assets/Images/Right Band 2.png" alt="" />
 
-        </div>
+        </Container>
     );
 };
 

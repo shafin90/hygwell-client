@@ -1,10 +1,17 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './OurVision.css'
 import SmallDescriptionWithHeading from '../SmallDescriptionWithHeading/SmallDescriptionWithHeading';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const OurVision = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+    // Use the useEffect hook to update the screenWidth state whenever the window size changes
+    useEffect(() => {
+        const handleResize = () => setScreenWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
     return (
         <Container className=' position-relative ' fluid>
             <Row>
@@ -26,28 +33,28 @@ const OurVision = () => {
                         fontSizeOfArticle="1.25vw"
                     ></SmallDescriptionWithHeading>
 
-                    <p  style={{ marginTop: "3.263888888888889vw", fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500" }}>
-                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
+                    <p style={{ marginTop: "3.263888888888889vw", fontSize: `${screenWidth < 576 ? "4vw" : "1.25vw"}`, fontWeight: "500" }}>
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
                         Adapting to Consumer Preferences
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
+                    <p style={{ fontSize: `${screenWidth < 576 ? "4vw" : "1.25vw"}`, fontWeight: "500" }}>
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
                         International presence & high-quality healthcare.
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
+                    <p style={{ fontSize: `${screenWidth < 576 ? "4vw" : "1.25vw"}`, fontWeight: "500" }}>
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
                         Personalized and AI Crafted Products
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
+                    <p style={{ fontSize: `${screenWidth < 576 ? "4vw" : "1.25vw"}`, fontWeight: "500" }}>
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
                         Ethical & Responsible Practices
                     </p>
 
-                    <p style={{fontSize:`${screenWidth<576?"4vw":"1.25vw"}`, fontWeight:"500"}}>
-                        <img className='tickSign' src="/assets/Images/Subtract (2).png"  alt="" />
+                    <p style={{ fontSize: `${screenWidth < 576 ? "4vw" : "1.25vw"}`, fontWeight: "500" }}>
+                        <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
                         Sustainable Compliance Approach
                     </p>
                 </Col>

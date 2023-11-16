@@ -3,17 +3,20 @@ import './Footer.css'
 import { useEffect, useState } from "react";
 
 const Footer = () => {
-    const [screenWidth, setScreenWidth] = useState()
-    useEffect(()=>{
-        setScreenWidth(window.innerWidth)
-    },[])
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+    // Use the useEffect hook to update the screenWidth state whenever the window size changes
+    useEffect(() => {
+        const handleResize = () => setScreenWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
     return (
         <Container className="footer" fluid>
             <Row>
-                <Col lg={4} md={4}  className=" position-relative ">
+                <Col lg={4} md={4} className=" position-relative ">
 
                     <img className="logo" src="/assets/Images/HYGWELL-_-Logo-_-Final-1 1.png" alt="" />
-                    <article style={{ width:`${screenWidth<575?"90.791666668vw":"19.791666666666668vw"}` , marginTop: "1.8055555555555556vw", marginBottom: "0.8333333333333334vw" }}>
+                    <article style={{ width: `${screenWidth < 575 ? "90.791666668vw" : "19.791666666666668vw"}`, marginTop: "1.8055555555555556vw", marginBottom: "0.8333333333333334vw" }}>
                         HYGWELL - Your premier source for top-notch healthcare solutions, designed to enhance health and well-being worldwide.
                     </article>
 
@@ -22,7 +25,7 @@ const Footer = () => {
                     {/* Background */}
                     <img className="bg2Footer" src="/assets/Images/Rectangle (5).png" alt="" />
                     <img className="bg1Footer" src="/assets/Images/Rectangle (6).png" alt="" />
-                    
+
                 </Col>
 
 

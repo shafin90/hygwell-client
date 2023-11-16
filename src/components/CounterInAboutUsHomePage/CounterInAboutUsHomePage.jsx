@@ -4,12 +4,12 @@ const CounterInAboutUsHomePage = ({ num, category }) => {
 
     return (
         <div  className=' d-flex flex-column  justify-content-between align-items-center  '>
-            <h1 className='counterInAboutUs_heading'>
+            <h1 className='h1 fw-bold display-5  '>
                 {num}
             </h1>
 
-            <img className='counterInAboutUs_img' src="/assets/Images/Rectangle.png" alt="" />
-            <p className='counterInAboutUs_para'>{category}</p>
+            <img className=' w-100 ' src="/assets/Images/Rectangle.png" alt="" />
+            <p className=' fs-5 '>{category}</p>
         </div>
     );
 };
