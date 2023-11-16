@@ -1,0 +1,112 @@
+.WhyChoosContainer {
+    position: relative;
+    left: 17vw;
+}
+
+.whyChoose_ExportPage {
+    position: relative;
+
+    width: 8.005555555555555vw;
+    height: 1.8972222222222223vw;
+    background: #E8E8E880;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyChoose_ExportPage div {
+    position: absolute;
+    display: inline-block;
+    width: 0.3vw;
+    height: 1.8972222222222223vw;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    left: 0px;
+
+}
+
+.whyChoose_ExportPage p {
+    font-size: 0.9722222222222222vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.WhyChoosContainer h1 {
+    font-size: 2.4305555555555554vw;
+    font-weight: 600;
+    line-height: 2.8805555555555555vw;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1vw;
+}
+
+.WhyChoosContainer article {
+    font-family: 'Krub', sans-serif;
+    color: #666C89;
+    width: 34vw;
+    font-size: 1.1111111111111112vw;
+}
+
+@media screen and (max-width: 575px) {
+    .boxContent_ExportsPage {
+        width: 85.861111vw;
+        height: 96.305556vw;
+        border-radius: 2.0833333333333335vw;
+        /* box-shadow: 10px 10px 10px 10px; */
+    }
+
+    .boxContent_ExportsPage img {
+        width: 25.083333vw;
+        height: 25.083333vw;
+    }
+
+    .boxContent_ExportsPage h3 {
+        font-size: 5.111111vw;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .boxContent_ExportsPage ul li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.972222vw;
+        line-height: 6.388889vw;
+        color: #737373;
+    }
+
+    .whyChoose_ExportPage {
+        position: relative;
+        width: 48.005556vw;
+        height: 9.897222vw;
+    }
+
+    .whyChoose_ExportPage p {
+        font-size: 3.972222vw;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .whyChoose_ExportPage div {
+        position: absolute;
+        display: inline-block;
+        width: 2.3vw;
+        height: 9.897222vw;
+    }
+    .WhyChoosContainer {
+        position: relative;
+        left: 8vw;
+    }
+
+    .WhyChoosContainer h1 {
+        font-size: 7.430556vw;
+        font-weight: 600;
+        line-height: 7.880556vw;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 4vw;
+    }
+    .WhyChoosContainer article {
+        font-family: 'Krub', sans-serif;
+        color: #666C89;
+        width: 90vw;
+        font-size: 4.111111vw;
+    }
+    .reasonContainerWhyChoose_ExportsPage{
+        gap: 7vw;
+    }
+    
+}

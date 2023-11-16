@@ -1,0 +1,18 @@
+.reasonContainerWhyChoose_ExportsPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 65vw;
+    gap: 2vw;
+}
+
+@media screen and (max-width: 575px) {
+    .reasonContainerWhyChoose_ExportsPage {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 65vw;
+        gap: 2vw;
+    }
+
+}

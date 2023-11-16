@@ -3,6 +3,11 @@ import Banner from "../../components/Banner/Banner";
 import BackgroundImageContainer from "../../components/BackgroundImageContainer/BackgroundImageContainer";
 import AboutUs_AboutUsPage from "../../components/AboutUs_AboutUsPage/AboutUs_AboutUsPage";
 import Footer from "../../components/Footer/Footer";
+import BoxContentContainer_ExportPage from "../../components/BoxContentContainer_ExportPage/BoxContentContainer_ExportPage";
+import WhyChoose_ExportPage from "../../components/WhyChoose_ExportPage/WhyChoose_ExportPage";
+import SmallDescriptionWithHeading from "../../components/SmallDescriptionWithHeading/SmallDescriptionWithHeading";
+import BeforeFooter_HomePage from "../../components/BeforeFooter_HomePage/BeforeFooter_HomePage";
+import ReasonContainerWhyChoose_ExportsPage from "../../components/ReasonContainerWhyChoose_ExportsPage/ReasonContainerWhyChoose_ExportsPage";
 
 
 const Exports = () => {
@@ -14,14 +19,19 @@ const Exports = () => {
                 btn={false}
                 fontweightOfArticle="500"
             ></Banner>
-             <BackgroundImageContainer
-            rightSideImg="/assets/Images/Group 1171282607 (3).png"
+            <BackgroundImageContainer
+                rightSideImg="/assets/Images/Group 1171282607 (3).png"
             ></BackgroundImageContainer>
 
             <AboutUs_AboutUsPage
-            heading="Exports Credo"
+                heading="Exports Credo"
             ></AboutUs_AboutUsPage>
 
+            <BoxContentContainer_ExportPage></BoxContentContainer_ExportPage>
+
+            <WhyChoose_ExportPage></WhyChoose_ExportPage>
+            <ReasonContainerWhyChoose_ExportsPage></ReasonContainerWhyChoose_ExportsPage>
+            <BeforeFooter_HomePage></BeforeFooter_HomePage>
             <Footer></Footer>
         </Container>
     );

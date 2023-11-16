@@ -1,0 +1,14 @@
+.reasonOfWhyChoose_ExportsPage{
+
+}
+.reasonOfWhyChoose_ExportsPage img {
+    width: 4.375vw;
+    height: 4.375vw;
+}
+
+@media screen and (max-width: 575px) {
+    .reasonOfWhyChoose_ExportsPage img {
+        width: 10.375vw;
+        height: 10.375vw;
+    }
+}

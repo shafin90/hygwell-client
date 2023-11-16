@@ -1,0 +1,25 @@
+.boxContent_ExportsPage {
+    width: 29.86111111111111vw;
+    height: 24.305555555555557vw;
+    border-radius: 2.0833333333333335vw;
+    /* box-shadow: 10px 10px 10px 10px; */
+}
+
+.boxContent_ExportsPage img {
+    width: 7.083333333333333vw;
+    height: 7.083333333333333vw;
+}
+
+.boxContent_ExportsPage h3 {
+    font-size: 1.1111111111111112vw;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:2vw;
+}
+
+.boxContent_ExportsPage ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #737373;
+}
