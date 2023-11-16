@@ -10,7 +10,7 @@ import './BackgroundImageContainer.css'
 const BackgroundImageContainer = ({ rightSideImg }) => {
     return (
         // set z-index:0, because it will be at the backside of all the pages.
-        <div style={{ zIndex: "0" }} className=" d-flex  justify-content-between  align-content-center position-absolute top-0  w-100 ">
+        <div style={{ zIndex: "0" }} className=" d-flex  justify-content-between  align-content-center position-absolute top-0  w-100 overflow-x-hidden  ">
 
             {/* left-side-image-background: This is the left side imaage */}
             <LazyLoad >
