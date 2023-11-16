@@ -7,7 +7,7 @@ const TechniqalHealthCareSection_HomPage = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
     return (
-        <Container fluid className="techniqalHealthCareSection_HomPage px-0 ">
+        <Container fluid className="techniqalHealthCareSection_HomPage px-0  overflow-x-hidden ">
             <img src="/assets/Images/Group 1171282611.png" alt="" />
             <h1 className=' text-center z-1  position-relative takingHealthCareHeading '>
                 Taking Healthcare Global-Minded
