@@ -7,7 +7,11 @@ const ProductShowCase_HomePage = () => {
     return (
         <Container fluid style={{ backgroundColor: "#cddfaa" }} className=" py-5  mb-5 ">
             <Container className="d-flex justify-content-between align-items-center px-0">
-                <h1 className="h1 fw-bold">Product Showcase</h1>
+                <h1 className="h1 fw-bold">
+                    <Slide duration={500}>
+                        Product Showcase
+                    </Slide>
+                </h1>
 
                 <AttentionSeeker effect="rubberBand">
                     <button className="btn btn-outline-success fw-bold px-5 py-3 rounded-3">

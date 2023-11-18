@@ -12,46 +12,18 @@ import OfferCard_HomePage from '../OfferCard_HomePage/OfferCard_HomePage';
 import './OurOfferings_HomePage.css'
 import { Col, Container, Row } from 'react-bootstrap';
 import { IoArrowForwardSharp, IoArrowBackOutline } from "react-icons/io5";
-import { AttentionSeeker, Bounce, Fade } from 'react-awesome-reveal';
+import { AttentionSeeker, Bounce, Fade, Slide } from 'react-awesome-reveal';
 
 const OurOfferings_HomePage = () => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-    const [scrollLimit, setScrollLimit] = useState(30)
-    const [right, setRight] = useState(0)
-
-    useEffect(() => {
-        if (screenWidth < 576) {
-            setScrollLimit(250)
-        }
-    }, [])
-
-    // This function specifies how the slider move to left direction
-    const handleSliderMoveToLeft = () => {
-        if (right >= 0 && right < scrollLimit) {
-            const newSliderPosition = right + 15;
-            setRight(newSliderPosition)
-        }
-        else {
-            setRight(0)
-        }
-    }
-
-    // This function specifies how the slider move to right direction
-    const handleSliderMoveToRight = () => {
-        if (right >= 0 && right < scrollLimit) {
-            const newSliderPosition = right - 15;
-            setRight(newSliderPosition)
-        }
-        else {
-            setRight(0)
-        }
-    }
 
     return (
         <Container style={{ backgroundColor: "#f3f3eb" }} fluid className="position-relative  py-5 px-0 mb-5 ">
             <Container className="mb-5  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start  px-md-0 px-lg-0 px-xl-0 px-xxl-0  ">
                 <h1 className="h1 fw-bold  display-5 mb-3 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0">
-                    Our Offerings
+
+                    <Slide duration={500}>
+                        Our Offerings
+                    </Slide>
                 </h1>
                 <AttentionSeeker effect='rubberBand' >
                     <button className="btn btn-outline-success  fw-bold  px-5  py-3  rounded-3 ">
