@@ -14,7 +14,7 @@ const SmallDescriptionWithHeading = ({ headingClass, articleClass, heading, arti
             </h1>
 
 
-            <article className={articleClass ? "text-muted position-relative z-2 text-center pb-4   px-4 " : "text-muted position-relative z-2"} >
+            <article className={articleClass ? "text-muted position-relative z-2 text-center pb-4   px-0 px-md-4 px-lg-4 px-xl-4 px-xxl-4" : "text-muted position-relative z-2"} >
                 <Fade duration={1500}>
                     {article}
                 </Fade>

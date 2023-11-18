@@ -3,7 +3,7 @@ import SmallDescriptionWithHeading from '../SmallDescriptionWithHeading/SmallDes
 const TechniqalHealthCareCard_HomePage = ({cardImg, heading, article}) => {
     
     return (
-        <div className="w-100  position-relative pb-5 ">
+        <div className="w-100 position-relative pb-5 ">
             <div className='w-100 d-flex justify-content-center align-items-center mb-3'>
                 <img className=' mx-auto position-relative z-2'  src={cardImg} alt="" />
             </div>
