@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './Footer.css'
 import { useEffect, useState } from "react";
+import { AttentionSeeker, Slide } from "react-awesome-reveal";
 
 const Footer = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -54,10 +55,12 @@ const Footer = () => {
 
                 <Col lg={4} md={2} className=" px-0 " >
                     <ul className=" social_link d-flex  justify-content-center  align-items-center ">
-                        <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9.png" alt="" /></a></li>
-                        <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy.png" alt="" /></a></li>
-                        <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy 2.png" alt="" /></a></li>
-                        <li><a href="#"><img src="/assets/Images/Group 9 Copy 3.png" alt="" /></a></li>
+                        <AttentionSeeker effect="rubberBand" cascade>
+                            <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9.png" alt="" /></a></li>
+                            <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy.png" alt="" /></a></li>
+                            <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy 2.png" alt="" /></a></li>
+                            <li><a href="#"><img src="/assets/Images/Group 9 Copy 3.png" alt="" /></a></li>
+                        </AttentionSeeker>
                     </ul>
                 </Col>
 
