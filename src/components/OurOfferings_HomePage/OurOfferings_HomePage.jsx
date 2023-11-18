@@ -49,8 +49,8 @@ const OurOfferings_HomePage = () => {
 
     return (
         <Container style={{ backgroundColor: "#f3f3eb" }} fluid className="position-relative  py-5 px-0 mb-5 ">
-            <Container className="mb-5  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start  px-0  ">
-                <h1 className="h1 fw-bold  display-5  ">
+            <Container className="mb-5  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start  px-md-0 px-lg-0 px-xl-0 px-xxl-0  ">
+                <h1 className="h1 fw-bold  display-5 mb-3 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0">
                     Our Offerings
                 </h1>
                 <AttentionSeeker effect='rubberBand' >
@@ -64,7 +64,7 @@ const OurOfferings_HomePage = () => {
             <Container className='px-0 position-relative d-flex justify-content-start  align-items-center mb-5'>
                 <Fade duration={2000}>
                     <Row>
-                        <Col md={4}>
+                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-1  px-lg-1 px-xxl-1 '>
                             <OfferCard_HomePage
                                 leftImg="/assets/Images/Group 1171282609.png"
                                 rightImg="/assets/Images/Mask group.png"
@@ -76,7 +76,7 @@ const OurOfferings_HomePage = () => {
                             ></OfferCard_HomePage>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-1  px-lg-1 px-xxl-1 '>
                             <OfferCard_HomePage
                                 leftImg="/assets/Images/Group 1171282609 (1).png"
                                 rightImg="/assets/Images/Mask group (1).png"
@@ -88,7 +88,7 @@ const OurOfferings_HomePage = () => {
                             ></OfferCard_HomePage>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-1  px-lg-1 px-xxl-1 '>
                             <OfferCard_HomePage
                                 leftImg="/assets/Images/Group 1171282609 (2).png"
                                 rightImg="/assets/Images/Mask group (1).png"

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const CustomNavbar = () => {
     return (
         <Navbar expand="lg" className="py-0 w-100 mb-5  mt-4  ">
-            <Container  className=" d-flex  justify-content-between  align-content-center px-0 mx-0  mx-auto " >
+            <Container  className=" d-flex  justify-content-between  align-content-center px-md-0 px-lg-0 px-xl-0  px-xxl-0 mx-0  mx-auto " >
 
                 {/* Logo of this website */}
                 <Navbar.Brand href="#home">

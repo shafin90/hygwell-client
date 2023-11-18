@@ -13,7 +13,7 @@ const AboutUs_HomePage = () => {
             <Row className="d-flex justify-content-evenly align-content-center">
                 {/* left side that contains image====================== */}
 
-                <Col md={5} className=" position-relative  d-sm-flex justify-content-sm-center  align-items-sm-center ">
+                <Col md={5} className=" position-relative  d-sm-flex justify-content-sm-center  align-items-sm-center mb-3 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0  ">
                     <JackInTheBox>
                         <div>
                             <h1 className=" aboutUs text-white h1 fw-bold display-6 ">About <br></br> Us</h1>
@@ -34,7 +34,7 @@ const AboutUs_HomePage = () => {
 
                     ></SmallDescriptionWithHeading>
 
-                    <div className="counterInAbout_HomePage_Container d-flex justify-content-around   align-content-center w-100  ">
+                    <div className="counterInAbout_HomePage_Container d-flex justify-content-around   align-content-center w-100 mt-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 ">
 
                         {/* ===Counter=== */}
                         <CounterInAboutUsHomePage
