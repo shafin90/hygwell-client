@@ -13,8 +13,8 @@ const HeroSection = ({ heading, article, btn }) => {
                     <Zoom duration={1500} triggerOnce >
                         <article className="fs-5 mb-4">{article}</article>
 
-                        <div className={!btn ? "d-none" : "d-flex justify-content-start align-content-center w-100"}>
-                            <button className="btn btn-green text-white rounded-3 px-4 py-3 fw-semibold me-3">Get Started</button>
+                        <div className={!btn ? "d-none" : "d-flex flex-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row justify-content-start align-content-center w-100"}>
+                            <button className="btn btn-green text-white rounded-3 px-4 py-3 fw-semibold me-3 mb-4 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">Get Started</button>
                             <button className="btn focus-ring focus-ring-success text-green px-4 py-3 fw-semibold">
                                 <img className="play-icon" src="/assets/Images/Essential icon.png" alt="" />
                                 Watch video

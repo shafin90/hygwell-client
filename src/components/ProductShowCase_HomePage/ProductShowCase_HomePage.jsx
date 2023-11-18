@@ -20,7 +20,7 @@ const ProductShowCase_HomePage = () => {
                 <Fade duration={1500} >
                     <Row className="mt-5 d-flex justify-content-between align-items-center px-0">
 
-                        <Col md={4}>
+                        <Col md={4} className=" mb-5  mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">
                             <ProductShowCaseCard_HomePage
                                 productImg="/assets/Images/kindpng_5568993 1.png"
                                 category="Pharmaceuticals"
@@ -28,7 +28,7 @@ const ProductShowCase_HomePage = () => {
                             ></ProductShowCaseCard_HomePage>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={4} className=" mb-5  mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">
                             <ProductShowCaseCard_HomePage
                                 productImg="/assets/Images/kindpng_5568993 2.png"
                                 category="Generic Medicines"
@@ -36,7 +36,7 @@ const ProductShowCase_HomePage = () => {
                             ></ProductShowCaseCard_HomePage>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={4} className=" mb-5  mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">
                             <ProductShowCaseCard_HomePage
                                 productImg="/assets/Images/pngwing 1 (1).png"
                                 category="OTC Products"

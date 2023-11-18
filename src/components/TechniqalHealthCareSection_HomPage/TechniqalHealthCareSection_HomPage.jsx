@@ -1,20 +1,24 @@
 import { Col, Container, Row } from "react-bootstrap";
 import TechniqalHealthCareCard_HomePage from "../TechniqalHealthCareCard_HomePage/TechniqalHealthCareCard_HomePage";
+import './TechniqalHealthCareSection_HomPage.css'
 
 const TechniqalHealthCareSection_HomPage = () => {  
     return (
-        <Container fluid className="px-0  overflow-x-hidden position-relative w-100  mb-5 pb-5 ">
-            <img src="/assets/Images/Group 1171282611.png" className=" position-absolute w-100 z-0 " alt="" />
+        <Container fluid className="px-0 techniqalHealthCareSection_HomPage  overflow-x-hidden position-relative w-100  mb-5 pb-5 ">
+            
+            <img src="/assets/Images/Group 1171282611.png" className="bgOfTechniqalHealthCareSection_HomPage position-absolute z-0 " alt="" />
+            
             <h1 className=' text-center z-1 position-relative h1 display-5 fw-bold pt-5'>
                 Taking Healthcare Global-Minded
             </h1>
+            
             <p className=' text-center z-1 position-relative fs-5 mb-5  '>
                 Discover the core aspects that drive our organization, and make us a leading choice for pharmaceutical exports.
             </p>
 
             <Container className="d-flex justify-content-between align-items-center w-75 px-0" >
                 <Row>
-                    <Col md={4}>
+                    <Col md={4} className=" mb-5 mb-md-0 mb-xl-0 mb-xxl-0 mb-lg-0">
                         <TechniqalHealthCareCard_HomePage
                             cardImg="/assets/Images/Group 1171282609 (3).png"
                             heading="Global Reach"
@@ -23,7 +27,7 @@ const TechniqalHealthCareSection_HomPage = () => {
                         ></TechniqalHealthCareCard_HomePage>
                     </Col>
 
-                    <Col md={4}>
+                    <Col md={4} className=" mb-5 mb-md-0 mb-xl-0 mb-xxl-0 mb-lg-0">
                         <TechniqalHealthCareCard_HomePage
                             cardImg="/assets/Images/Group 1171282609 (4).png"
                             heading="Competitive Pricing"
@@ -32,7 +36,7 @@ const TechniqalHealthCareSection_HomPage = () => {
                         ></TechniqalHealthCareCard_HomePage>
                     </Col>
 
-                    <Col md={4}>
+                    <Col md={4} className=" mb-5 mb-md-0 mb-xl-0 mb-xxl-0 mb-lg-0">
                         <TechniqalHealthCareCard_HomePage
                             cardImg="/assets/Images/Group 1171282609 (5).png"
                             heading="Quality Assurance"

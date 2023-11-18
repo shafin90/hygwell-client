@@ -1,0 +1,14 @@
+.bgOfTechniqalHealthCareSection_HomPage{
+    width: 100vw;
+}
+
+@media screen and (max-width:575px) {
+    .bgOfTechniqalHealthCareSection_HomPage {
+        width: 776vw;
+        height: 335vw;
+        left: -107vw;
+    }
+    .techniqalHealthCareSection_HomPage{
+        height: 350vw;
+    }
+}
