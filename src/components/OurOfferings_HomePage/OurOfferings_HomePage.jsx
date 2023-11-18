@@ -53,7 +53,7 @@ const OurOfferings_HomePage = () => {
                 <h1 className="h1 fw-bold  display-5  ">
                     Our Offerings
                 </h1>
-                <AttentionSeeker effect='rubberBand' triggerOnce>
+                <AttentionSeeker effect='rubberBand' >
                     <button className="btn btn-outline-success  fw-bold  px-5  py-3  rounded-3 ">
                         Explore
                     </button>

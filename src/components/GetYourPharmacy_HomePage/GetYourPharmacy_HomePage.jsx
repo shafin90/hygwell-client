@@ -1,35 +1,47 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './GetYourPharmacy_HomePage.css'
 import { useState } from "react";
+import { Zoom, Fade, Slide, AttentionSeeker } from "react-awesome-reveal";
 
 const GetYourPharmacy_HomePage = () => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-    
+
+
     return (
-        <Container fluid className="getYourPharmacy">
+        <Container style={{ backgroundColor: "#1755a7" }} className=" position-relative  my-5 py-5 pe-5 rounded-5 z-0 " >
             <Row>
-                <Col sm={12} md={7} order={2} >
-                    <h1>
-                        Get your pharmacy
-                        very easily
-                    </h1>
-                    <img className="deviderImg" style={{ width:`${screenWidth<575?"100px":"139px"}`, height:`${screenWidth<575?"2px":"6px"}` }} src="/assets/Images/Rectangle 42567.png" alt="" />
+                <Col sm={12} md={8} order={1} className=" p-5">
+                    <Fade cascade>
+                        <h1 className=" h1 text-white fw-bold  display-3 mb-3 z-2 position-relative  ">
 
-                    <article>
-                        You can download app  in Playstore or Appstore. After
-                        that you can create an account in the application
-                    </article>
+                            Get your pharmacy
+                            very easily
 
-                    <div>
-                        <img className="downloadApp" src="/assets/Images/App Store.png" alt="" />
-                        <img className="downloadApp ms-3 " src="/assets/Images/Google Play.png" alt="" />
-                        <img className="indicatorOfApp" src="/assets/Images/idicator.png" alt="" />
-                    </div>
+                        </h1>
+                        {/* <img className="deviderImg" style={{ width:`${screenWidth<575?"100px":"139px"}`, height:`${screenWidth<575?"2px":"6px"}` }} src="/assets/Images/Rectangle 42567.png" alt="" /> */}
+
+                        <article className=" fs-5 text-white mb-4 mb-md-0  mb-lg-0 z-2 position-relative ">
+                            You can download app  in Playstore or Appstore. After
+                            that you can create an account in the application
+                        </article>
+                    </Fade>
+
+                    <AttentionSeeker effect="pulse">
+                        <div >
+                            <img style={{ cursor: "pointer" }} className=" z-2 " src="/assets/Images/App Store.png" alt="" />
+                            <img style={{ cursor: "pointer" }} className="mx-3 z-2 " src="/assets/Images/Google Play.png" alt="" />
+                            <img className=" d-none d-md-inline-block  d-lg-inline-block z-2 " src="/assets/Images/idicator.png" alt="" />
+                        </div>
+                    </AttentionSeeker>
+
                 </Col>
-                <Col sm={12} md={5} order={1}>
-                    <img className=" phoneImg " src="/assets/Images/phone.png" alt="" />
+                <Col sm={12} md={4} order={2} className="p-5 p-md-3  p-lg-3 ">
+                    <Zoom>
+                        <img className="img-fluid z-2" src="/assets/Images/phone.png" alt="" />
+                    </Zoom>
                 </Col>
             </Row>
+
+            <img src="../../../public/assets/Images/Mask group (3).png" className="position-absolute w-100 h-100   z-1 bottom-0  " alt="" />
         </Container>
     );
 };
