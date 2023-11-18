@@ -1,24 +1,23 @@
-import { useEffect, useState } from "react";
+import { Fade, Bounce, Roll, Zoom, Slide } from "react-awesome-reveal";
 
-const SmallDescriptionWithHeading = ({ headingClass, heading, article }) => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth) // Contains the width of screen
 
-    // Use the useEffect hook to update the screenWidth state whenever the window size changes
-    useEffect(() => {
-        const handleResize = () => setScreenWidth(window.innerWidth);
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
+const SmallDescriptionWithHeading = ({ headingClass, articleClass, heading, article }) => {
 
     return (
         <div>
+
+
             <h1 className={headingClass}>
-                {heading}
+                <Fade duration={1500}>
+                    {heading}
+                </Fade>
             </h1>
 
-            <article className=" text-muted " >
-                {article}
+
+            <article className={articleClass ? "text-muted position-relative z-2 text-center  px-3" : "text-muted position-relative z-2"} >
+                <Fade duration={1500}>
+                    {article}
+                </Fade>
             </article>
         </div>
     );

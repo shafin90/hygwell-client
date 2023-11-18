@@ -15,6 +15,7 @@ const Banner = ({heading, article, btn, fontweightOfArticle}) => {
     return (
         <Container fluid style={{zIndex:"1"}} className=" px-0  position-relative ">
             {/* This component contains navigation bar of this website */}
+           
             <CustomNavbar></CustomNavbar>
             
             {/* This component contains hero section of this website*/}

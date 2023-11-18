@@ -1,25 +1,23 @@
-import { useState } from 'react';
 import SmallDescriptionWithHeading from '../SmallDescriptionWithHeading/SmallDescriptionWithHeading';
-import './TechniqalHealthCareCard_HomePage.css'
 
 const TechniqalHealthCareCard_HomePage = ({cardImg, heading, article}) => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    
     return (
-        <div className="techniqalHealthCareCard_HomePage">
-            <div className=' w-100  d-flex  justify-content-center  align-items-center '>
-                <img  src={cardImg} alt="" />
+        <div className="w-100  position-relative ">
+            <div className='w-100 d-flex justify-content-center align-items-center mb-3'>
+                <img className='img-fluid mx-auto position-relative z-2'  src={cardImg} alt="" />
             </div>
-            <div className='techniqalHealthCareCard_HomePage_text'>
+            <div className='techniqalHealthCareCard_HomePage_text z-2 '>
                 <SmallDescriptionWithHeading
                     heading={heading}
                     article={article}
-                    textAlign="center"
-                    fontWeight="700"
-                    fontSizeOfHeading="1.875vw"
-                    fontSizeOfArticle="1.1111111111111112vw"
-                    fontFamily="'Poppins', sans-serif"
+                    headingClass="h4 fw-bold  text-center z-3 position-relative"
+                    articleClass={true}
                 ></SmallDescriptionWithHeading>
             </div>
+
+            {/* white absolute Backgrount */}
+            <div  className='bg-white  w-100  h-75 position-absolute rounded-top-5 bottom-0 z-1 '></div>
         </div>
     );
 };

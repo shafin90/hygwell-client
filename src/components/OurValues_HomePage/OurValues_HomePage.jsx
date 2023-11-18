@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import SmallDescriptionWithHeading from "../SmallDescriptionWithHeading/SmallDescriptionWithHeading";
 import "./OurValues_HomePage.css"
+import { JackInTheBox } from "react-awesome-reveal";
 
 const OurValues_HomePage = () => {
     return (
@@ -8,7 +9,9 @@ const OurValues_HomePage = () => {
             <Row className="d-flex justify-content-evenly align-items-center">
                 {/* Left side image */}
                 <Col md={5}>
-                    <img src="/assets/Images/Decoration.jpg" className=" img-fluid " alt="" />
+                    <JackInTheBox>
+                        <img src="/assets/Images/Decoration.jpg" className=" img-fluid " alt="" />
+                    </JackInTheBox>
                 </Col>
 
                 {/* Right side text */}

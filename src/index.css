@@ -2,3 +2,21 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
+::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #3bad46;
+  }
+  
+  /* For Firefox */
+  /* You can adjust width, height, and other properties to suit your needs */
+  /* Note: Firefox doesn't support changing the color directly */
+  /* It supports scrollbar-color and scrollbar-width properties in a limited manner */
+  /* The below code will set the scrollbar color to green */
+  /* For a transparent background, you may need to use an extension or JavaScript-based solutions */
+  * {
+    scrollbar-color: #3bad46 transparent;
+  }

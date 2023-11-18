@@ -13,17 +13,21 @@ import BeforeFooter_HomePage from "../../components/BeforeFooter_HomePage/Before
 import Footer from "../../components/Footer/Footer";
 
 
+
 const Home = () => {
+   
+
     return (
-        <Container fluid className=" px-0  overflow-x-hidden overflow-y-hidden ">            
-            <Banner      
-            heading="Welcome To HYGWELL"
-            article="Your Trusted Partner in Healthcare Solutions"
-            btn={true}
-            fontweightOfArticle="500"
+        <Container fluid className=" px-0  overflow-x-hidden overflow-y-hidden ">
+         
+            <Banner
+                heading="Welcome To HYGWELL"
+                article="Your Trusted Partner in Healthcare Solutions"
+                btn={true}
+                fontweightOfArticle="500"
             ></Banner>
-            <BackgroundImageContainer  
-            rightSideImg="/assets/Images/Group 1171282607.png"
+            <BackgroundImageContainer
+                rightSideImg="/assets/Images/Group 1171282607.png"
             ></BackgroundImageContainer>
             <AboutUs_HomePage></AboutUs_HomePage>
             <OurOfferings_HomePage></OurOfferings_HomePage>

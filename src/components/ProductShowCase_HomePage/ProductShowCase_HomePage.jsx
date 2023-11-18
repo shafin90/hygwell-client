@@ -1,59 +1,53 @@
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import ProductShowCaseCard_HomePage from "../ProductShowCaseCard_HomePage/ProductShowCaseCard_HomePage";
-import './ProductShowCase_HomePage.css'
-import { useEffect, useState } from "react";
-
+import { AttentionSeeker, Bounce, Fade, Slide } from "react-awesome-reveal";
 
 const ProductShowCase_HomePage = () => {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth); // Contains screen Width
-
-    // Use the useEffect hook to update the screenWidth state whenever the window size changes
-    useEffect(() => {
-        const handleResize = () => setScreenWidth(window.innerWidth);
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
 
     return (
-        <Container fluid className="productShowCaseHomePage ">
-            <div style={{ marginBottom: "3.888888888888889vw" }} className=" d-flex flex-column 
-            flex-md-row flex-lg-row justify-content-between  align-items-center ">
-                <h1 className="heading-productShowCase">
-                    Product Showcase
-                </h1>
+        <Container fluid style={{ backgroundColor: "#cddfaa" }} className=" py-5  mb-5 ">
+            <Container className="d-flex justify-content-between align-items-center px-0">
+                <h1 className="h1 fw-bold">Product Showcase</h1>
 
-                <button className="btn-explore-productShowCase">
-                    Explore
-                </button>
-            </div>
+                <AttentionSeeker effect="rubberBand">
+                    <button className="btn btn-outline-success fw-bold px-5 py-3 rounded-3">
+                        Explore
+                    </button>
+                </AttentionSeeker>
+            </Container>
 
-            <div className="mt-5 mt-md-0 mt-lg-0 d-flex flex-column flex-md-row flex-lg-row     justify-content-between  align-items-center ">
+            <Container className="mb-5">
+                <Fade duration={1500} >
+                    <Row className="mt-5 d-flex justify-content-between align-items-center px-0">
 
-                <ProductShowCaseCard_HomePage
-                    productImg="/assets/Images/kindpng_5568993 1.png"
-                    category="Pharmaceuticals"
-                    productImgWidth={screenWidth < 576 ? "60.1528" : "12.152777777777779"}
-                    productImgHeight={screenWidth < 576 ? "42.86111" : "9.86111111111111"}
-                    moveTop={false}
-                ></ProductShowCaseCard_HomePage>
+                        <Col md={4}>
+                            <ProductShowCaseCard_HomePage
+                                productImg="/assets/Images/kindpng_5568993 1.png"
+                                category="Pharmaceuticals"
 
-                <ProductShowCaseCard_HomePage
-                    productImg="/assets/Images/kindpng_5568993 2.png"
-                    category="Generic Medicines"
-                    productImgWidth={screenWidth < 576 ? "60.1528" : "12.152777777777779"}
-                    productImgHeight={screenWidth < 576 ? "42.86111" : "9.86111111111111"}
-                    moveTop={false}
-                ></ProductShowCaseCard_HomePage>
+                            ></ProductShowCaseCard_HomePage>
+                        </Col>
 
-                <ProductShowCaseCard_HomePage
-                    productImg="/assets/Images/pngwing 1.png"
-                    category="OTC Products"
-                    productImgWidth={screenWidth < 576 ? "50.4167" : "10.416666666666666"}
-                    productImgHeight={screenWidth < 576 ? "53.8472" : "12.847222222222221"}
-                    moveTop={true}
-                ></ProductShowCaseCard_HomePage>
-            </div>
+                        <Col md={4}>
+                            <ProductShowCaseCard_HomePage
+                                productImg="/assets/Images/kindpng_5568993 2.png"
+                                category="Generic Medicines"
 
+                            ></ProductShowCaseCard_HomePage>
+                        </Col>
+
+                        <Col md={4}>
+                            <ProductShowCaseCard_HomePage
+                                productImg="/assets/Images/pngwing 1 (1).png"
+                                category="OTC Products"
+
+                            ></ProductShowCaseCard_HomePage>
+                        </Col>
+
+                    </Row>
+                </Fade>
+
+            </Container>
         </Container>
     );
 };
