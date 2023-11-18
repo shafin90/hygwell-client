@@ -5,7 +5,7 @@ const OfferCard_HomePage = ({ leftImg, rightImg, heading, offer1, offer2, offer3
    
 
     return (
-        <div className="homePageCard  position-relative    w-100 pb-5 ">
+        <div className="homePageCard  position-relative   w-100 pb-5 ">
             {/* Image partition = two image space between */}
             <Container className="d-flex justify-content-between align-items-center position-relative z-2 px-4 mb-4 ">
                 <img className="w-25 p-2" src={leftImg} alt="" />

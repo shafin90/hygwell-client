@@ -104,7 +104,7 @@ const OurOfferings_HomePage = () => {
             </Container>
 
             {/* left band and right band = those are floating object  */}
-            <img className=' leftBand' src="/assets/Images/Left Band 1.png" alt="" />
+            <img className=' leftBand ' src="/assets/Images/Left Band 1.png" alt="" />
             <img className=' rightBand' src="/assets/Images/Right Band 2.png" alt="" />
 
         </Container>

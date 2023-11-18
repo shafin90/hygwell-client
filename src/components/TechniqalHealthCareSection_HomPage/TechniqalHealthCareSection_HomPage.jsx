@@ -4,7 +4,7 @@ import TechniqalHealthCareCard_HomePage from "../TechniqalHealthCareCard_HomePag
 const TechniqalHealthCareSection_HomPage = () => {  
     return (
         <Container fluid className="px-0  overflow-x-hidden position-relative w-100  mb-5 pb-5 ">
-            <img src="/assets/Images/Group 1171282611.png" className=" position-absolute img-fluid  z-0 " alt="" />
+            <img src="/assets/Images/Group 1171282611.png" className=" position-absolute w-100 z-0 " alt="" />
             <h1 className=' text-center z-1 position-relative h1 display-5 fw-bold pt-5'>
                 Taking Healthcare Global-Minded
             </h1>

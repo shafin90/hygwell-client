@@ -1,11 +1,9 @@
-
-
-
 .leftBand {
     width: 29.375vw;
     height: 8.125vw;
     position: absolute;
     top: 34.5vw;
+    z-index: 0;
 }
 
 .rightBand {
@@ -14,26 +12,32 @@
     position: absolute;
     top: 25.5vw;
     left: 56vw;
+    z-index: 0;
 }
 
-
 @media screen and (max-width: 575px) {
-  
-
-    .leftBand{
+    .leftBand {
         top: 90.5vw;
         width: 50vw;
         height: 15vw;
         left: -4vw;
     }
-    .rightBand{
+
+    .rightBand {
         top: 77.5vw;
         /* right: -10vw; */
         width: 50vw;
         height: 20vw;
-      
         
     }
-   
+}
 
+@media screen and (min-width:1450px) and (max-width:2000px) {
+    .leftBand {
+        top: 20.5vw;
+    }
+    .rightBand{
+        top: 11.5vw;
+    
+    }
 }

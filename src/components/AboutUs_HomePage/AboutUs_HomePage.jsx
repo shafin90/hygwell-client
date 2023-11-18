@@ -16,7 +16,7 @@ const AboutUs_HomePage = () => {
                 <Col md={5} className=" position-relative  d-sm-flex justify-content-sm-center  align-items-sm-center ">
                     <JackInTheBox>
                         <div>
-                            <h1 className=" aboutUs text-white h1 fw-bold  display-6 ">About <br></br> Us</h1>
+                            <h1 className=" aboutUs text-white h1 fw-bold display-6 ">About <br></br> Us</h1>
                             <img className=" img-fluid  " src="/assets/Images/Artwork (1).png" alt="" />
                         </div>
                     </JackInTheBox>

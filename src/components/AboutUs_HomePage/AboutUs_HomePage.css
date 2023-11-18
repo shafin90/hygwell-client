@@ -1,27 +1,13 @@
-
 .aboutUs {
     position: absolute;
     top: 14vw;
     left: 12vw;
 }
-.counterInAbout_HomePage_Container{
-    margin-top: 2.2916666666666665vw;
-}
 
-@media screen and (max-width:575px) {
- 
-    .counterInAbout_HomePage_Container{
-        margin-top: 10vw;
-        margin-bottom: 20vw;
-    }
-
+@media screen and (min-width:1450px) and (max-width:2000px) {
     .aboutUs {
         position: absolute;
-        top: 29vw;
-        left: 29vw;
-        color: white;
-        font-weight: 700;
-        font-size: 7.611111vw;
+        top: 12vw;
+        left: 10vw;
     }
-
 }

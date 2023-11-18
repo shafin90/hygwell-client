@@ -12,7 +12,7 @@ const MeetOurTeamCard = ({ img, name, designation, details }) => {
                 <img src={img} className="img-fluid mb-3 " alt="" />
                 <h1 className="h2 fw-normal mb-1 ">{name}</h1>
                 <p className=" text-primary fw-medium ">{designation}</p>
-                <article className="text-center text-muted mb-4">
+                <article className="text-center text-muted mb-4 px-0 px-xl-4  px-xxl-4  ">
                     {details}
                 </article>
                 <div className=" card_social_link d-flex  justify-content-between  align-content-center w-25  ">
