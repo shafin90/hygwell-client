@@ -21,7 +21,7 @@ const ProductShowCase_HomePage = () => {
             </Container>
 
             <Container className="mb-5">
-                <Fade duration={1500} >
+           
                     <Row className="mt-5 d-flex justify-content-between align-items-center px-0">
 
                         <Col md={4} className=" mb-5  mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">
@@ -49,7 +49,7 @@ const ProductShowCase_HomePage = () => {
                         </Col>
 
                     </Row>
-                </Fade>
+          
 
             </Container>
         </Container>

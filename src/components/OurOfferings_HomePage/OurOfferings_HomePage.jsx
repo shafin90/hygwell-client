@@ -34,9 +34,9 @@ const OurOfferings_HomePage = () => {
 
 
             <Container className='px-0 position-relative d-flex justify-content-start  align-items-center mb-5'>
-                <Fade duration={2000}>
+                {/* <Fade duration={2000}> */}
                     <Row>
-                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-1  px-lg-1 px-xxl-1 '>
+                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-2  px-lg-2 px-xl-2  px-xxl-1 '>
                             <OfferCard_HomePage
                                 leftImg="/assets/Images/Group 1171282609.png"
                                 rightImg="/assets/Images/Mask group.png"
@@ -48,7 +48,7 @@ const OurOfferings_HomePage = () => {
                             ></OfferCard_HomePage>
                         </Col>
 
-                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-1  px-lg-1 px-xxl-1 '>
+                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-2  px-lg-2 px-xl-2  px-xxl-1 '>
                             <OfferCard_HomePage
                                 leftImg="/assets/Images/Group 1171282609 (1).png"
                                 rightImg="/assets/Images/Mask group (1).png"
@@ -60,7 +60,7 @@ const OurOfferings_HomePage = () => {
                             ></OfferCard_HomePage>
                         </Col>
 
-                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-1  px-lg-1 px-xxl-1 '>
+                        <Col md={4} className=' mb-5 mb-md-0 mb-lg-0  mb-xl-0  mb-xxl-0  px-4 px-md-2  px-lg-2 px-xl-2  px-xxl-1 '>
                             <OfferCard_HomePage
                                 leftImg="/assets/Images/Group 1171282609 (2).png"
                                 rightImg="/assets/Images/Mask group (1).png"
@@ -72,7 +72,7 @@ const OurOfferings_HomePage = () => {
                             ></OfferCard_HomePage>
                         </Col>
                     </Row>
-                </Fade>
+                {/* </Fade> */}
             </Container>
 
             {/* left band and right band = those are floating object  */}
