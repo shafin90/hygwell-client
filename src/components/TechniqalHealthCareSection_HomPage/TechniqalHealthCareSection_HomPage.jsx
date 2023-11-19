@@ -9,11 +9,11 @@ const TechniqalHealthCareSection_HomPage = () => {
 
             <img src="/assets/Images/Group 1171282611.png" className=" d-none d-md-block d-lg-block d-xl-block d-xxl-block w-100  position-absolute z-0 " alt="" />
             <AttentionSeeker effect="headShake" cascade>
-                <h1 className=' text-center z-1 position-relative h1 display-5 fw-bold pt-5'>
+                <h1 className=' text-center z-1 position-relative h1 display-5 fw-bold pt-5 px-3 px-md-0 px-lg-0 px-xl-0 px-xxl-0 '>
                     Taking Healthcare Global-Minded
                 </h1>
 
-                <p className=' text-center z-1 position-relative fs-5 mb-5  '>
+                <p className=' text-center z-1 position-relative fs-5 mb-5 px-3 px-md-0 px-lg-0 px-xl-0 px-xxl-0'>
                     Discover the core aspects that drive our organization, and make us a leading choice for pharmaceutical exports.
                 </p>
             </AttentionSeeker>
