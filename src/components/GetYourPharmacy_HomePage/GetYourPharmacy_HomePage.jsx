@@ -9,7 +9,7 @@ const GetYourPharmacy_HomePage = () => {
     return (
         <Container style={{ backgroundColor: "#1755a7" }} className=" position-relative  my-5 py-5 pe-2 pe-md-5 pe-lg-5 pe-xl-5 pe-xxl-5 rounded-5 z-0 " >
             <Row>
-                <Col sm={12} md={8} order={1} className="ps-2 p-md-5 p-lg-5 p-xl-5 p-xxl-5">
+                <Col sm={12} md={8} order={1} className="ps-3 p-md-5 p-lg-5 p-xl-5 p-xxl-5">
                     <Fade cascade>
                         <h1 className=" h1 text-white fw-bold  display-3 mb-3 z-2 position-relative  ">
 

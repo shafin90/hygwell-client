@@ -34,20 +34,20 @@ const Footer = () => {
                 <Col lg={4} md={6} className="px-3 px-md-0 px-lg-0">
                     <h1 className=" quick_links">Quick Links</h1>
 
-                    <ul className=" mb-5">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">EXPORTS</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                    </ul>
+                    <Row className="mb-2 mb-md-5 mb-lg-5 mb-xl-5 mb-xxl-5 ">
+                        <Col md={2}><a className="text-decoration-none fw-semibold" href="#">HOME</a></Col>
+                        <Col md={3}><a className="text-decoration-none fw-semibold" href="#">SERVICES</a></Col>
+                        <Col md={3}><a className="text-decoration-none fw-semibold" href="#">EXPORTS</a></Col>
+                        <Col md={4}><a className="text-decoration-none fw-semibold" href="#">SERVICES</a></Col>
+                    </Row>
 
 
-                    <ul>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a href="#">OUR TEAM</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                    </ul>
+                    <Row>
+                        <Col md={2}><a className="text-decoration-none fw-semibold" href="#">SHOP</a></Col>
+                        <Col md={3}><a className="text-decoration-none fw-semibold" href="#">ABOUT US</a></Col>
+                        <Col md={3}><a className="text-decoration-none fw-semibold" href="#">OUR TEAM</a></Col>
+                        <Col md={4}><a className="text-decoration-none fw-semibold" href="#">CONTACT US</a></Col>
+                    </Row>
                 </Col>
 
 
