@@ -44,11 +44,11 @@
     .ourvaluesBackgroundImg {
         position: absolute;
         z-index: 1;
-        width: 50.907639vw;
-        height: 126.240972vw;
+        width: 88.907639vw;
+        height: 197.240972vw;
         top: -20vw;
         transform: rotate(1deg);
-        left: 54vw;
+        left: 16vw;
     }
-}
+
 }

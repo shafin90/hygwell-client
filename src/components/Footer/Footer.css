@@ -64,4 +64,20 @@
         margin-bottom: 3.1vw;
         font-weight: 600;
     }
+    .bg2Footer{
+        width: 34.708333vw;
+        height: 34.708333333333332vw;
+        position: absolute;
+        z-index: -2;
+        top: 275px;
+        left: 303px;
+    }
+    .bg1Footer {
+        width: 26.263889vw;
+        height: 26.26388888888889vw;
+        position: absolute;
+        z-index: -1;
+        top: 252px;
+        left: 289px;
+    }
 }
