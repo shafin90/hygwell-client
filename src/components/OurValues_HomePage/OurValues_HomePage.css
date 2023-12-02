@@ -24,6 +24,12 @@
     height: 2.361111111111111vw;
 }
 
+
+.ourValuesHeading{
+    left: 24vw;
+    top: 16vw;
+}
+
 @media screen and (max-width:575px) {
     .allValues {
         display: grid;

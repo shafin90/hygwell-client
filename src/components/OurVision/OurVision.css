@@ -4,13 +4,18 @@
     z-index: -1;
     position: absolute;
     top: -38vw;
-    left: 1vw;
+    left: -6vw;
 }
 
 .tickSign {
     width: 1.5vw;
     height: 1.5vw;
     margin-right: 1.3888888888888888vw;
+}
+
+.ourVisionHeading {
+    top: 15vw;
+    left: 16vw;
 }
 
 @media screen and (max-width: 575px) {

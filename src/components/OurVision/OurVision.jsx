@@ -2,6 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './OurVision.css'
 import SmallDescriptionWithHeading from '../SmallDescriptionWithHeading/SmallDescriptionWithHeading';
 import { JackInTheBox, Slide } from 'react-awesome-reveal';
+import { BsCheckCircleFill } from "react-icons/bs";
 
 
 const OurVision = () => {
@@ -9,12 +10,13 @@ const OurVision = () => {
     return (
         <Container className='position-relative mb-5 pb-5 ' fluid>
             <Row className='d-flex justify-content-evenly align-items-center'>
-                <Col md={5}>
+                <Col md={5} className=' position-relative '>
+                    <h1 className=' position-absolute ourVisionHeading z-1 text-center text-white fw-bold display-5'>Our <br /> Vision</h1>
                     {/* background image */}
                     <img className='bgImgOfOurVisionSection' src="/assets/Images/Group 64.png" alt="" />
                     {/* Our Vision image */}
                     <JackInTheBox>
-                        <img className=' img-fluid ' src="/assets/Images/Shapes.png" alt="" />
+                        <img className=' img-fluid z-0  ' src="/assets/Images/Shapes.png" alt="" />
                     </JackInTheBox>
                 </Col>
 
@@ -27,29 +29,29 @@ const OurVision = () => {
 
                     <Slide duration={1000} direction='right' cascade >
                         <p className=' mt-4  '>
-                            <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
+                            <BsCheckCircleFill className='me-3 text-success fs-5' />
                             Adapting to Consumer Preferences
                         </p>
 
-                        <p >
-                            <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
+                        <p>
+                            <BsCheckCircleFill className='me-3 text-success fs-5' />
                             International presence & high-quality healthcare.
                         </p>
 
-                        <p >
-                            <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
+                        <p>
+                            <BsCheckCircleFill className='me-3 text-success fs-5' />
                             Personalized and AI Crafted Products
                         </p>
 
 
                         <p >
-                            <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
+                            <BsCheckCircleFill className='me-3 text-success fs-5' />
                             Ethical & Responsible Practices
                         </p>
 
 
                         <p >
-                            <img className='tickSign' src="/assets/Images/Subtract (2).png" alt="" />
+                            <BsCheckCircleFill className='me-3 text-success fs-5' />
                             Sustainable Compliance Approach
                         </p>
                     </Slide>

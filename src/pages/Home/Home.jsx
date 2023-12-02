@@ -27,7 +27,7 @@ const Home = () => {
             </Suspense>
 
             <Suspense>
-                <LazyBackgroundImageContainer rightSideImg="/assets/Images/Group 1171282607.png" />
+                <LazyBackgroundImageContainer rightSideImg="/assets/Images/Group 1171282607.png"/>
             </Suspense>
 
             <Suspense>

@@ -1,7 +1,7 @@
 import { Zoom } from 'react-awesome-reveal';
 import { AiOutlineArrowRight } from 'react-icons/ai'
 
-const ProductShowCaseCard_HomePage = ({ productImg, category }) => {
+const ProductShowCaseCard_HomePage = ({ productImg, category, makeWidth50 }) => {
 
 
     return (
@@ -10,7 +10,7 @@ const ProductShowCaseCard_HomePage = ({ productImg, category }) => {
 
                 {/* Product Image ================================*/}
                 <div className='d-flex justify-content-center align-items-center w-75 mx-auto mb-4 '>
-                    <img src={productImg} className="mx-auto  position-relative z-1 img-fluid " alt="" />
+                    <img src={productImg} className={makeWidth50?"mx-auto  position-relative z-1 w-50":"mx-auto  position-relative z-1 w-75"}  alt="" />
                 </div>
 
                 {/* Heading ======================================*/}

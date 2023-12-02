@@ -7,7 +7,7 @@ const TechniqalHealthCareSection_HomPage = () => {
     return (
         <Container fluid className="px-0 techniqalHealthCareSection_HomPage  overflow-x-hidden position-relative w-100  mb-5 pb-5 ">
 
-            <img src="/assets/Images/Group 1171282611.png" className=" d-none d-md-block d-lg-block d-xl-block d-xxl-block w-100  position-absolute z-0 " alt="" />
+            <img src="/assets/Images/Rectangle 42580.png" className=" d-none d-md-block d-lg-block d-xl-block d-xxl-block w-100  position-absolute z-0 " alt="" />
             <AttentionSeeker effect="headShake" cascade>
                 <h1 className=' text-center z-1 position-relative h1 display-5 fw-bold pt-5 px-3 px-md-0 px-lg-0 px-xl-0 px-xxl-0 '>
                     Taking Healthcare Global-Minded

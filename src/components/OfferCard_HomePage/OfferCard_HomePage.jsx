@@ -7,7 +7,7 @@ const OfferCard_HomePage = ({ leftImg, rightImg, heading, offer1, offer2, offer3
 
     return (
         <Zoom>
-            <div className="position-relative w-100 z-0 pb-5">
+            <div className="position-relative w-100 z-1 pb-5">
                 {/* Image partition = two image space between */}
                 <Container className="d-flex justify-content-between align-items-center position-relative z-2 px-0  px-md-4 px-lg-4 px-xl-4 px-xxl-4  mb-4 ">
                     <img className="w-25 pe-3  p-md-2 p-lg-2 p-xl-2 p-xxl-2" src={leftImg} alt="" />
@@ -19,10 +19,10 @@ const OfferCard_HomePage = ({ leftImg, rightImg, heading, offer1, offer2, offer3
                     {heading}
                 </h2>
 
-                <ul className={offer4 === "" ? "position-relative z-2 ps-5 mb-5 pb-4" : "position-relative z-2 ps-5 mb-5"}>
-                    <li className=" text-muted z-2 position-relative  ">{offer1}</li>
-                    <li className=" text-muted z-2 position-relative  ">{offer2}</li>
-                    <li className=" text-muted z-2 position-relative ">{offer3}</li>
+                <ul className={offer4 === "" ? "position-relative  ps-5 mb-5 pb-4" : "position-relative z-2 ps-5 mb-5"}>
+                    <li className=" text-muted z-3 position-relative  ">{offer1}</li>
+                    <li className=" text-muted z-3 position-relative  ">{offer2}</li>
+                    <li className=" text-muted z-3 position-relative ">{offer3}</li>
                     <li className={offer4 === "" ? "d-none" : "text-muted z-2 position-relative"}> {offer4}</li>
                 </ul>
 

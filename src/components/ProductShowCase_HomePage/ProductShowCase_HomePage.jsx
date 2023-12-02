@@ -26,8 +26,9 @@ const ProductShowCase_HomePage = () => {
 
                         <Col md={4} className=" mb-5  mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">
                             <ProductShowCaseCard_HomePage
-                                productImg="/assets/Images/kindpng_5568993 1.png"
+                                productImg="/assets/Images/kindpng_5568993 1 (1).png"
                                 category="Pharmaceuticals"
+                                makeWidth50={false}
 
                             ></ProductShowCaseCard_HomePage>
                         </Col>
@@ -36,14 +37,16 @@ const ProductShowCase_HomePage = () => {
                             <ProductShowCaseCard_HomePage
                                 productImg="/assets/Images/kindpng_5568993 2.png"
                                 category="Generic Medicines"
+                                makeWidth50={false}
 
                             ></ProductShowCaseCard_HomePage>
                         </Col>
 
                         <Col md={4} className=" mb-5  mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">
                             <ProductShowCaseCard_HomePage
-                                productImg="/assets/Images/pngwing 1 (1).png"
+                                productImg="/assets/Images/pngwing 1.png"
                                 category="OTC Products"
+                                makeWidth50 = {true}
 
                             ></ProductShowCaseCard_HomePage>
                         </Col>

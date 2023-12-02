@@ -2,6 +2,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import './Footer.css'
 import { useEffect, useState } from "react";
 import { AttentionSeeker, Slide } from "react-awesome-reveal";
+import { FaFacebookF, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -25,8 +27,7 @@ const Footer = () => {
 
                     {/* Background */}
                     <img className="bg2Footer" src="/assets/Images/Rectangle (5).png" alt="" />
-                    <img className="bg1Footer" src="/assets/Images/Rectangle (6).png" alt="" />
-
+                    <img className="bg1Footer" src="/assets/Images/Rectangle (4).png" alt="" />
                 </Col>
 
 
@@ -56,10 +57,18 @@ const Footer = () => {
                 <Col lg={4} md={2} className=" px-0 " >
                     <ul className=" social_link d-flex  justify-content-center  align-items-center ">
                         <AttentionSeeker effect="rubberBand" cascade>
-                            <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9.png" alt="" /></a></li>
-                            <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy.png" alt="" /></a></li>
-                            <li className=" me-3 "><a href="#"><img src="/assets/Images/Group 9 Copy 2.png" alt="" /></a></li>
-                            <li><a href="#"><img src="/assets/Images/Group 9 Copy 3.png" alt="" /></a></li>
+                            <li className=" me-3 px-2 py-1  " style={{ backgroundColor: "#bed5a0", borderRadius: "50%" }}>
+                                <a href="#" ><FaFacebookF className="text-success" /></a>
+                            </li>
+
+                            <li className="me-3 px-2 py-1" style={{ backgroundColor: "#bed5a0", borderRadius: "50%" }}>
+                                <a href="#"><FaLinkedin className=" text-success " /></a></li>
+
+
+                            <li className="me-3 px-2 py-1" style={{ backgroundColor: "#bed5a0", borderRadius: "50%" }}><a href="#">
+                                <FaTwitter className=" text-success" /></a></li>
+
+                            <li className="px-2 py-1" style={{ backgroundColor: "#bed5a0", borderRadius: "50%" }}><a href="#"><FiInstagram className=" text-success "/></a></li>
                         </AttentionSeeker>
                     </ul>
                 </Col>

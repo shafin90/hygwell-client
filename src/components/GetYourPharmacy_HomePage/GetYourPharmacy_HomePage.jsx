@@ -26,9 +26,9 @@ const GetYourPharmacy_HomePage = () => {
 
                     <AttentionSeeker effect="pulse">
                         <div className=" d-flex flex-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row  justify-content-start  align-items-center" >
-                            <img style={{ cursor: "pointer" }} className=" z-2 mb-3 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0" src="/assets/Images/App Store.png" alt="" />
-                            <img style={{ cursor: "pointer" }} className="mx-3 z-2 " src="/assets/Images/Google Play.png" alt="" />
-                            <img className=" d-none d-md-inline-block  d-lg-inline-block z-2 " src="/assets/Images/idicator.png" alt="" />
+                            <img style={{ cursor: "pointer" }} className=" z-2 mb-3 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 w-25 " src="/assets/Images/Group.png" alt="" />
+                            <img style={{ cursor: "pointer" }} className="mx-3 z-2 w-25 " src="/assets/Images/Google Play.png" alt="" />
+                            <img className=" d-none d-md-inline-block  d-lg-inline-block z-2  w-25 " src="/assets/Images/idicator.png" alt="" />
                         </div>
                     </AttentionSeeker>
 
@@ -40,7 +40,7 @@ const GetYourPharmacy_HomePage = () => {
                 </Col>
             </Row>
 
-            <img src="/assets/Images/Mask group (3).png" className="position-absolute w-100 h-100   z-1 bottom-0  " alt="" />
+            <img src="/assets/Images/Mask group (2).png" className="position-absolute w-100 h-100   z-1 bottom-0  " alt="" />
         </Container>
     );
 };

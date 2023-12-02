@@ -10,18 +10,24 @@
 .text-green:hover{
     color: #3bad46;
 }
-.play-icon {
-    width: 1.6666666666666667vw;
-    height: 1.6666666666666667vw;
-    position: relative;
-    right: 8px;
+
+.heroSectionHeading{
+    color: black;
+    animation-name: changeColor;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
 }
 
-@media screen and (max-width:575px) {
-    .play-icon {
-        width: 6.6666666666666667vw;
-        height: 6.6666666666666667vw;
-        position: relative;
-        right: 8px;
+@keyframes changeColor {
+    0%{
+        color: black;
+    }
+
+    50%{
+        color: #206828;
+    }
+    100%{
+        color: black;
     }
 }

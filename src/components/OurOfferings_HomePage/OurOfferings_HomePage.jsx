@@ -17,7 +17,7 @@ import { AttentionSeeker, Bounce, Fade, Slide } from 'react-awesome-reveal';
 const OurOfferings_HomePage = () => {
 
     return (
-        <Container style={{ backgroundColor: "#f3f3eb" }} fluid className="position-relative  py-5 px-0 mb-5 ">
+        <Container style={{ backgroundColor: "#f3f3eb" }} fluid className="position-relative  py-5 px-0 mb-5  z-0 ">
             <Container className="mb-5  d-flex flex-column  flex-md-row flex-lg-row  justify-content-between  align-items-start  px-md-0 px-lg-0 px-xl-0 px-xxl-0  ">
                 <h1 className="h1 fw-bold  display-5 mb-3 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0">
 
@@ -76,8 +76,8 @@ const OurOfferings_HomePage = () => {
             </Container>
 
             {/* left band and right band = those are floating object  */}
-            <img className=' leftBand z-1 ' src="/assets/Images/Left Band 1.png" alt="" />
-            <img className=' rightBand z-1 ' src="/assets/Images/Right Band 2.png" alt="" />
+            <img className=' leftBand z-2 ' src="/assets/Images/Left Band 1.png" alt="" />
+            <img className=' rightBand z-2 ' src="/assets/Images/Right Band 2.png" alt="" />
 
         </Container>
     );

@@ -17,7 +17,7 @@ const AboutUs_HomePage = () => {
                     <JackInTheBox>
                         <div>
                             <h1 className=" aboutUs text-white h1 fw-bold display-6 ">About <br></br> Us</h1>
-                            <img className=" img-fluid  " src="/assets/Images/Artwork (1).png" alt="" />
+                            <img className=" img-fluid" src="/assets/Images/Artwork.png" alt="" />
                         </div>
                     </JackInTheBox>
                 </Col>

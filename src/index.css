@@ -4,10 +4,10 @@
     scroll-behavior:smooth
 }
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 5px;
     background-color: #cfe7ae;
-  }
-  
+    
+  }  
   ::-webkit-scrollbar-thumb {
     background-color: #3bad46;
   }

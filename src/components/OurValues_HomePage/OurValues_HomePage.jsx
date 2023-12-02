@@ -1,16 +1,25 @@
 import { Col, Container, Row } from "react-bootstrap";
 import SmallDescriptionWithHeading from "../SmallDescriptionWithHeading/SmallDescriptionWithHeading";
 import "./OurValues_HomePage.css"
-import { JackInTheBox } from "react-awesome-reveal";
+import { AttentionSeeker, Fade, JackInTheBox, Zoom } from "react-awesome-reveal";
+
 
 const OurValues_HomePage = () => {
     return (
         <Container fluid className=" pt-4 px-0 ourValues_HomePage">
-            <Row className="d-flex justify-content-evenly align-items-center">
+            <Row className="d-flex justify-content-evenly align-items-center position-relative">
                 {/* Left side image */}
                 <Col md={5}>
+
+                    <h1 className=" display-5 position-absolute z-1 ourValuesHeading text-white fw-bold text-center h1">
+
+                        Our
+                        <br /> Values
+
+                    </h1>
+
                     <JackInTheBox>
-                        <img src="/assets/Images/Decoration.jpg" className=" img-fluid " alt="" />
+                        <img src="/assets/Images/Decoration.jpg" className=" z-0  img-fluid " alt="" />
                     </JackInTheBox>
                 </Col>
 
@@ -28,7 +37,9 @@ const OurValues_HomePage = () => {
 
                     <div className="allValues mt-4 ">
                         <div>
-                            <img className=" mb-2 " src="/assets/Images/Rectangle (1).png" alt="" />
+                            <Fade>
+                                <img className=" mb-2 " src="/assets/Images/Rectangle (1).png" alt="" />
+                            </Fade>
 
                             <SmallDescriptionWithHeading
                                 heading="Quality Products"
@@ -38,8 +49,9 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 " src="/assets/Images/Rectangle (3).png" alt="" />
-
+                            <Fade>
+                                <img className=" mb-2 " src="/assets/Images/Rectangle (2).png" alt="" />
+                            </Fade>
                             <SmallDescriptionWithHeading
                                 heading="Professional Team"
                                 article="Our team ensures to bring quality and satisfactory service, driven by expertise and unwavering dedication."
@@ -48,7 +60,9 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 " src="/assets/Images/Rectangle (3).png" alt="" />
+                            <Fade>
+                                <img className=" mb-2 " src="/assets/Images/Rectangle.png" alt="" />
+                            </Fade>
 
                             <SmallDescriptionWithHeading
                                 heading="Customer Satisfaction"
@@ -58,7 +72,9 @@ const OurValues_HomePage = () => {
                         </div>
 
                         <div>
-                            <img className=" mb-2 " src="/assets/Images/Rectangle (4).png" alt="" />
+                            <Fade>
+                                <img className=" mb-2 " src="/assets/Images/Rectangle (3).png" alt="" />
+                            </Fade>
 
                             <SmallDescriptionWithHeading
                                 heading="Innovative Solutions"
