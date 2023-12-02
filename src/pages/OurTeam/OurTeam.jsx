@@ -13,7 +13,7 @@ const OurTeam = () => {
             <img className=" leftBgImg_ourTeam" src="/assets/Images/Subtract (1).png" alt="" />
 
             {/* right bg image */}
-            <img className=" rightBgImg_ourTeam" src="/assets/Images/Subtract (3).png" alt="" />
+            <img className=" rightBgImg_ourTeam" src="/assets/Images/Subtract (2).png" alt="" />
             <CustomNavbar></CustomNavbar>
             <h1 className=" text-center  fw-bold  mt-4  mb-5  display-4">Meet Our Team</h1>
 
@@ -21,7 +21,7 @@ const OurTeam = () => {
                 <Row className=" d-flex  justify-content-center  align-items-center  mb-4">
                     <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
                         <MeetOurTeamCard
-                            img="/assets/Images/Ellipse 15 (1).png"
+                            img="/assets/Images/Ellipse 15.jpg"
                             name="Nasina Lavanya"
                             designation="Chairman"
                             details="Empowering entrepreneurs to revolutionize healthcare through the PCD franchise network."
@@ -50,7 +50,7 @@ const OurTeam = () => {
 
                     <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
                         <MeetOurTeamCard
-                            img="/assets/Images/Ellipse 14 (1).png"
+                            img="/assets/Images/Ellipse 14.jpg"
                             name="Vajrala Asish babu"
                             designation="Director"
                             details="The Director steers the organization towards its goals, inspiring teams to achieve excellence."
@@ -59,7 +59,7 @@ const OurTeam = () => {
                 </Row>
 
                 <Row className=" d-flex  justify-content-center align-items-center ">
-                    <Col md={12} className="d-flex  justify-content-center align-items-center">
+                    <Col md={12} className="d-flex  justify-content-center align-items-center w-50 ">
                         <MeetOurTeamCard
                             img="/assets/Images/Ellipse 15 (2).png"
                             name="Bhanu Prakash Baina"
