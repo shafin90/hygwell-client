@@ -11,23 +11,21 @@ import CustomNavbar from "../CustomNavbar/CustomNavbar";
 import DotAfterHeroSection from "../DotAfterHeroSection/DotAfterHeroSection";
 import HeroSection from "../HeroSection/HeroSection";
 
-const Banner = ({heading, article, btn, fontweightOfArticle}) => {
+const Banner = ({ heading, article, btn, fontweightOfArticle }) => {
     return (
-        <Container fluid style={{zIndex:"1"}} className=" px-0  position-relative ">
+        <Container fluid style={{ zIndex: "1" }} className=" px-0  position-relative ">
             {/* This component contains navigation bar of this website */}
-           
+
             <CustomNavbar></CustomNavbar>
-            
+
             {/* This component contains hero section of this website*/}
             <HeroSection
-            heading={heading}
-            article={article}
-            btn={btn}
-            fontweightOfArticle={fontweightOfArticle}
+                heading={heading}
+                article={article}
+                btn={btn}
+                fontweightOfArticle={fontweightOfArticle}
             ></HeroSection>
-            
-            {/* After herosection, there are some Dot image. This component contains those images. */}
-            <DotAfterHeroSection></DotAfterHeroSection>
+
         </Container>
     );
 };
