@@ -11,7 +11,7 @@ const OurValues_HomePage = () => {
                 {/* Left side image */}
                 <Col md={5} className=" d-flex justify-content-center align-items-center">
 
-                    <h1 className=" display-5 position-absolute z-1 ourValuesHeading text-white fw-bold text-center h1">
+                    <h1 className="display-5 position-absolute z-1 ourValuesHeading text-white fw-bold text-center h1">
 
                         Our
                         <br /> Values
