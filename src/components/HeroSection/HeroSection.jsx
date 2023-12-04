@@ -7,7 +7,7 @@ const HeroSection = ({ heading, article, btn }) => {
     return (
         <Container className="d-flex justify-content-lg-start align-content-center px-0 pt-5 mb-5">
             <Row>
-                <Col sm={12} md={8} className=" pb-5 ps-4 ps-md-0 ps-lg-0  ps-xl-0  px-xxl-0 ">
+                <Col sm={12} md={8} className=" pb-5 ps-4 ps-md-0 ps-lg-0  ps-xl-0  px-xxl-0 pe-4 pe-md-0 pe-lg-0  pe-xl-0  pe-xxl-0 ">
                     <Bounce duration={500} triggerOnce>
                         <h1 className="fw-bold display-3 my-4 heroSectionHeading">{heading}</h1>
                     </Bounce>
