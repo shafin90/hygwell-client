@@ -20,7 +20,7 @@ const Exports = () => {
                 fontweightOfArticle="500"
             ></Banner>
             <BackgroundImageContainer
-                rightSideImg="/assets/Images/Group 1171282607 (3).png"
+                rightSideImg="/assets/Images/Group 1171282607 (2).jpg"
             ></BackgroundImageContainer>
 
             <AboutUs_AboutUsPage

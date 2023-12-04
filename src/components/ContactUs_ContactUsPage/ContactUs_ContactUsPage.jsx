@@ -1,10 +1,24 @@
 import { Col, Container, Row } from "react-bootstrap";
 import './ContactUs_ContactUsPage.css'
+import { useState } from "react";
 
 const ContactUs_ContactUsPage = () => {
+    const [firstName, setfirstName] = useState('');
+    const [lastName, setlastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phoneNumber, setphoneNumber] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+
+
+
+
+
+
     return (
-        <Container className="contactUs_ContactUsPage position-relative ">
-            <h1 className=" text-center  fw-bold ">
+        <Container className="position-relative ">
+            <h1 className="h1 text-center  fw-bold ">
                 Contact Us
             </h1>
 
@@ -18,19 +32,19 @@ const ContactUs_ContactUsPage = () => {
                 {/* Fisrt name , Last Name */}
                 <Row className="mb-0 mb-md-5 mb-lg-5  d-flex  justify-content-between  align-items-center ">
                     {/* First name */}
-                    <Col  md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
-                        <label className="eachSectionOfFormLabel mb-2">
+                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
+                        <label className="mb-2">
                             First Name
                         </label>
-                        <input className="contactUsFormInput w-100 mb-2  " type="text" />
+                        <input onChange={e => setfirstName(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
                     </Col>
 
                     {/* Last Name */}
-                    <Col  md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
-                        <label className="eachSectionOfFormLabel mb-2">
+                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
+                        <label className="mb-2">
                             Last Name
                         </label>
-                        <input className="contactUsFormInput w-100 mb-2  " type="text" />
+                        <input onChange={e => setlastName(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
                     </Col>
 
                 </Row>
@@ -42,7 +56,7 @@ const ContactUs_ContactUsPage = () => {
                         <label className="eachSectionOfFormLabel mb-2">
                             Email Address
                         </label>
-                        <input className="contactUsFormInput w-100 mb-2  " type="text" />
+                        <input onChange={e => setEmail(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
                     </Col>
 
                     {/* Phone Number */}
@@ -50,7 +64,7 @@ const ContactUs_ContactUsPage = () => {
                         <label className="eachSectionOfFormLabel mb-2">
                             Phone Number
                         </label>
-                        <input className="contactUsFormInput w-100 mb-2  " type="text" />
+                        <input onChange={e => setphoneNumber(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
                     </Col>
 
                 </Row>
@@ -100,19 +114,19 @@ const ContactUs_ContactUsPage = () => {
 
                     {/* Send Button message */}
                     <Col md={5}>
-                        <button className=" sendMessages">
+                        <button className="sendMessages">
                             Send Message
                         </button>
                     </Col>
                 </Row>
 
                 {/* Image at the last */}
-                <div style={{height:"10.677466863033873vw"}} className=" w-100  d-flex  justify-content-end  align-items-center ">
-                    <img  className="lastImageOfTheContactUsForm" src="/assets/Images/letter_send 1.png" alt="" />
+                <div style={{ height: "10.677466863033873vw" }} className=" w-100  d-flex  justify-content-end  align-items-center ">
+                    <img className="lastImageOfTheContactUsForm" src="/assets/Images/letter_send 1.png" alt="" />
                 </div>
             </form>
 
-            <img className="rightSideBgImgContactPage" src="/assets/Images/Subtract (3).png" alt="" />
+            <img className="rightSideBgImgContactPage" src="/assets/Images/Subtract (2).png" alt="" />
         </Container>
     );
 };

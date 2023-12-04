@@ -3,146 +3,27 @@
     background-color: white;
     margin-top: 100px;
     width: 71.94444444444444vw;
-    height: 53.541666666666664vw;
     margin-bottom: 16vw;
     box-shadow: 50px 70px 100px rgba(197, 194, 194, 0.5);
 }
 
 .contactInformationContainer {
-    /* padding-left:  2.7777777777777777vw;
-    padding-top:  2.7777777777777777vw; */
     background: #545E3B;
-    height: 42.93055555555556vw;
     width: 100%;
-    position: relative;
-    top: 2vw;
-    border-radius: 20px;
-}
-
-.contactInformationContainer h1 {
-    font-size: 1.9444444444444444vw;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-
-.floatingImageOne_ContactUsPage {
-    width: 15.680556vw;
-    height: 15.680556vw;
-    position: relative;
-    left: 17vw;
-    /* top: 8vw; */
-    z-index: 0;
-    margin-bottom: 9vw;
-
-}
-
-.floatingImageTwo_ContactUsPage {
-    width: 10.583333vw;
-    height: 10.583333vw;
-    position: relative;
-    top: -6vw;
-    z-index: 1;
-    left: -1vw;
-}
-
-.social_icon_contact_information_container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    top: 13vw;
-
-}
-
-/*  each div inside of  .social_icon_contact_information_container*/
-.social_icon_contact_information_container div {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #F6AF03;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 1vw;
-    cursor: pointer;
-    transition: 0.3s;
+    border-radius: 20px 0px 0px 20px;
 }
 
 
-
-@media screen and (max-width: 575px) {
-    .contactInformation_ContactUsPage {
-        border-radius: 30px;
-        background-color: white;
-        margin-top: 120vw;
-        width: 71.94444444444444vw;
-        height: 53.541666666666664vw;
-        margin-bottom: 120vw;
+@media screen and (max-width: 765px) {
+    .googleMapWidgets {
+        height: 110vw;
     }
 
-    .contactInformationContainer {
-        background: #545E3B;
-        height: 193.930556vw;
-        width: 126%;
-        position: relative;
-        top: 2vw;
-        border-radius: 20px;
-        left: -9vw;
+    .contactInformation_ContactUsPage{
+        width: 87.94vw;
+    }
+    .contactInformationContainer{
+        border-radius: 10px 10px 0px 0px;
     }
 
-    .contactInformationContainer h1 {
-        font-size: 5.9444444444444444vw;
-        color: white;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .floatingImageOne_ContactUsPage {
-        width: 32.680556vw;
-        height: 30.680556vw;
-        position: relative;
-        left: 35vw;
-        top: 25vw;
-        z-index: 0;
-        margin-bottom: 9vw;
-    }
-
-    .floatingImageTwo_ContactUsPage {
-        width: 25.583333vw;
-        height: 25.583333vw;
-        position: relative;
-        top: 8vw;
-        z-index: 1;
-    }
-
-    .social_icon_contact_information_container {
-
-        top: 50vw;
-    }
-}
-
-@media screen and (min-width: 575px) and (max-width: 1115px) {
-    .contactInformationContainer {
-        background: #545E3B;
-        height: 62.930556vw;
-        width: 100%;
-        position: relative;
-        top: 2vw;
-        border-radius: 20px;
-    }
-
-    .floatingImageOne_ContactUsPage {
-        top: 30vw;
-    }
-
-}
-
-@media screen and (min-width: 1367px) and (max-width: 1921px) {
-    .contactInformationContainer {
-        background: #545E3B;
-        height: 35.930556vw;
-        width: 100%;
-        position: relative;
-        top: 2vw;
-        border-radius: 20px;
-    }
 }

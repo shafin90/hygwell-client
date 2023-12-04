@@ -17,7 +17,7 @@ const ContactUs = () => {
             ></Banner>
              {/* background image of banner */}
              <BackgroundImageContainer 
-            rightSideImg="/assets/Images/Group 1171282607 (1).png"
+            rightSideImg="/assets/Images/Group 1171282607 (3).jpg"
             ></BackgroundImageContainer>
 
             <ContactUs_ContactUsPage></ContactUs_ContactUsPage>

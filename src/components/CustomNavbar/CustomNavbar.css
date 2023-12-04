@@ -23,17 +23,11 @@
         width: 28.972222vw;
         height: 22.722222vw;
     }
-    .nav-menu {
-        font-size: 5vw;
-        margin-bottom: 8vw;
-        width: 30vw;
-        transition: "1s";
-    }   
+ 
     .nav-menu:hover {
         background-color: #9acb56;
-        font-weight: 600;
         color: #3BAD46;
-        height: 10vw;
+        
     }
      
 }
