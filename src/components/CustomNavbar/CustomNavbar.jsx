@@ -25,9 +25,9 @@ const CustomNavbar = () => {
 
                         <Link
                             className={pathname == "/" ?
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3 clicked"
+                                "d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3 bg-success text-white"
                                 :
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3"
+                                "text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3"
                             }
                             to="/"
                         >
@@ -46,15 +46,15 @@ const CustomNavbar = () => {
                         </NavDropdown>
                         {/*Dropdown menu---------------  */}
 
-                        <Link className="nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3 " to="#link">
+                        <Link className="text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3 " to="#link">
                             Services</Link>
 
                         <Link
                             className={pathname == "/exports"
                                 ?
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3 clicked"
+                                "d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3  text-white bg-success"
                                 :
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3"
+                                "text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3"
                             }
                             to="/exports">
                             Exports
@@ -63,9 +63,9 @@ const CustomNavbar = () => {
                         <Link
                             className={pathname == "/aboutUs"
                                 ?
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3 clicked"
+                                "text-white d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-3 py-2 rounded-3 bg-success"
                                 :
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3"
+                                "text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-3 py-2 rounded-3"
                             }
                             to="/aboutUs">
                             About Us
@@ -75,9 +75,9 @@ const CustomNavbar = () => {
                         <Link
                             className={pathname == "/ourTeam"
                                 ?
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3 clicked"
+                                "d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-3 py-2 rounded-3 text-white bg-success"
                                 :
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3"
+                                "text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-3 py-2 rounded-3"
                             }
                             to="/ourTeam"
                         >
@@ -87,9 +87,9 @@ const CustomNavbar = () => {
                         <Link
                             className={pathname == "/contactUs"
                                 ?
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3 clicked"
+                                "d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-3 py-2 rounded-3 text-white bg-success"
                                 :
-                                "nav-menu d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3"
+                                "text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-3 py-2 rounded-3"
                             }
                             to="/contactUs">
                             Contact Us

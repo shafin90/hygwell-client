@@ -15,7 +15,7 @@ const HeroSection = ({ heading, article, btn }) => {
                         <article className=" mb-4 w-75 ">{article}</article>
 
                         <div className={!btn ? "d-none" : "d-flex flex-column flex-md-row flex-lg-row flex-xl-row flex-xxl-row justify-content-start align-content-center w-100"}>
-                            <button className="btn btn-green text-white rounded-3 px-4 py-3 fw-semibold me-0 me-md-3  me-lg-3 me-xl-3 me-xxl-3 mb-4 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">Get Started</button>
+                            <button className="btn btn-success text-white rounded-3 px-4 py-3 fw-semibold mb-4 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 ">Get Started</button>
                         </div>
                     </Zoom>
                 </Col>

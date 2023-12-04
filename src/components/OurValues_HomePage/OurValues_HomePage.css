@@ -26,8 +26,8 @@
 
 
 .ourValuesHeading{
-    left: 24vw;
-    top: 16vw;
+    left: 12vw;
+    /* top: 16vw; */
 }
 
 @media screen and (max-width:575px) {
@@ -55,6 +55,10 @@
         top: -20vw;
         transform: rotate(1deg);
         left: 16vw;
+    }
+    .ourValuesHeading {
+        /* left: 48vw;
+        top: 38vw; */
     }
 
 }

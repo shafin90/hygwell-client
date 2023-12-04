@@ -9,7 +9,7 @@ const OurValues_HomePage = () => {
         <Container fluid className=" pt-4 px-0 ourValues_HomePage">
             <Row className="d-flex justify-content-evenly align-items-center position-relative">
                 {/* Left side image */}
-                <Col md={5}>
+                <Col md={5} className=" d-flex justify-content-center align-items-center">
 
                     <h1 className=" display-5 position-absolute z-1 ourValuesHeading text-white fw-bold text-center h1">
 

@@ -3,31 +3,10 @@
     height: 4.722222222222222vw;
 }
 
-.nav-menu {
-    color: #040404;
-}
-
-.nav-menu:hover {
-    background-color:#3BAD46;
-    color: white;
-}
-
-/* This class is applicable on current page */
-.clicked{
-    background-color:#3BAD46;
-    color: white;
-}
 
 @media screen and (max-width:576px) {
     .logo {
         width: 28.972222vw;
         height: 22.722222vw;
     }
- 
-    .nav-menu:hover {
-        background-color: #9acb56;
-        color: #3BAD46;
-        
-    }
-     
 }
