@@ -36,7 +36,7 @@ const CounterInAboutUsHomePage = ({ category, number }) => {
             const timeout = setTimeout(() => {
                 const newCounter = counter + 1;
                 setCounter(newCounter);
-            }, 80);
+            }, 40);
 
             return () => clearTimeout(timeout);
         }

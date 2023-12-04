@@ -9,8 +9,8 @@ import { JackInTheBox, Zoom } from "react-awesome-reveal";
 
 const AboutUs_HomePage = () => {
     return (
-        <Container fluid className=" mb-5 ">
-            <Row className="d-flex justify-content-evenly align-content-center">
+        <Container fluid className=" mb-5 py-5">
+            <Row className="d-flex justify-content-evenly align-content-center pt-5 ">
                 {/* left side that contains image====================== */}
 
                 <Col md={5} className=" position-relative  d-sm-flex justify-content-sm-center  align-items-sm-center mb-3 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0  ">
