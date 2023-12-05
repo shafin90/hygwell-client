@@ -10,7 +10,7 @@ const BeforeFooter_HomePage = () => {
             <Slide cascade>
 
                 <h1 className=" text-white">Ready to get started</h1>
-                <button className=" writeToUsBtn">
+                <button className=" writeToUsBtn btn bg-white rounded-3 px-4">
                     Write To Us
                     <IoMdSend style={{ marginLeft: "20px", fontSize: "25px" }} ></IoMdSend>
                 </button>

@@ -10,3 +10,10 @@
         height: 22.722222vw;
     }
 }
+
+@media screen and (min-width: 577px) and (max-width: 766px) {
+    .logo {
+        width: 18.972222vw;
+        height: 14.722222vw;
+    }
+}

@@ -14,7 +14,7 @@
 .heroSectionHeading{
     color: black;
     animation-name: changeColor;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-delay: 1s;
 }
@@ -24,8 +24,11 @@
         color: black;
     }
 
-    50%{
-        color: #0a5f38;
+    25%{
+        color: #063a22;
+    }
+    75%{
+        color: #022716;
     }
     100%{
         color: black;

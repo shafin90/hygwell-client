@@ -11,20 +11,14 @@
 }
 
 .writeToUsBtn {
-    border: none;
-    border-radius: 12px;
-    width: 16.11111111111111vw;
-    height: 3.8194444444444446vw;
+
     color: #1755a7;
     font-weight: 500;
 }
 
 @media screen and (max-width:575px) {
     .writeToUsBtn {
-        border: none;
-        border-radius: 16px;
-        width: 50.111111vw;
-        height: 10.819444vw;
+        
         color: #057BC3;
         font-weight: 500;
         font-size: 4vw;

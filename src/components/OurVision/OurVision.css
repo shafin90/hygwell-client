@@ -23,6 +23,7 @@
         top: 37vw;
         left: 38vw;
     }
+
     .bgImgOfOurVisionSection {
         width: 97.277778vw;
         height: 128.166667vw;
@@ -36,5 +37,13 @@
         width: 4.2222222222222223vw;
         height: 4.2222222222222223vw;
         margin-right: 3.3888888888888888vw;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 766px) {
+    .ourVisionHeading {
+        top: 39vw;
+        left: 40vw;
+        font-size: 45px;
     }
 }

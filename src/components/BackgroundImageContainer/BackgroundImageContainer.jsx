@@ -14,11 +14,11 @@ const BackgroundImageContainer = ({ rightSideImg }) => {
 
             {/* left-side-image-background: This is the left side imaage */}
 
-            <Slide duration={1000}>
+            <Slide duration={1000} className=' z-2 '>
                 <img className="left-side-image-background" src="/assets/Images/Subtract.png" alt="" loading="lazy" />
             </Slide>
             {/* right-side-image-background: This is the right side image */}
-            <Fade duration={1000} >
+            <Fade duration={1000} className=' z-0 ' >
                 <img className="right-side-image-background" src={rightSideImg} alt="" loading='lazy' />
             </Fade>
         </div>

@@ -5,7 +5,7 @@ const TechniqalHealthCareCard_HomePage = ({cardImg, heading, article}) => {
     return (
         <div className="w-100 position-relative pb-5 ">
             <div className='w-100 d-flex justify-content-center align-items-center mb-3'>
-                <img className=' mx-auto position-relative z-2 img-fluid w-50 p-3 p-md-0 p-lg-0 p-xl-0 p-xxl-0'  src={cardImg} alt="" />
+                <img className=' mx-auto position-relative z-2 img-fluid w-50 p-3 p-md-4 p-lg-0 p-xl-0 p-xxl-0'  src={cardImg} alt="" />
             </div>
             <div className='z-2 pb-0 pb-md-0 pb-lg-0  pb-xl-0  pb-xxl-5 '>
                 <SmallDescriptionWithHeading

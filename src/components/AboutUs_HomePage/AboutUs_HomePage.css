@@ -12,6 +12,21 @@
     }
 }
 
+@media screen and (min-width:580px) and (max-width:766px) {
+    .aboutUs {
+        position: absolute;
+        top: 33vw;
+        left: 26vw;
+        font-size: 54px;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1100px) {
+    .aboutUs {
+        left: 9vw;
+    }
+}
+
 @media screen and (min-width:1450px) and (max-width:2000px) {
     .aboutUs {
         position: absolute;
