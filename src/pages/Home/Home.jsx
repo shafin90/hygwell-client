@@ -27,7 +27,7 @@ const Home = () => {
             </Suspense>
 
             <Suspense>
-                <LazyBackgroundImageContainer rightSideImg="/assets/Images/Group 1171282607 (1).jpg"/>
+                <LazyBackgroundImageContainer rightSideImg="/assets/Images/Group 1171282607 (1).jpg" />
             </Suspense>
 
             <Suspense>
@@ -59,11 +59,15 @@ const Home = () => {
             </Suspense>
 
             <Suspense>
-                <LazyGetYourPharmacy />
+                <div className="px-2 px-md-0 px-lg-0 px-xl-0 px-xxl-0">
+                    <LazyGetYourPharmacy />
+                </div>
             </Suspense>
 
             <Suspense>
-                <LazyBeforeFooter />
+                <div className="px-2 px-md-0 px-lg-0 px-xl-0 px-xxl-0">
+                    <LazyBeforeFooter />
+                </div>
             </Suspense>
 
             <Suspense>

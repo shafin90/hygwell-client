@@ -30,8 +30,8 @@ const Footer = () => {
                     <img className="bg1Footer" src="/assets/Images/Rectangle (4).png" alt="" />
                 </Col>
 
-                <Col lg={4} md={6} className="px-3 px-md-0 px-lg-0">
-                    <h1 className="h3 mb-5 ">Quick Links</h1>
+                <Col lg={4} md={6} className="px-3 px-md-0 px-lg-0 my-5 my-md-0 my-lg-0 my-xl-0 my-xxl-0">
+                    <h1 className="h3 mb-2 mb-md-5 mb-lg-5 mb-xl-5 mb-xxl-5">Quick Links</h1>
 
                     <Row className="mb-2 mb-md-5 mb-lg-5 mb-xl-5 mb-xxl-5 ">
                         <Col md={2}><a className="text-decoration-none fw-semibold" href="#">HOME</a></Col>

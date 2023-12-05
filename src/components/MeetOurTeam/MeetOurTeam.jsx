@@ -40,8 +40,8 @@ const MeetOurTeam = () => {
             {/* </Fade> */}
 
             <AttentionSeeker effect="tada">
-                <button className="z-3 position-relative  btn btn-green text-white rounded-3 px-4  py-2 mb-5 ">See Full Team</button>
-            </AttentionSeeker>
+                <button className="z-3 position-relative btn btn-success text-white rounded-3 px-3  py-2 mb-5">See Full Team</button>
+            </AttentionSeeker> 
 
             <img className=" position-absolute  z-1 img-fluid  " src="/assets/Images/Mask group (2).png" alt="" />
         </Container>

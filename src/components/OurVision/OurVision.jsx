@@ -20,7 +20,7 @@ const OurVision = () => {
                     </JackInTheBox>
                 </Col>
 
-                <Col md={5} className=' mb-5 mb-md-0 mb-lg-0  ps-5 ps-md-0 ps-lg-0'>
+                <Col md={5} className=' mb-5 mb-md-0 mb-lg-0 '>
                     <SmallDescriptionWithHeading
                         heading="Unified Healthcare Solutions"
                         article="At Hygwell, we ensure to bring you only the best. From top-notch pharmaceuticals to innovative packing solutions, we understand the ever-changing demands and challenges of the healthcare industry."
