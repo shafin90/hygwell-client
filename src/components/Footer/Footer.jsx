@@ -18,7 +18,7 @@ const Footer = () => {
             <Row>
                 <Col lg={4} md={4} className=" position-relative ">
 
-                    <img className="logo" src="/assets/Images/HYGWELL-_-Logo-_-Final-1 1.png" alt="" />
+                    <img className="logo mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0" src="/assets/Images/HYGWELL-_-Logo-_-Final-1 1.png" alt="" />
                     <article className=" w-75 my-3">
                         HYGWELL - Your premier source for top-notch healthcare solutions, designed to enhance health and well-being worldwide.
                     </article>
