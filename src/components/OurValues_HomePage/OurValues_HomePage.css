@@ -79,3 +79,10 @@
         /* right: 0vw; */
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    .ourValuesHeading {
+        /* left: 48vw; */
+        font-size: 3vw;
+    }
+}

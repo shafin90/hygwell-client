@@ -47,3 +47,11 @@
         font-size: 45px;
     }
 }
+
+@media screen and (min-width: 767px) and (max-width: 1100px) {
+    .ourVisionHeading {
+        top: 15vw;
+        left: 17vw;
+        font-size: 3vw;
+    }
+}
