@@ -24,7 +24,7 @@ const OurValues_HomePage = () => {
                 </Col>
 
                 {/* Right side text */}
-                <Col md={5} className=" position-relative px-5 px-md-0 ">
+                <Col md={5} className=" position-relative px-4 px-md-0 ">
                     {/* Background image============== */}
                     <img src="/assets/Images/Subtract (1).png" className="ourvaluesBackgroundImg" alt="" />
                     <SmallDescriptionWithHeading
