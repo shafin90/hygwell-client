@@ -19,6 +19,10 @@
 }
 
 @media screen and (max-width: 575px) {
+    .ourVisionHeading {
+        top: 37vw;
+        left: 38vw;
+    }
     .bgImgOfOurVisionSection {
         width: 97.277778vw;
         height: 128.166667vw;
