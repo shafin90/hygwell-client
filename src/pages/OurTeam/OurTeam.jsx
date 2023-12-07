@@ -59,16 +59,14 @@ const OurTeam = () => {
                 </Row>
 
                 <Row className=" d-flex  justify-content-center align-items-center ">
-                    <Col md={12} className="d-flex  justify-content-center align-items-center w-50 ">
+                    <Col sm={12} md={5} className="d-flex  justify-content-center align-items-center ">
                         <MeetOurTeamCard
                             img="/assets/Images/Ellipse 15 (2).png"
                             name="Bhanu Prakash Baina"
                             designation="CFO"
                             details="The CFO optimizes financial performance, ensuring fiscal strength and strategic decision-making."
                         ></MeetOurTeamCard>
-                    </Col>
-
-                  
+                    </Col>                  
                 </Row>
             </Container>
 

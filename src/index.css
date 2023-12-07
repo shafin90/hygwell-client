@@ -9,7 +9,7 @@
     
   }  
   ::-webkit-scrollbar-thumb {
-    background-color: #3bad46;
+    background-color: #198754;
   }
   
   /* For Firefox */
@@ -19,5 +19,5 @@
   /* The below code will set the scrollbar color to green */
   /* For a transparent background, you may need to use an extension or JavaScript-based solutions */
   * {
-    scrollbar-color: #3bad46 transparent;
+    scrollbar-color: #198754 transparent;
   }

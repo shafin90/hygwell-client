@@ -32,23 +32,6 @@
     outline: none;
 }
 
-.eachSectionOfForm {
-    border-bottom: 0.5px solid #8D8D8D;
-    font-size: 0.8333333333333334vw;
-    color: #717171;
-}
-
-.selectSubject {
-    font-size: 0.9722222222222222vw;
-    font-weight: 600;
-    margin-bottom: 1.3888888888888888vw;
-}
-
-.label {
-    font-size: 0.8333333333333334vw;
-    margin-left: 8px;
-}
-
 .messageLabel {
     color: #8D8D8D;
     font-size: 0.8333333333333334vw;
@@ -63,7 +46,7 @@
     border-bottom: 1px solid #8D8D8D;
     width: 100%;
     color: #717171;
-    font-size: 0.9722222222222222vw;
+    /* font-size: 0.9722222222222222vw; */
 }
 
 .messageInput:focus {
@@ -88,7 +71,7 @@
     width: 18.75vw;
     height: 12.799305555555556vw;
     position: relative;
-    top: 10px;
+    top: 16px;
 }
 
 .rightSideBgImgContactPage {
@@ -99,7 +82,11 @@
     left: 40vw;
 }
 
-/* @media screen and (max-width:575px) {
+
+
+
+
+@media screen and (max-width:575px) {
 
 
     .eachSectionOfFormLabel {
@@ -129,7 +116,7 @@
 
     .messageLabel {
         color: #8D8D8D;
-        font-size: 4vw;
+        /* font-size: 4vw; */
         font-weight: 500;
         margin-bottom: 3.3888888888888888vw;
     }
@@ -167,6 +154,9 @@
         left: 12vw;
         z-index: -1;
     }
+    .lastImageOfTheContactUsForm {
+        display: none;
+    }
 
 
-} */
+}

@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Form, InputGroup, Row } from "react-bootstrap";
 import './ContactUs_ContactUsPage.css'
 import { useState } from "react";
 
@@ -32,89 +32,114 @@ const ContactUs_ContactUsPage = () => {
                 {/* Fisrt name , Last Name */}
                 <Row className="mb-0 mb-md-5 mb-lg-5  d-flex  justify-content-between  align-items-center ">
                     {/* First name */}
-                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
-                        <label className="mb-2">
-                            First Name
-                        </label>
-                        <input onChange={e => setfirstName(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
-                    </Col>
+                    <Form.Group as={Col} md="6" controlId="validationCustom01">
+                        <Form.Label className=" text-muted">First name</Form.Label>
+                        <Form.Control
+                            required
+                            type="text"
+                            placeholder="First name"
+                            defaultValue="Mark"
+                            className=" text-muted "
+                        />
+                        <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                    </Form.Group>
 
                     {/* Last Name */}
-                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
-                        <label className="mb-2">
-                            Last Name
-                        </label>
-                        <input onChange={e => setlastName(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
-                    </Col>
+                    <Form.Group as={Col} md="6" controlId="validationCustom01">
+                        <Form.Label className=" text-muted">Last name</Form.Label>
+                        <Form.Control
+                            required
+                            type="text"
+                            placeholder="First name"
+                            defaultValue="Mark"
+                            className=" text-muted "
+                        />
+                        <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                    </Form.Group>
 
                 </Row>
 
                 {/* Email, Phone Number */}
                 <Row className="mb-5  d-flex  justify-content-between  align-items-center ">
                     {/* Email */}
-                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
-                        <label className="eachSectionOfFormLabel mb-2">
-                            Email Address
-                        </label>
-                        <input onChange={e => setEmail(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
-                    </Col>
+                    <Form.Group as={Col} md="6" controlId="validationCustomUsername">
+                        <Form.Label className=" text-muted">Email</Form.Label>
+                        <InputGroup hasValidation>
+                            <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
+                            <Form.Control
+                                className=" text-muted "
+                                type="text"
+                                placeholder="email"
+                                aria-describedby="inputGroupPrepend"
+                                required
+                            />
+                            <Form.Control.Feedback type="invalid">
+                                Please choose a username.
+                            </Form.Control.Feedback>
+                        </InputGroup>
+                    </Form.Group>
 
                     {/* Phone Number */}
-                    <Col md={5} className=" eachSectionOfForm px-0  d-flex  flex-column  justify-content-between  align-items-start ">
-                        <label className="eachSectionOfFormLabel mb-2">
-                            Phone Number
-                        </label>
-                        <input onChange={e => setphoneNumber(e.target.value)} className="contactUsFormInput w-100 mb-2  " type="text" />
-                    </Col>
+                    <Form.Group as={Col} md="6" controlId="validationCustom01">
+                        <Form.Label className=" text-muted">Phone Number</Form.Label>
+                        <Form.Control
+                            required
+                            type="text"
+                            placeholder="Phone Number"
+                            defaultValue=""
+                            className=" text-muted"
+                        />
+                        <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                    </Form.Group>
 
                 </Row>
 
                 {/* Radio input ===select subject======= */}
-                <h3 className=" selectSubject">Select Subject</h3>
-                <Row className=" radioInput mb-5 ">
-                    <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center   align-items-center ">
-                        <input type="radio" name="radio-group" id="radio-1" />
-                        <label className="label" htmlFor="radio-1">General Inquary</label>
+                <h3 className="h5 text-dark">Select Subject</h3>
+                <Row className=" mb-5 ">
+                    <Col md={4} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-start   align-items-center">
+                        <input className="me-2"  type="radio" name="radio-group" id="radio-1" />
+                        <label className=" text-muted"  htmlFor="radio-1">General Inquary</label>
+                    </Col>
+                    <Col md={2} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
+                        <input className="me-2" type="radio" name="radio-group" id="radio-2" />
+                        <label  htmlFor="radio-2">Prducts</label>
                     </Col>
                     <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
-                        <input type="radio" name="radio-group" id="radio-2" />
-                        <label className="label" htmlFor="radio-2">Prducts</label>
+                        <input className="me-2" type="radio" name="radio-group" id="radio-3" />
+                        <label  htmlFor="radio-3">Exports</label>
                     </Col>
                     <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
-                        <input type="radio" name="radio-group" id="radio-3" />
-                        <label className="label" htmlFor="radio-3">Exports</label>
-                    </Col>
-                    <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
-                        <input type="radio" name="radio-group" id="radio-4" />
-                        <label className="label" htmlFor="radio-4">Compliance</label>
+                        <input className="me-2" type="radio" name="radio-group" id="radio-4" />
+                        <label  htmlFor="radio-4">Compliance</label>
                     </Col>
                 </Row>
 
                 {/* Message =============== */}
-                <Row className=" mb-5 ">
-                    <Col md={12} className=" d-flex  flex-column  justify-content-between  align-items-start">
-                        <label className="messageLabel" >Message</label>
-                        <input className=" messageInput" placeholder="Write your message.." type="text" />
+                <Row className="mb-5">
+                    <Col md={12} className="d-flex flex-column justify-content-between  align-items-start">
+                        <label className="text-muted mb-3" >Message</label>
+                        <input className=" messageInput text-muted pb-1" placeholder="Write your message.." type="text" />
                     </Col>
                 </Row>
 
                 {/* finalize terms and conditions and send the message */}
                 <Row>
                     {/* Click to agree terms and conditions */}
-                    <Col className=" d-flex  justify-content-between  align-items-start " md={7}>
-                        <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" />
-                        <label className="termsAndCondition ms-2 " htmlFor="terms-and-conditions">
+                    <Col className=" mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 d-flex  justify-content-between  align-items-start " md={7}>
+                        <input className=" mt-2" type="checkbox" id="terms-and-conditions" name="terms-and-conditions" />
+                        <label className=" text-muted ms-2 " htmlFor="terms-and-conditions">
                             Send me updates about HYGWELL
                             products and services.
-                            <span className=" text-danger ms-3  ms-md-0 ms-lg-0  ">
+                            <span style={{cursor:"pointer"}} className=" text-danger ms-4 ms-md-2 ms-lg-2  ">
                                 Privacy policy
                             </span>
                         </label>
                     </Col>
 
                     {/* Send Button message */}
-                    <Col md={5}>
-                        <button className="sendMessages">
+                    <Col md={5} className=" d-flex justify-content-end align-items-center">
+                        <button className=" btn btn-success px-3 rounded-2">
                             Send Message
                         </button>
                     </Col>

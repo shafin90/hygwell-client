@@ -20,7 +20,7 @@ const ContactInformation_ContactUsPage = () => {
             <Row className=" w-100 " >
                 {/* Contact information========== */}
                 <Col md={6} className=" h-100  px-0">
-                    <div className="contactInformationContainer d-flex flex-column justify-content-between align-items-start ps-5 py-5" >
+                    <div className="contactInformationContainer d-flex flex-column justify-content-between align-items-start ps-3 py-3 ps-md-5 py-md-5 ps-lg-5 py-lg-5 ps-xl-5 py-xl-5 ps-xxl-5 py-xxl-5" >
 
                         {/* Heading====== */}
                         <div className="mb-5 pb-5 ">

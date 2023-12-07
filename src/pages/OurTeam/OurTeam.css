@@ -1,4 +1,4 @@
-.leftBgImg_ourTeam{
+.leftBgImg_ourTeam {
     position: absolute;
     z-index: -1;
     width: 26vw;
@@ -7,11 +7,31 @@
     top: -9vw;
 }
 
-.rightBgImg_ourTeam{
+.rightBgImg_ourTeam {
     position: absolute;
     z-index: -1;
-    width: 41vw;
-    height: 99vw;
-    left: 58vw;
+    width: 48vw;
+    height: 115vw;
+    left: 54vw;
     top: 26vw;
+}
+
+@media screen and (max-width: 575px) {
+    .rightBgImg_ourTeam {
+        position: absolute;
+        z-index: -1;
+        width: 99vw;
+        height: 398vw;
+        left: 4vw;
+        top: 26vw;
+    }
+
+    .leftBgImg_ourTeam {
+        position: absolute;
+        z-index: -1;
+        width: 59vw;
+        height: 254vw;
+        left: -23vw;
+        top: -9vw;
+    }
 }

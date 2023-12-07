@@ -1,8 +1,57 @@
-.bgRightSideImgAboutPage{
+.bgRightSideImgAboutPage {
     position: absolute;
     top: -364px;
     right: 0px;
     width: 61.23888888888889vw;
-    height: 91.24097222222223vw;
-    left: 40vw;
+    height: 95.240972vw;
+    left: 42vw;
+}
+
+.tick {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 575px) {
+    .tick {
+        font-size: 12vw;
+    }
+
+    .bgRightSideImgAboutPage {
+        position: absolute;
+        top: -364px;
+        right: 0px;
+        width: 61.23888888888889vw;
+        height: 207.240972vw;
+        left: 43vw;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width:766px) {
+    .tick {
+        font-size: 12vw;
+    }
+
+    .bgRightSideImgAboutPage {
+        position: absolute;
+        top: -364px;
+        right: 0px;
+        width: 61.23888888888889vw;
+        height: 207.240972vw;
+        left: 43vw;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1100px) {
+    .bgRightSideImgAboutPage {
+        position: absolute;
+        top: -236px;
+        right: 0px;
+        width: 63.238889vw;
+        height: 109.240972vw;
+        left: 40vw;
+    }
+    .tick {
+        font-size: 5vw;
+    }
 }
