@@ -10,7 +10,6 @@ const Products_Pharma = () => {
                 heading="Products"
                 article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."
                 fontweightOfArticle="400"
-
             ></Banner>
 
             <BackgroundImageContainer
@@ -45,7 +44,7 @@ const Products_Pharma = () => {
                 bottomTextImgLeft="3.5"
                 bottomTextBlobRight="25"
                 borderColor="#043CAA75"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628.png"
+                detailBoxBGIMG="/assets/Images/Group 1171282628.png"
             ></Products>
 
         </div>

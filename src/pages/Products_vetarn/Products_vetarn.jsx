@@ -42,7 +42,7 @@ const Products_vetarn = () => {
                 bottomTextImgLeft="0"
                 bottomTextBlobRight="20"
                 borderColor="#DE9DA570"
-                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628 (2).png"
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (2).png"
             >
             </Products>
 
