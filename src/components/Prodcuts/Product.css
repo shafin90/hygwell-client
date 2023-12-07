@@ -69,8 +69,8 @@
 .productBottomTextArticle {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 2.0833333333333335vw;
-    line-height: 3.3229166666666665vw;
+    font-size: 1.4833333333333335vw;
+    line-height: 2.1229166666666665vw;
     width: 41.875vw;
 }
 
@@ -85,7 +85,7 @@
     right: 0px;
     z-index: -2;
     width: 23.88888888888889vw;
-    height: 42.638888888888886vw;
+    height: 38.638888888888886vw;
 }
 .bottom_stuff_product{
     margin-top: 6vw;

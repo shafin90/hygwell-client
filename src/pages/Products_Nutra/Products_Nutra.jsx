@@ -14,10 +14,10 @@ const Products_Nutra = () => {
             ></Banner>
 
             <BackgroundImageContainer
-                rightSideImg="/assets/Images/Group 1171282607.png"
+                rightSideImg="/assets/Images/Group 1171282607.jpg"
             ></BackgroundImageContainer>
 
-
+            <div style={{ marginBottom: "400px" }}></div>
             <Products
                 bgColor="linear-gradient(180deg, rgba(215, 95, 131, 0.53) 0%, rgba(255, 255, 255, 0) 100%)"
                 headingText1="NUTRATION"
@@ -28,23 +28,23 @@ const Products_Nutra = () => {
                 headingTextColor2="#365F42"
                 headingTextColor3="#365F42"
                 headingTextColor4="#C89595"
-                firstProductImg="/assets/Images/Veterinary (1).png"
+                firstProductImg="/assets/Images/Veterinary (3).png"
                 secondProductImg="/assets/Images/Nutraceuticals (1).png"
                 thirdProductImg="/assets/Images/Nutraceuticals (1).png"
-                bottomTextheading= "Express your commitment to health your health vow"
+                bottomTextheading="Express your commitment to health your health vow"
                 bottomTextArticle="The power of pharmaceuticals is that they speak to your body, ... and script a healthier future."
-                bottomTextBlob="/assets/Images/Blob (1).png"
+                bottomTextBlob="/assets/Images/Blob (2).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="/assets/Images/Daco_4503636 1.png"
                 bottomTextImgWidth="14"
-                bottomTextImgHeight="23" 
+                bottomTextImgHeight="23"
                 bottomTextImgLeft="3"
-                bottomTextBlobRight="14"  
+                bottomTextBlobRight="14"
                 borderColor="#D75F83BD"
-                detailBoxBGIMG="/assets/Images/Group 1171282628 (7).png"              
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (1).png"
             >
-                
+
             </Products>
 
         </div>

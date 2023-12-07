@@ -14,9 +14,10 @@ const Products_Pharma = () => {
             ></Banner>
 
             <BackgroundImageContainer
-                rightSideImg="/assets/Images/Group 1171282607.png"
+                rightSideImg="/assets/Images/Group 1171282607.jpg"
             ></BackgroundImageContainer>
 
+            <div style={{ marginBottom:"400px"}}></div>
             <Products
                 bgColor="linear-gradient(180deg, rgba(4, 60, 170, 0.27) 0%, rgba(255, 255, 255, 0) 100%)"
                 headingText1="YOUR"
@@ -29,22 +30,22 @@ const Products_Pharma = () => {
                 headingTextColor4="#C89595"
                 firstProductImg="/assets/Images/Veterinary.png"
                 secondProductImg="/assets/Images/Nutraceuticals.png"
-                thirdProductImg="/assets/Images/Herbaceuticals.png"
+                thirdProductImg="../../../public/assets/Images/Herbaceuticals.png"
                 bottomTextheading="Express your commitment to health
                 your health vow."
                 bottomTextArticle="The power of pharmaceuticals is that
                 they speak to your body, ... and script
                 a healthier future."
                 bottomTextBlob="/assets/Images/Blob.png"
-                bottomTextImg="/assets/Images/2454167.png"
+                bottomTextImg="/assets/Images/Group (3).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImgWidth="24.90138888888889"
                 bottomTextImgHeight="17.01388888888889"
-                bottomTextImgLeft= "3.5"
+                bottomTextImgLeft="3.5"
                 bottomTextBlobRight="25"
                 borderColor="#043CAA75"
-                detailBoxBGIMG="/assets/Images/Group 1171282628.png"     
+                detailBoxBGIMG="../../../public/assets/Images/Group 1171282628.png"
             ></Products>
 
         </div>

@@ -16,7 +16,7 @@ const GetYourPharmacy_HomePage = () => {
                             very easily
                         </h1>
 
-                        <article className=" fs-5 text-white mb-4 mb-md-0  mb-lg-0 z-2 position-relative ">
+                        <article className="text-white mb-4 mb-md-0  mb-lg-0 z-2 position-relative ">
                             You can download app  in Playstore or Appstore. After
                             that you can create an account in the application
                         </article>
