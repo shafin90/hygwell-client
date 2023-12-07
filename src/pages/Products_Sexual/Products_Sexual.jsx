@@ -13,8 +13,10 @@ const Products_Sexual = () => {
             ></Banner>
 
             <BackgroundImageContainer
-                rightSideImg="/assets/Images/Group 1171282607.png"
+                rightSideImg="/assets/Images/Group 1171282607.jpg"
             ></BackgroundImageContainer>
+
+            <div style={{ marginBottom: "400px" }}></div>
 
             <Products
                 bgColor="linear-gradient(180deg, rgba(240, 84, 168, 0.27) 0%, rgba(255, 255, 255, 0) 100%)"
@@ -27,24 +29,24 @@ const Products_Sexual = () => {
                 headingTextColor3="#365F42"
                 headingTextColor4="##C89595"
                 firstProductImg="/assets/Images/Veterinary (6).png"
-                secondProductImg="/assets/Images/Nutraceuticals (6).png"
-                thirdProductImg="/assets/Images/Nutraceuticals (6).png"
-                bottomTextheading= "Let your desire guide you, your intimate mantra."
+                secondProductImg="/assets/Images/Nutraceuticals (8).png"
+                thirdProductImg="/assets/Images/Nutraceuticals (8).png"
+                bottomTextheading="Let your desire guide you, your intimate mantra."
                 bottomTextArticle="The power of sensuality is that
                 it speaks to your core, ... and sparks
                 deep connections."
-            
-                bottomTextBlob="/assets/Images/Blob (6).png"
+
+                bottomTextBlob="/assets/Images/Blob (13).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="/assets/Images/Daco_247602 1.png"
                 bottomTextImgWidth="16"
-                bottomTextImgHeight="23" 
+                bottomTextImgHeight="23"
                 bottomTextImgLeft="2"
                 bottomTextBlobRight="16"
                 borderColor="#F054A8"
-                detailBoxBGIMG="/assets/Images/Group 1171282628 (6).png"                                
-            >                
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (6).png"
+            >
             </Products>
 
         </div>

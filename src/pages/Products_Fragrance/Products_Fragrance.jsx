@@ -13,8 +13,10 @@ const Products_Fragrance = () => {
             ></Banner>
 
             <BackgroundImageContainer
-                rightSideImg="/assets/Images/Group 1171282607.png"
+                rightSideImg="/assets/Images/Group 1171282607.jpg"
             ></BackgroundImageContainer>
+
+            <div style={{ marginBottom: "400px" }}></div>
 
             <Products
                 bgColor="linear-gradient(180deg, rgba(95, 215, 136, 0.27) 0%, rgba(255, 255, 255, 0) 100%)"
@@ -27,24 +29,24 @@ const Products_Fragrance = () => {
                 headingTextColor3="#365F42"
                 headingTextColor4="#C89595"
                 firstProductImg="/assets/Images/Veterinary (5).png"
-                secondProductImg="/assets/Images/Nutraceuticals (5).png"
-                thirdProductImg="/assets/Images/Nutraceuticals (5).png"
-                bottomTextheading= "Your fragrance is your message your scented slogan."
+                secondProductImg="/assets/Images/Nutraceuticals (7).png"
+                thirdProductImg="/assets/Images/Nutraceuticals (7).png"
+                bottomTextheading="Your fragrance is your message your scented slogan."
                 bottomTextArticle="The beauty of fragrance is that
                 it speaks to your heart, … and hopefully
                 someone else's."
-            
-                bottomTextBlob="/assets/Images/Blob (5).png"
+
+                bottomTextBlob="/assets/Images/Blob (10).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="/assets/Images/Daco_4503636 1.png"
                 bottomTextImgWidth="16"
-                bottomTextImgHeight="23" 
+                bottomTextImgHeight="23"
                 bottomTextImgLeft="0"
                 bottomTextBlobRight="16"
                 borderColor="#5FD788"
-                detailBoxBGIMG="/assets/Images/Group 1171282628 (5).png"                               
-            >                
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (5).png"
+            >
             </Products>
 
         </div>

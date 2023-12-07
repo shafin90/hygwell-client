@@ -13,8 +13,10 @@ const Products_herbal = () => {
             ></Banner>
 
             <BackgroundImageContainer
-                rightSideImg="/assets/Images/Group 1171282607.png"
+                rightSideImg="/assets/Images/Group 1171282607.jpg"
             ></BackgroundImageContainer>
+
+            <div style={{ marginBottom: "400px" }}></div>
 
             <Products
                 bgColor="linear-gradient(180deg, rgba(217, 214, 184, 0.27) 0%, rgba(255, 255, 255, 0) 100%)"
@@ -26,23 +28,23 @@ const Products_herbal = () => {
                 headingTextColor2="#365F42"
                 headingTextColor3="#365F42"
                 headingTextColor4="#C89595"
-                firstProductImg="/assets/Images/Veterinary (3).png"
-                secondProductImg="/assets/Images/Nutraceuticals (3).png"
-                thirdProductImg="/assets/Images/Nutraceuticals (3).png"
-                bottomTextheading= "Let herbs guide you,your wellness pledge"
+                firstProductImg="/assets/Images/Veterinary (2).png"
+                secondProductImg="/assets/Images/Nutraceuticals (5).png"
+                thirdProductImg="/assets/Images/Nutraceuticals (5).png"
+                bottomTextheading="Let herbs guide you,your wellness pledge"
                 bottomTextArticle="The power of herbs is that they resonate within, ... and cultivate a naturally healthy you."
-                bottomTextBlob="/assets/Images/Blob (3).png"
+                bottomTextBlob="/assets/Images/Blob (8).png"
                 bottomTextBlobWidth="22.58"
                 bottomTextBlobHeight="32.606944444444444"
                 bottomTextImg="/assets/Images/Image.png"
                 bottomTextImgWidth="15"
-                bottomTextImgHeight="19" 
+                bottomTextImgHeight="19"
                 bottomTextImgLeft="2"
                 bottomTextBlobRight="15"
                 borderColor="#D9D6B8"
-                detailBoxBGIMG="/assets/Images/Group 1171282628 (3).png"                 
+                detailBoxBGIMG="/assets/Images/Group 1171282628 (3).png"
             >
-                
+
             </Products>
 
         </div>
