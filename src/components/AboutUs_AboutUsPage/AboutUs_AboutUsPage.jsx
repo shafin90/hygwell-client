@@ -31,7 +31,7 @@ const AboutUs_AboutUsPage = ({ heading }) => {
                             </li>
 
                             <li className=" d-flex  justify-content-start  align-items-start mb-2 ">
-                                <AiFillCheckCircle  className=" text-success me-3 tick" />
+                                <AiFillCheckCircle  className=" text-success me-3 tick-middle" />
                                 <p className=" my-auto ">
                                     Our services go beyond just pharmaceuticals, offering an array of products and services including neutraceuticals, cosmetics, hotel amenities, packaging solutions and more.
                                 </p>

@@ -11,9 +11,17 @@
     font-size: 1.5vw;
 }
 
+.tick-middle {
+    font-size: 1.8vw;
+}
+
 @media screen and (max-width: 575px) {
     .tick {
         font-size: 12vw;
+    }
+
+    .tick-middle {
+        font-size: 15vw;
     }
 
     .bgRightSideImgAboutPage {
@@ -29,7 +37,11 @@
 
 @media screen and (min-width: 576px) and (max-width:766px) {
     .tick {
-        font-size: 12vw;
+        font-size: 8vw;
+    }
+
+    .tick-middle{
+        font-size: 10vw;
     }
 
     .bgRightSideImgAboutPage {
@@ -53,5 +65,9 @@
     }
     .tick {
         font-size: 5vw;
+    }
+
+    .tick-middle {
+        font-size: 6vw;
     }
 }
