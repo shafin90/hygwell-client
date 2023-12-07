@@ -31,7 +31,9 @@ const Exports = () => {
 
             <WhyChoose_ExportPage></WhyChoose_ExportPage>
             <ReasonContainerWhyChoose_ExportsPage></ReasonContainerWhyChoose_ExportsPage>
-            <BeforeFooter_HomePage></BeforeFooter_HomePage>
+            <div className=" px-3">
+                <BeforeFooter_HomePage></BeforeFooter_HomePage>
+            </div>
             <Footer></Footer>
         </Container>
     );

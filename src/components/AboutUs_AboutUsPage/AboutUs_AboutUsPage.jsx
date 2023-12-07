@@ -11,7 +11,7 @@ const AboutUs_AboutUsPage = ({ heading }) => {
             {/* background-right-side image */}
             <img className="bgRightSideImgAboutPage" src="/assets/Images/Subtract (2).png" alt="" />
             <Fade cascade>
-                <Container style={{ backgroundColor: "#54A7C40A" }} className="p-5  rounded-4 mb-5">
+                <Container style={{ backgroundColor: "#54A7C40A" }} className="p-3 p-md-5 p-lg-5 p-xl-5 p-xxl-5 rounded-4 mb-5">
                     <h1 className=" fw-bold display-6">
                         {heading}
                     </h1>
