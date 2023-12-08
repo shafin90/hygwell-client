@@ -19,7 +19,7 @@ const MeetOurTeam = () => {
                 <Row>
                     <Col md={6}>
                         <MeetOurTeamCard
-                            img="../../../public/assets/Images/Untitled design (1)-modified.png"
+                            img="/assets/Images/Untitled design (1)-modified.png"
                             name="Nancharaiah Gowd Nasina"
                             designation="Managing director/Co-Founder"
                             details="The Managing Director orchestrates visionary strategies, driving organizational success with unwavering leadership."
