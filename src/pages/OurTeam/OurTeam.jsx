@@ -30,10 +30,11 @@ const OurTeam = () => {
 
                     <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
                         <MeetOurTeamCard
-                            img="/assets/Images/Ellipse 15.png"
+                            img="/assets/Images/Untitled design (2)-modified.png"
                             name="Nancharaiah Gowd Nasina"
                             designation="Managing director/Co-Founder"
                             details="The Managing Director orchestrates visionary strategies, driving organizational success with unwavering leadership."
+                            firstImg={true}
                         ></MeetOurTeamCard>
                     </Col>
                 </Row>
@@ -66,12 +67,12 @@ const OurTeam = () => {
                             designation="CFO"
                             details="The CFO optimizes financial performance, ensuring fiscal strength and strategic decision-making."
                         ></MeetOurTeamCard>
-                    </Col>                  
+                    </Col>
                 </Row>
             </Container>
 
             <Container
-            style={{width:"100vw", height:" 55vw"}}
+                style={{ width: "100vw", height: " 55vw" }}
             ></Container>
 
             <Footer></Footer>

@@ -37,6 +37,32 @@
     height: 2.5vw;
 }
 
+.firstImg {
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (min-width:1210px) and (max-width:1390px) {
+    .firstImg {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width:995px) and (max-width:1205px) {
+    .firstImg {
+        width: 210px;
+        height: 210px;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:990px) {
+    .firstImg {
+        width: 160px;
+        height: 160px;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .meetOurTeamCard {
         width: 80.583333333333336vw;
@@ -45,54 +71,67 @@
         position: relative;
         background-color: white;
         margin-bottom: 3vw;
-       
+
     }
 
     .meetOurTeamCard img {
         width: 28.097222222222221vw;
-        height:28.097222222222221vw;
+        height: 28.097222222222221vw;
         border-radius: 50%;
         margin-bottom: 3vw;
     }
+
     .card_social_link img {
         width: 9.5vw;
-        height:9.5vw;
+        height: 9.5vw;
     }
+
     .name {
         font-family: 'Poppins', sans-serif;
         font-size: 7vw;
         font-weight: 400;
         text-align: center;
     }
-    .details{
+
+    .details {
         font-size: 4vw;
     }
 }
 
-@media screen and (min-width:577px) and  (max-width: 990px) {
+@media screen and (min-width:577px) and (max-width: 990px) {
     .meetOurTeamCard {
         width: 39.583333333333336vw;
         height: 50.583333333333336vw;
         z-index: 100;
         position: relative;
         background-color: white;
-    
+
     }
+
     .name {
         font-family: 'Poppins', sans-serif;
         font-size: 3.361111111111111vw;
         font-weight: 400;
         text-align: center;
     }
+
     .designation {
         color: #247FFB;
         margin-bottom: 10px;
         font-weight: 600;
         text-align: center;
     }
+
     .card_social_link img {
         width: 3.5vw;
         height: 3.5vw;
     }
-    
+
+}
+
+@media screen and (max-width:575px) {
+    .firstImg {
+        width: 50vw;
+        height: 50vw;
+    }
 }

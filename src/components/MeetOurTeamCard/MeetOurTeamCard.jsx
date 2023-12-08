@@ -12,7 +12,7 @@ const MeetOurTeamCard = ({ img, name, designation, details, firstImg }) => {
         <Container fluid className="d-flex flex-column justify-content-center align-items-center  border bg-white py-5 z-2 position-relative  px-3 m-2">
 
             <Zoom className=" d-flex  justify-content-center  align-items-center ">
-                <img src={img} className={firstImg?"w-75 mb-3 p-2 p-md-0 p-lg-0 p-xl-0 p-xxl-0":"w-50 mb-3 p-2 p-md-0 p-lg-0 p-xl-0 p-xxl-0 "} alt="" />
+                <img src={img} className={firstImg?" firstImg mb-3 p-2 p-md-0 p-lg-0 p-xl-0 p-xxl-0":"w-50 mb-3 p-2 p-md-0 p-lg-0 p-xl-0 p-xxl-0 "} alt="" />
             </Zoom>
 
             <Fade cascade>
