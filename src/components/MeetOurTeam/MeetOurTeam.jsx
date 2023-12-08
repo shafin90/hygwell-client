@@ -19,10 +19,11 @@ const MeetOurTeam = () => {
                 <Row>
                     <Col md={6}>
                         <MeetOurTeamCard
-                            img="/assets/Images/Ellipse 15.png"
+                            img="../../../public/assets/Images/Untitled design (1)-modified.png"
                             name="Nancharaiah Gowd Nasina"
                             designation="Managing director/Co-Founder"
                             details="The Managing Director orchestrates visionary strategies, driving organizational success with unwavering leadership."
+                            firstImg={true}
                         ></MeetOurTeamCard>
                     </Col>
 
@@ -41,7 +42,7 @@ const MeetOurTeam = () => {
 
             <AttentionSeeker effect="tada">
                 <button className="z-3 position-relative btn btn-success text-white rounded-3 px-3  py-2 mb-5">See Full Team</button>
-            </AttentionSeeker> 
+            </AttentionSeeker>
 
             <img className=" position-absolute  z-1 img-fluid  " src="/assets/Images/Mask group (2).png" alt="" />
         </Container>
