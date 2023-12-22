@@ -3,12 +3,15 @@ import './Product.css'
 import ProductContainer from '../ProductContainer/ProductContainer';
 import { useState } from 'react';
 import { AttentionSeeker, Zoom, Bounce, Slide, Fade } from 'react-awesome-reveal';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
-const Products = ({ bgColor, headingText1, headingText2, headingText3, headingText4, headingTextColor1, headingTextColor2, headingTextColor3, headingTextColor4, firstProductImg, secondProductImg, thirdProductImg, bottomTextheading, bottomTextArticle, bottomTextBlob, bottomTextImg, bottomTextBlobWidth, bottomTextBlobHeight, bottomTextImgWidth, bottomTextImgHeight, bottomTextImgLeft, bottomTextBlobRight, shortTheFont, borderColor, detailBoxBGIMG }) => {
+const Products = ({ bgColor, headingText1, headingText2, headingText3, headingText4, headingTextColor1, headingTextColor2, headingTextColor3, headingTextColor4, firstProductImg, secondProductImg, thirdProductImg, fourthProductImg, fifthProductImg, sixthProductImg, seventhProductImg, bottomTextheading, bottomTextArticle, bottomTextBlob, bottomTextImg, bottomTextBlobWidth, bottomTextBlobHeight, bottomTextImgWidth, bottomTextImgHeight, bottomTextImgLeft, bottomTextBlobRight, shortTheFont, borderColor, detailBoxBGIMG }) => {
 
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+    
     const style = {
         background: bgColor,
     }
@@ -46,13 +49,13 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
             {/* product section */}
             <div className='productSection mb-2 '>
                 <Slide cascade>
-                    <img className=' img-fluid ' src={firstProductImg} alt="" />
-                    <img className=' img-fluid ' src={secondProductImg} alt="" />
-                    <img className=' img-fluid ' src={thirdProductImg} alt="" />
-                    <img className=' img-fluid ' src={thirdProductImg} alt="" />
-                    <img className=' img-fluid ' src={thirdProductImg} alt="" />
-                    <img className=' img-fluid ' src={thirdProductImg} alt="" />
-                    <img className=' img-fluid ' src={thirdProductImg} alt="" />
+                    <img onClick={() => { navigate("/productsPharma") }} className='productToNavigate img-fluid ' src={pathname==="/productsPharma"?"/assets/Images/Veterinary.png" : firstProductImg} alt="" />
+                    <img onClick={() => { navigate("/productsNutra") }} className=' productToNavigate img-fluid ' src={pathname==="/productsNutra"? "/assets/Images/Veterinary (1).png":secondProductImg} alt="" />
+                    <img onClick={() => { navigate("/productsVetarn") }} className='productToNavigate img-fluid ' src={pathname==="/productsVetarn"?"/assets/Images/Veterinary (2).png" : thirdProductImg} alt="" />
+                    <img onClick={() => { navigate("/productsHerbal") }} className=' productToNavigate img-fluid ' src={pathname==="/productsHerbal"?"/assets/Images/Veterinary (4).png": fourthProductImg} alt="" />
+                    <img onClick={() => { navigate("/productsCosmetics") }} className=' productToNavigate img-fluid ' src={pathname==="/productsCosmetics"?"/assets/Images/Veterinary (5).png" :fifthProductImg} alt="" />
+                    <img onClick={() => { navigate("/productsFragrance") }} className=' productToNavigate img-fluid ' src={pathname==="/productsFragrance"?"/assets/Images/Veterinary (6).png": sixthProductImg} alt="" />
+                    <img onClick={() => { navigate("/productsSexual") }} className=' productToNavigate img-fluid ' src={pathname==="/productsSexual"?"/assets/Images/Veterinary (7).png": seventhProductImg} alt="" />
                 </Slide>
             </div>
 

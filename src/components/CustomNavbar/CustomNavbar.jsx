@@ -34,17 +34,20 @@ const CustomNavbar = () => {
                             Home
                         </Link>
 
-                        {/*Dropdown menu---------------  */}
-                        <NavDropdown className="nav-menu d-flex justify-content-center align-items-center fw-semibold  px-2  rounded-3 " title="Products" id="basic-nav-dropdown" >
-                            <NavDropdown.Item as={Link} to="/productsPharma">Pharma</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/productsNutra">Nutra </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/productsVetarn">Vetarn</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/productsHerbal"> Herbal </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/productsCosmetics"> Cosmetics </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/productsFragrance"> Fragrance </NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/productsSexual"> Sexual </NavDropdown.Item>
-                        </NavDropdown>
-                        {/*Dropdown menu---------------  */}
+
+                        <Link
+                            className={pathname == "/productsPharma" ?
+                                "d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3 bg-success text-white"
+                                :
+                                "text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3"
+                            }
+                            as={Link} 
+                            to="/productsPharma"
+                        >
+                            Products
+                        </Link>
+
+                        
 
                         <Link className="text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2 rounded-3 " to="#link">
                             Services</Link>

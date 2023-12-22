@@ -27,9 +27,13 @@ const Products_Pharma = () => {
                 headingTextColor2="#C89595"
                 headingTextColor3="#365F42"
                 headingTextColor4="#C89595"
-                firstProductImg="/assets/Images/Veterinary.png"
-                secondProductImg="/assets/Images/Nutraceuticals.png"
-                thirdProductImg="../../../public/assets/Images/Herbaceuticals.png"
+                firstProductImg="/assets/Images/Nutraceuticals.png"
+                secondProductImg= "/assets/Images/Nutraceuticals (2).png"
+                thirdProductImg= "/assets/Images/Nutraceuticals (3).png"
+                fourthProductImg= "/assets/Images/Nutraceuticals (4).png"
+                fifthProductImg= "/assets/Images/Nutraceuticals (5).png"
+                sixthProductImg= "/assets/Images/Nutraceuticals (7).png"
+                seventhProductImg= "/assets/Images/Nutraceuticals (8).png"
                 bottomTextheading="Express your commitment to health
                 your health vow."
                 bottomTextArticle="The power of pharmaceuticals is that

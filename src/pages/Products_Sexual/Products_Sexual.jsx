@@ -28,9 +28,13 @@ const Products_Sexual = () => {
                 headingTextColor2="##C89595"
                 headingTextColor3="#365F42"
                 headingTextColor4="##C89595"
-                firstProductImg="/assets/Images/Veterinary (6).png"
-                secondProductImg="/assets/Images/Nutraceuticals (8).png"
-                thirdProductImg="/assets/Images/Nutraceuticals (8).png"
+                firstProductImg="/assets/Images/Nutraceuticals.png"
+                secondProductImg= "/assets/Images/Nutraceuticals (2).png"
+                thirdProductImg= "/assets/Images/Nutraceuticals (3).png"
+                fourthProductImg= "/assets/Images/Nutraceuticals (4).png"
+                fifthProductImg= "/assets/Images/Nutraceuticals (5).png"
+                sixthProductImg= "/assets/Images/Nutraceuticals (7).png"
+                seventhProductImg= "/assets/Images/Nutraceuticals (8).png"
                 bottomTextheading="Let your desire guide you, your intimate mantra."
                 bottomTextArticle="The power of sensuality is that
                 it speaks to your core, ... and sparks

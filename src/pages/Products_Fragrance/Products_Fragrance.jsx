@@ -28,9 +28,13 @@ const Products_Fragrance = () => {
                 headingTextColor2="#365F42"
                 headingTextColor3="#365F42"
                 headingTextColor4="#C89595"
-                firstProductImg="/assets/Images/Veterinary (5).png"
-                secondProductImg="/assets/Images/Nutraceuticals (7).png"
-                thirdProductImg="/assets/Images/Nutraceuticals (7).png"
+                firstProductImg="/assets/Images/Nutraceuticals.png"
+                secondProductImg= "/assets/Images/Nutraceuticals (2).png"
+                thirdProductImg= "/assets/Images/Nutraceuticals (3).png"
+                fourthProductImg= "/assets/Images/Nutraceuticals (4).png"
+                fifthProductImg= "/assets/Images/Nutraceuticals (5).png"
+                sixthProductImg= "/assets/Images/Nutraceuticals (7).png"
+                seventhProductImg= "/assets/Images/Nutraceuticals (8).png"
                 bottomTextheading="Your fragrance is your message your scented slogan."
                 bottomTextArticle="The beauty of fragrance is that
                 it speaks to your heart, … and hopefully
