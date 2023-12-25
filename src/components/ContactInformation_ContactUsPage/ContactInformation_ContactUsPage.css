@@ -13,6 +13,11 @@
     border-radius: 20px 0px 0px 20px;
 }
 
+.googleMapWidgets:hover{
+    cursor: pointer;
+    filter: brightness(0.7);
+    transition: 0.4s;
+}
 
 @media screen and (max-width: 765px) {
     .googleMapWidgets {

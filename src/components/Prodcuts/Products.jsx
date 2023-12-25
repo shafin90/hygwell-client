@@ -48,7 +48,7 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
 
             {/* product section */}
             <div className='productSection mb-2 '>
-                <Slide cascade>
+                <Slide cascade triggerOnce>
                     <img onClick={() => { navigate("/productsPharma") }} className='productToNavigate img-fluid ' src={pathname==="/productsPharma"?"/assets/Images/Veterinary.png" : firstProductImg} alt="" />
                     <img onClick={() => { navigate("/productsNutra") }} className=' productToNavigate img-fluid ' src={pathname==="/productsNutra"? "/assets/Images/Veterinary (1).png":secondProductImg} alt="" />
                     <img onClick={() => { navigate("/productsVetarn") }} className='productToNavigate img-fluid ' src={pathname==="/productsVetarn"?"/assets/Images/Veterinary (2).png" : thirdProductImg} alt="" />

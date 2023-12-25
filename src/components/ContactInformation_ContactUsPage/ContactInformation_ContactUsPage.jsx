@@ -2,18 +2,20 @@ import { Col, Container, Row } from "react-bootstrap";
 import './ContactInformation_ContactUsPage.css'
 import { useEffect, useState } from "react";
 import { BsDiscord, BsInstagram, BsTwitter } from 'react-icons/bs'
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import { MdWifiCalling3 } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const ContactInformation_ContactUsPage = () => {
     const [isHoverTwitterIcon, setIsHoverTwitterIcon] = useState(false);
     const [isHoverInstaIcon, setIsHoverInstaIcon] = useState(false);
     const [isHoverDiscordIcon, setIsHoverDiscordIcon] = useState(false);
 
-    const googleMapsApiKey = 'AIzaSyDQgjgALjworEY8dTP_PccsMbER0_gZt-k';
-    const mapCenter = { lat: 14.444273, lng: 79.975716 };
+    const handleImageClick = () => {
+        // Redirect logic, for example:
+        window.location.href = 'https://www.bing.com/maps?where=NELLORE%2C+ANDHRA+PRADESH+524003%2C+IN&cp=14.418047%7E79.981054&lvl=12.0';
+    };
 
     return (
         <Container className="contactInformation_ContactUsPage d-flex justify-content-center align-items-center  px-0  py-5  ">
@@ -58,7 +60,7 @@ const ContactInformation_ContactUsPage = () => {
                         {/* Social media link ==============================*/}
                         <div className=" w-100 d-flex justify-content-start align-items-center ">
                             <div
-                                style={{ borderRadius: "50%", width:"30px", height:"30px"}}
+                                style={{ borderRadius: "50%", width: "30px", height: "30px" }}
                                 onMouseEnter={() => setIsHoverTwitterIcon(true)}
                                 onMouseLeave={() => setIsHoverTwitterIcon(false)}
                                 className={isHoverTwitterIcon ? "bg-white me-3 d-flex justify-content-center align-items-center " : "me-3 bg-warning d-flex justify-content-center align-items-center "}
@@ -69,7 +71,7 @@ const ContactInformation_ContactUsPage = () => {
                             </div>
 
                             <div
-                                style={{ borderRadius: "50%",  width:"30px", height:"30px" }}
+                                style={{ borderRadius: "50%", width: "30px", height: "30px" }}
                                 onMouseEnter={() => setIsHoverInstaIcon(true)}
                                 onMouseLeave={() => setIsHoverInstaIcon(false)}
                                 className={isHoverInstaIcon ? "bg-white me-3 d-flex justify-content-center align-items-center" : "me-3 d-flex justify-content-center align-items-center bg-warning"}
@@ -80,10 +82,10 @@ const ContactInformation_ContactUsPage = () => {
                             </div>
 
                             <div
-                                style={{ borderRadius: "50%",  width:"30px", height:"30px" }}
+                                style={{ borderRadius: "50%", width: "30px", height: "30px" }}
                                 onMouseEnter={() => setIsHoverDiscordIcon(true)}
                                 onMouseLeave={() => setIsHoverDiscordIcon(false)}
-                                className={isHoverDiscordIcon?"bg-white me-3 d-flex justify-content-center align-items-center":"me-3 d-flex justify-content-center align-items-center bg-warning"}
+                                className={isHoverDiscordIcon ? "bg-white me-3 d-flex justify-content-center align-items-center" : "me-3 d-flex justify-content-center align-items-center bg-warning"}
                             >
                                 <BsDiscord
 
@@ -97,15 +99,12 @@ const ContactInformation_ContactUsPage = () => {
 
                 {/* Google map widgets */}
                 <Col md={6} className="px-0 googleMapWidgets">
-                    <LoadScript googleMapsApiKey={googleMapsApiKey}>
-                        <GoogleMap
-                            mapContainerStyle={{ width: "100%", height: "100%" }}
-                            center={mapCenter}
-                            zoom={15} // Adjust the zoom level as needed
-                        >
-                            {/* Add markers or other map components if needed */}
-                        </GoogleMap>
-                    </LoadScript>
+                    <img
+                        src="/public/assets/Images/Component 6.jpg"
+                        className=" w-100 h-100"
+                        alt=""
+                        onClick={handleImageClick}
+                    />
                 </Col>
 
             </Row>
