@@ -4,6 +4,7 @@ import BackgroundImageContainer from "../../components/BackgroundImageContainer/
 import AboutUs_AboutUsPage from "../../components/AboutUs_AboutUsPage/AboutUs_AboutUsPage";
 import Certification_AboutUsPage from "../../components/Certification_AboutUsPage/Certification_AboutUsPage";
 import Footer from "../../components/Footer/Footer";
+import AnimatedCursor from "react-animated-cursor";
 
 const AboutUs = () => {
     return (
