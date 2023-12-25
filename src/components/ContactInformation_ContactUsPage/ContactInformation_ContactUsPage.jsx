@@ -100,7 +100,7 @@ const ContactInformation_ContactUsPage = () => {
                 {/* Google map widgets */}
                 <Col md={6} className="px-0 googleMapWidgets">
                     <img
-                        src="/public/assets/Images/Component 6.jpg"
+                        src="/assets/Images/Component 6.jpg"
                         className=" w-100 h-100"
                         alt=""
                         onClick={handleImageClick}
