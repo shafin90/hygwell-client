@@ -20,10 +20,12 @@ import AnimatedCursor from "react-animated-cursor"
 const Home = () => {
     return (
         <Container fluid className="px-0 overflow-x-hidden overflow-y-hidden home">
-             <AnimatedCursor 
-             
-             color='25, 135, 84'
-             />
+
+            {/* customised cursor */}
+            <AnimatedCursor
+                color='25, 135, 84'
+            />
+
             <Suspense fallback={<div>Loading...</div>}>
                 <LazyBanner
                     heading="Welcome To HYGWELL"

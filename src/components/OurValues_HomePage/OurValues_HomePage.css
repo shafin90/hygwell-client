@@ -11,7 +11,7 @@
 
 .ourvaluesBackgroundImg {
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     width: 36.907639vw;
     height: 96.240972vw;
     top: -20vw;
