@@ -1,6 +1,7 @@
 import { Col, Container, Form, InputGroup, Row } from "react-bootstrap";
 import './ContactUs_ContactUsPage.css'
 import { useState } from "react";
+import AnimatedCursor from "react-animated-cursor"
 
 const ContactUs_ContactUsPage = () => {
     const [firstName, setfirstName] = useState('');
@@ -18,6 +19,7 @@ const ContactUs_ContactUsPage = () => {
 
     return (
         <Container className="position-relative ">
+
             <h1 className="h1 text-center  fw-bold ">
                 Contact Us
             </h1>
@@ -29,6 +31,9 @@ const ContactUs_ContactUsPage = () => {
 
             {/* Form of this page */}
             <form className=" form shadow-lg">
+                <AnimatedCursor
+                    color='25, 135, 84'
+                />
                 {/* Fisrt name , Last Name */}
                 <Row className="mb-0 mb-md-5 mb-lg-5  d-flex  justify-content-between  align-items-center ">
                     {/* First name */}
@@ -40,6 +45,8 @@ const ContactUs_ContactUsPage = () => {
                             placeholder="First name"
                             defaultValue="Mark"
                             className=" text-muted "
+                            
+
                         />
                         <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                     </Form.Group>
@@ -98,20 +105,20 @@ const ContactUs_ContactUsPage = () => {
                 <h3 className="h5 text-dark">Select Subject</h3>
                 <Row className=" mb-5 ">
                     <Col md={4} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-start   align-items-center">
-                        <input className="me-2"  type="radio" name="radio-group" id="radio-1" />
-                        <label className=" text-muted"  htmlFor="radio-1">General Inquary</label>
+                        <input className="me-2" type="radio" name="radio-group" id="radio-1" />
+                        <label className=" text-muted" htmlFor="radio-1">General Inquary</label>
                     </Col>
                     <Col md={2} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
                         <input className="me-2" type="radio" name="radio-group" id="radio-2" />
-                        <label  htmlFor="radio-2">Prducts</label>
+                        <label htmlFor="radio-2">Prducts</label>
                     </Col>
                     <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
                         <input className="me-2" type="radio" name="radio-group" id="radio-3" />
-                        <label  htmlFor="radio-3">Exports</label>
+                        <label htmlFor="radio-3">Exports</label>
                     </Col>
                     <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
                         <input className="me-2" type="radio" name="radio-group" id="radio-4" />
-                        <label  htmlFor="radio-4">Compliance</label>
+                        <label htmlFor="radio-4">Compliance</label>
                     </Col>
                 </Row>
 
@@ -131,7 +138,7 @@ const ContactUs_ContactUsPage = () => {
                         <label className=" text-muted ms-2 " htmlFor="terms-and-conditions">
                             Send me updates about HYGWELL
                             products and services.
-                            <span style={{cursor:"pointer"}} className=" text-danger ms-4 ms-md-2 ms-lg-2  ">
+                            <span style={{ cursor: "pointer" }} className=" text-danger ms-4 ms-md-2 ms-lg-2  ">
                                 Privacy policy
                             </span>
                         </label>

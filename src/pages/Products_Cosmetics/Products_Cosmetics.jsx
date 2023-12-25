@@ -1,3 +1,4 @@
+import AnimatedCursor from "react-animated-cursor";
 import BackgroundImageContainer from "../../components/BackgroundImageContainer/BackgroundImageContainer";
 import Banner from "../../components/Banner/Banner";
 import Products from "../../components/Prodcuts/Products";
@@ -6,6 +7,12 @@ import Products from "../../components/Prodcuts/Products";
 const Products_Cosmetics = () => {
     return (
         <div>
+
+            {/* customised cursor */}
+            <AnimatedCursor
+                color='25, 135, 84'
+            />
+
             <Banner
                 heading="Products"
                 article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."
@@ -29,16 +36,12 @@ const Products_Cosmetics = () => {
                 headingTextColor3="#365F42"
                 headingTextColor4="#C89595"
                 firstProductImg="/assets/Images/Nutraceuticals.png"
-                secondProductImg= "/assets/Images/Nutraceuticals (2).png"
-                thirdProductImg= "/assets/Images/Nutraceuticals (3).png"
-                fourthProductImg= "/assets/Images/Nutraceuticals (4).png"
-                fifthProductImg= "/assets/Images/Nutraceuticals (5).png"
-                sixthProductImg= "/assets/Images/Nutraceuticals (7).png"
-                seventhProductImg= "/assets/Images/Nutraceuticals (8).png"
-                fourthProductImg= "/assets/Images/Nutraceuticals (4).png"
-                fifthProductImg= "/assets/Images/Nutraceuticals (5).png"
-                sixthProductImg= "/assets/Images/Nutraceuticals (7).png"
-                seventhProductImg= "/assets/Images/Nutraceuticals (8).png"
+                secondProductImg="/assets/Images/Nutraceuticals (2).png"
+                thirdProductImg="/assets/Images/Nutraceuticals (3).png"
+                fourthProductImg="/assets/Images/Nutraceuticals (4).png"
+                fifthProductImg="/assets/Images/Nutraceuticals (5).png"
+                sixthProductImg="/assets/Images/Nutraceuticals (7).png"
+                seventhProductImg="/assets/Images/Nutraceuticals (8).png"
                 bottomTextheading="Improve your body essentials  with HYGWELL's products"
                 bottomTextArticle="Diffusing can be exactly what you need to add purpose and focus to your daily tasks. We've got tons of fun diffuser blends, with scents to suit every mood, day and situation."
                 shortTheFont={true}

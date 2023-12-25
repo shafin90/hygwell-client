@@ -8,7 +8,10 @@ import Footer from "../../components/Footer/Footer";
 const AboutUs = () => {
     return (
         <Container fluid className=" px-0 ">
-             
+            {/* customised cursor */}
+            <AnimatedCursor
+                color='25, 135, 84'
+            />
 
             <Banner
                 heading="About Us"

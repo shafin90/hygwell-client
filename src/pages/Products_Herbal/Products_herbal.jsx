@@ -1,3 +1,4 @@
+import AnimatedCursor from "react-animated-cursor";
 import BackgroundImageContainer from "../../components/BackgroundImageContainer/BackgroundImageContainer";
 import Banner from "../../components/Banner/Banner";
 import Products from "../../components/Prodcuts/Products";
@@ -6,6 +7,10 @@ import Products from "../../components/Prodcuts/Products";
 const Products_herbal = () => {
     return (
         <div>
+            {/* customised cursor */}
+            <AnimatedCursor
+                color='25, 135, 84'
+            />
             <Banner
                 heading="Products"
                 article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."
@@ -29,12 +34,12 @@ const Products_herbal = () => {
                 headingTextColor3="#365F42"
                 headingTextColor4="#C89595"
                 firstProductImg="/assets/Images/Nutraceuticals.png"
-                secondProductImg= "/assets/Images/Nutraceuticals (2).png"
-                thirdProductImg= "/assets/Images/Nutraceuticals (3).png"
-                fourthProductImg= "/assets/Images/Nutraceuticals (4).png"
-                fifthProductImg= "/assets/Images/Nutraceuticals (5).png"
-                sixthProductImg= "/assets/Images/Nutraceuticals (7).png"
-                seventhProductImg= "/assets/Images/Nutraceuticals (8).png"
+                secondProductImg="/assets/Images/Nutraceuticals (2).png"
+                thirdProductImg="/assets/Images/Nutraceuticals (3).png"
+                fourthProductImg="/assets/Images/Nutraceuticals (4).png"
+                fifthProductImg="/assets/Images/Nutraceuticals (5).png"
+                sixthProductImg="/assets/Images/Nutraceuticals (7).png"
+                seventhProductImg="/assets/Images/Nutraceuticals (8).png"
                 bottomTextheading="Let herbs guide you,your wellness pledge"
                 bottomTextArticle="The power of herbs is that they resonate within, ... and cultivate a naturally healthy you."
                 bottomTextBlob="/assets/Images/Blob (8).png"

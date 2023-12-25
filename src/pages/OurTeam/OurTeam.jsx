@@ -3,11 +3,16 @@ import CustomNavbar from "../../components/CustomNavbar/CustomNavbar";
 import MeetOurTeamCard from "../../components/MeetOurTeamCard/MeetOurTeamCard";
 import './OurTeam.css'
 import Footer from "../../components/Footer/Footer";
+import AnimatedCursor from "react-animated-cursor";
 
 const OurTeam = () => {
     return (
         <Container fluid className=" px-0 ">
-            {/* background image */}
+
+            {/* customised cursor */}
+            <AnimatedCursor
+                color='25, 135, 84'
+            />            {/* background image */}
             {/* <img src="/assets/Images/Mask group (3).png" style={{width:"100vw", height:"320vh", position:"absolute", zIndex:"-2"}} alt="" /> */}
             {/* left bg image */}
             <img className=" leftBgImg_ourTeam" src="/assets/Images/Subtract (1).png" alt="" />

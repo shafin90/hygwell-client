@@ -8,11 +8,18 @@ import WhyChoose_ExportPage from "../../components/WhyChoose_ExportPage/WhyChoos
 import SmallDescriptionWithHeading from "../../components/SmallDescriptionWithHeading/SmallDescriptionWithHeading";
 import BeforeFooter_HomePage from "../../components/BeforeFooter_HomePage/BeforeFooter_HomePage";
 import ReasonContainerWhyChoose_ExportsPage from "../../components/ReasonContainerWhyChoose_ExportsPage/ReasonContainerWhyChoose_ExportsPage";
+import AnimatedCursor from "react-animated-cursor";
 
 
 const Exports = () => {
     return (
         <Container fluid className=" px-0 ">
+
+            {/* customised cursor */}
+            <AnimatedCursor
+                color='25, 135, 84'
+            />
+
             <Banner
                 heading="Exports"
                 article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."
