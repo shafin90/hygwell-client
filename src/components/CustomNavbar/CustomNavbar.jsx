@@ -36,7 +36,7 @@ const CustomNavbar = () => {
 
 
                         <Link
-                            className={pathname == "/productsPharma" ?
+                            className={pathname == "/productsPharma" || pathname == "/productsNutra" || pathname == "/productsVetarn"|| pathname == "/productsHerbal"|| pathname == "/productsCosmetics"|| pathname == "/productsFragrance"|| pathname == "/productsSexual"  ?
                                 "d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3 bg-success text-white"
                                 :
                                 "text-black d-flex justify-content-center align-items-center  text-decoration-none fw-semibold px-4 py-2  rounded-3"
