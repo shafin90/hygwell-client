@@ -10,8 +10,49 @@ const ContactUs_ContactUsPage = () => {
     const [phoneNumber, setphoneNumber] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [termsAndCondition, setTermsAndCondition] = useState(false)
 
 
+    const submitContactUsForm = (e) => {
+        e.preventDefault();
+
+        fetch('https://sheetdb.io/api/v1/vnud67b9vm0ld', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                data: [
+                    {
+                        'Name': firstName + ' ' + lastName,
+                        'Email': email,
+                        'Subject': subject,
+                        'Message': message,
+                        'Phone Number': phoneNumber,
+                        'Terms And Conditions': termsAndCondition? "checked" : "unChecked"
+                    }
+                ]
+            })
+        })
+            .then((response) => response.json())
+            .then((data) => {
+
+                setfirstName('')
+                setlastName('')
+                setEmail('')
+                setphoneNumber('')
+                setSubject('')
+                setMessage('')
+                setTermsAndCondition(false)
+
+                console.log(data)
+            });
+
+
+    }
+
+    console.log(termsAndCondition)
     return (
         <Container className="position-relative ">
 
@@ -26,7 +67,7 @@ const ContactUs_ContactUsPage = () => {
 
             {/* Form of this page */}
             <form className=" form shadow-lg">
-                
+
                 {/* Fisrt name , Last Name */}
                 <Row className="mb-0 mb-md-5 mb-lg-5  d-flex  justify-content-between  align-items-center ">
                     {/* First name */}
@@ -38,8 +79,8 @@ const ContactUs_ContactUsPage = () => {
                             placeholder="First name"
                             defaultValue="Mark"
                             className=" text-muted "
-                            
-
+                            onChange={e => setfirstName(e.target.value)}
+                            value={firstName}
                         />
                         <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                     </Form.Group>
@@ -53,6 +94,8 @@ const ContactUs_ContactUsPage = () => {
                             placeholder="First name"
                             defaultValue="Mark"
                             className=" text-muted "
+                            onChange={e => setlastName(e.target.value)}
+                            value={lastName}
                         />
                         <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                     </Form.Group>
@@ -72,6 +115,8 @@ const ContactUs_ContactUsPage = () => {
                                 placeholder="email"
                                 aria-describedby="inputGroupPrepend"
                                 required
+                                onChange={e => setEmail(e.target.value)}
+                                value={email}
                             />
                             <Form.Control.Feedback type="invalid">
                                 Please choose a username.
@@ -88,6 +133,8 @@ const ContactUs_ContactUsPage = () => {
                             placeholder="Phone Number"
                             defaultValue=""
                             className=" text-muted"
+                            onChange={e => setphoneNumber(e.target.value)}
+                            value={phoneNumber}
                         />
                         <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                     </Form.Group>
@@ -98,19 +145,19 @@ const ContactUs_ContactUsPage = () => {
                 <h3 className="h5 text-dark">Select Subject</h3>
                 <Row className=" mb-5 ">
                     <Col md={4} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-start   align-items-center">
-                        <input className="me-2" type="radio" name="radio-group" id="radio-1" />
+                        <input onChange={e => setSubject(e.target.id)} className="me-2" type="radio" name="radio-group" id="Genaral Inquary" />
                         <label className=" text-muted" htmlFor="radio-1">General Inquary</label>
                     </Col>
                     <Col md={2} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
-                        <input className="me-2" type="radio" name="radio-group" id="radio-2" />
+                        <input onChange={e => setSubject(e.target.id)} className="me-2" type="radio" name="radio-group" id="Prducts" />
                         <label htmlFor="radio-2">Prducts</label>
                     </Col>
                     <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
-                        <input className="me-2" type="radio" name="radio-group" id="radio-3" />
+                        <input onChange={e => setSubject(e.target.id)} className="me-2" type="radio" name="radio-group" id="Exports" />
                         <label htmlFor="radio-3">Exports</label>
                     </Col>
                     <Col md={3} className=" d-flex justify-content-start justify-content-md-center  justify-content-lg-center  align-items-center ">
-                        <input className="me-2" type="radio" name="radio-group" id="radio-4" />
+                        <input onChange={e => setSubject(e.target.id)} className="me-2" type="radio" name="radio-group" id="Compliance" />
                         <label htmlFor="radio-4">Compliance</label>
                     </Col>
                 </Row>
@@ -119,7 +166,7 @@ const ContactUs_ContactUsPage = () => {
                 <Row className="mb-5">
                     <Col md={12} className="d-flex flex-column justify-content-between  align-items-start">
                         <label className="text-muted mb-3" >Message</label>
-                        <input className=" messageInput text-muted pb-1" placeholder="Write your message.." type="text" />
+                        <input onChange={e => setMessage(e.target.value)} value={message} className=" messageInput text-muted pb-1" placeholder="Write your message.." type="text" />
                     </Col>
                 </Row>
 
@@ -127,7 +174,7 @@ const ContactUs_ContactUsPage = () => {
                 <Row>
                     {/* Click to agree terms and conditions */}
                     <Col className=" mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 d-flex  justify-content-between  align-items-start " md={7}>
-                        <input className=" mt-2" type="checkbox" id="terms-and-conditions" name="terms-and-conditions" />
+                        <input className=" mt-2" type="checkbox" id="terms-and-conditions" name="terms-and-conditions" checked={termsAndCondition} onClick={() => setTermsAndCondition(!termsAndCondition)} />
                         <label className=" text-muted ms-2 " htmlFor="terms-and-conditions">
                             Send me updates about HYGWELL
                             products and services.
@@ -139,7 +186,7 @@ const ContactUs_ContactUsPage = () => {
 
                     {/* Send Button message */}
                     <Col md={5} className=" d-flex justify-content-end align-items-center">
-                        <button className=" btn btn-success px-3 rounded-2">
+                        <button onClick={submitContactUsForm} className=" btn btn-success px-3 rounded-2">
                             Send Message
                         </button>
                     </Col>
