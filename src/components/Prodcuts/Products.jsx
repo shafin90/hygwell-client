@@ -52,44 +52,44 @@ const Products = ({ bgColor, headingText1, headingText2, headingText3, headingTe
                 <div className=' d-flex flex-column  justify-content-between  align-items-center '>
                     <img onClick={() => { navigate("/productsPharma") }} className='productToNavigate img-fluid ' src={pathname === "/productsPharma" ? "/assets/Images/Veterinary.png" : firstProductImg} alt="" />
 
-                    <img src="/public/assets/Images/Polygon 1.png" className={pathname === "/productsPharma" ? 'down-arrow-sign' : ' d-none '} alt="" />
+                    <img src="/assets/Images/Polygon 1.png" className={pathname === "/productsPharma" ? 'down-arrow-sign' : ' d-none '} alt="" />
 
                 </div>
 
                 <div className=' d-flex flex-column  justify-content-between  align-items-center '>
                     <img onClick={() => { navigate("/productsNutra") }} className=' productToNavigate img-fluid ' src={pathname === "/productsNutra" ? "/assets/Images/Veterinary (1).png" : secondProductImg} alt="" />
 
-                    <img src="/public/assets/Images/Polygon 1 (1).png" className={pathname === "/productsNutra" ? 'down-arrow-sign' : ' d-none '} alt="" />
+                    <img src="/assets/Images/Polygon 1 (1).png" className={pathname === "/productsNutra" ? 'down-arrow-sign' : ' d-none '} alt="" />
                 </div>
 
                 <div className=' d-flex flex-column  justify-content-between  align-items-center '>
                     <img onClick={() => { navigate("/productsVetarn") }} className='productToNavigate img-fluid ' src={pathname === "/productsVetarn" ? "/assets/Images/Veterinary (2).png" : thirdProductImg} alt="" />
 
-                    <img src="/public/assets/Images/Polygon 1 (2).png" className={pathname === "/productsVetarn" ? 'down-arrow-sign' : ' d-none '} alt="" />
+                    <img src="/assets/Images/Polygon 1 (2).png" className={pathname === "/productsVetarn" ? 'down-arrow-sign' : ' d-none '} alt="" />
                 </div>
 
                 <div className=' d-flex flex-column  justify-content-between  align-items-center '>
                     <img onClick={() => { navigate("/productsHerbal") }} className=' productToNavigate img-fluid ' src={pathname === "/productsHerbal" ? "/assets/Images/Veterinary (4).png" : fourthProductImg} alt="" />
 
-                    <img src="/public/assets/Images/Polygon 1 (3).png" className={pathname === "/productsHerbal" ? 'down-arrow-sign' : ' d-none '} alt="" />
+                    <img src="/assets/Images/Polygon 1 (3).png" className={pathname === "/productsHerbal" ? 'down-arrow-sign' : ' d-none '} alt="" />
                 </div>
 
                 <div className=' d-flex flex-column  justify-content-between  align-items-center '>
                     <img onClick={() => { navigate("/productsCosmetics") }} className=' productToNavigate img-fluid ' src={pathname === "/productsCosmetics" ? "/assets/Images/Veterinary (5).png" : fifthProductImg} alt="" />
 
-                    <img src="/public/assets/Images/Polygon 1 (4).png" className={pathname === "/productsCosmetics" ? 'down-arrow-sign' : ' d-none '} alt="" />
+                    <img src="/assets/Images/Polygon 1 (4).png" className={pathname === "/productsCosmetics" ? 'down-arrow-sign' : ' d-none '} alt="" />
                 </div>
 
                 <div className=' d-flex flex-column  justify-content-between  align-items-center '>
                     <img onClick={() => { navigate("/productsFragrance") }} className=' productToNavigate img-fluid ' src={pathname === "/productsFragrance" ? "/assets/Images/Veterinary (6).png" : sixthProductImg} alt="" />
 
-                    <img src="/public/assets/Images/Polygon 1 (5).png" className={pathname === "/productsFragrance" ? 'down-arrow-sign' : ' d-none '} alt="" />
+                    <img src="/assets/Images/Polygon 1 (5).png" className={pathname === "/productsFragrance" ? 'down-arrow-sign' : ' d-none '} alt="" />
                 </div>
 
                 <div className=' d-flex flex-column  justify-content-between  align-items-center '>
                     <img onClick={() => { navigate("/productsSexual") }} className=' productToNavigate img-fluid ' src={pathname === "/productsSexual" ? "/assets/Images/Veterinary (7).png" : seventhProductImg} alt="" />
 
-                    <img src="/public/assets/Images/Polygon 1 (6).png" className={pathname === "/productsSexual" ? 'down-arrow-sign' : ' d-none '} alt="" />
+                    <img src="/assets/Images/Polygon 1 (6).png" className={pathname === "/productsSexual" ? 'down-arrow-sign' : ' d-none '} alt="" />
                 </div>
 
             </div>
