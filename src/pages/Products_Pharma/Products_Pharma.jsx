@@ -1,4 +1,4 @@
-import AnimatedCursor from "react-animated-cursor";
+
 import BackgroundImageContainer from "../../components/BackgroundImageContainer/BackgroundImageContainer";
 import Banner from "../../components/Banner/Banner";
 import Products from "../../components/Prodcuts/Products";
@@ -7,10 +7,7 @@ import Products from "../../components/Prodcuts/Products";
 const Products_Pharma = () => {
     return (
         <div>
-            {/* customised cursor */}
-            <AnimatedCursor
-                color='25, 135, 84'
-            />
+            
             <Banner
                 heading="Products"
                 article="HYGWELL is your trusted partner for high-quality pharmaceuticals solutions. We specialize in providing the best healthcare services for you with a dedication to excellence, customer satisfaction, and constant innovation."

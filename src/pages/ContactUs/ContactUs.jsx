@@ -4,30 +4,10 @@ import BackgroundImageContainer from "../../components/BackgroundImageContainer/
 import ContactUs_ContactUsPage from "../../components/ContactUs_ContactUsPage/ContactUs_ContactUsPage";
 import ContactInformation_ContactUsPage from "../../components/ContactInformation_ContactUsPage/ContactInformation_ContactUsPage";
 import Footer from "../../components/Footer/Footer";
-import AnimatedCursor from "react-animated-cursor";
-
 
 const ContactUs = () => {
     return (
         <Container fluid className=" px-0 ">
-
-            {/* customised cursor */}
-            <AnimatedCursor
-                color='25, 135, 84'
-                clickables={[
-                    'a',
-                    'input[type="text"]',
-                    'input[type="email"]',
-                    'input[type="number"]',
-                    'input[type="submit"]',
-                    'input[type="image"]',
-                    'label[for]',
-                    'select',
-                    'textarea',
-                    'button',
-                    '.link'
-                  ]}
-            />
 
             <Banner
                 heading="Contact Us"

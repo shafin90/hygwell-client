@@ -14,17 +14,10 @@ const LazyMeetOurTeam = React.lazy(() => import("../../components/MeetOurTeam/Me
 const LazyGetYourPharmacy = React.lazy(() => import("../../components/GetYourPharmacy_HomePage/GetYourPharmacy_HomePage"));
 const LazyBeforeFooter = React.lazy(() => import("../../components/BeforeFooter_HomePage/BeforeFooter_HomePage"));
 const LazyFooter = React.lazy(() => import("../../components/Footer/Footer"));
-import AnimatedCursor from "react-animated-cursor"
-
 
 const Home = () => {
     return (
         <Container fluid className="px-0 overflow-x-hidden overflow-y-hidden home">
-
-            {/* customised cursor */}
-            <AnimatedCursor
-                color='25, 135, 84'
-            />
 
             <Suspense fallback={<div>Loading...</div>}>
                 <LazyBanner

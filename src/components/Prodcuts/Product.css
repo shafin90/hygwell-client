@@ -101,6 +101,28 @@
     transition: 0.8s;
 }
 
+.down-arrow-sign {
+    position: relative;
+    top: -10px;
+    animation-name: floatingArrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes floatingArrow {
+    0%{
+        top:-10px; 
+    }
+    50%{
+        top:-2px; 
+    }
+    100%{
+        top:-10px; 
+    }
+}
+
 @media screen and (max-width: 576px) {
     .productSection {
         width: 90.41666666666667vw;

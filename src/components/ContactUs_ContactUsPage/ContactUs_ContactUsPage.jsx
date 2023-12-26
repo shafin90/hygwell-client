@@ -1,7 +1,7 @@
 import { Col, Container, Form, InputGroup, Row } from "react-bootstrap";
 import './ContactUs_ContactUsPage.css'
 import { useState } from "react";
-import AnimatedCursor from "react-animated-cursor"
+
 
 const ContactUs_ContactUsPage = () => {
     const [firstName, setfirstName] = useState('');
@@ -10,11 +10,6 @@ const ContactUs_ContactUsPage = () => {
     const [phoneNumber, setphoneNumber] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
-
-
-
-
-
 
 
     return (
@@ -31,9 +26,7 @@ const ContactUs_ContactUsPage = () => {
 
             {/* Form of this page */}
             <form className=" form shadow-lg">
-                <AnimatedCursor
-                    color='25, 135, 84'
-                />
+                
                 {/* Fisrt name , Last Name */}
                 <Row className="mb-0 mb-md-5 mb-lg-5  d-flex  justify-content-between  align-items-center ">
                     {/* First name */}
