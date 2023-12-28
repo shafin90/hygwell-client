@@ -173,10 +173,10 @@ const ContactUs_ContactUsPage = () => {
                 </Row>
 
                 <ReCAPTCHA
-                    sitekey="6LdF0D4pAAAAAGffOXf0Y2kTO4siKlKXvwFdLjlH"
+                    sitekey="6LeW_D4pAAAAAHzZaB0LiIqlVxJWnnZ9GViV6HCH"
                     onChange={onChange}
-
                 />
+                
                 {/* finalize terms and conditions and send the message */}
                 <Row className="mt-4">
                     {/* Click to agree terms and conditions */}
