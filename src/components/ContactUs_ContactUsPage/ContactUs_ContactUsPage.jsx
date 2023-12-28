@@ -11,6 +11,7 @@ const ContactUs_ContactUsPage = () => {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
     const [termsAndCondition, setTermsAndCondition] = useState(false)
+    const [reCaptcha, setRecaptcha] = useState(null);
 
 
     const submitContactUsForm = (e) => {
@@ -37,8 +38,6 @@ const ContactUs_ContactUsPage = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-
-                console.log(data)
                 setfirstName('')
                 setlastName('')
                 setEmail('')
@@ -46,17 +45,19 @@ const ContactUs_ContactUsPage = () => {
                 setSubject('')
                 setMessage('')
                 setTermsAndCondition(false)
-
-
+                setRecaptcha(null)
             });
 
 
     }
 
+    // set value of recaptcha===============
     const onChange = (event) => {
-        console.log(event)
+        setRecaptcha(event)
     }
-   
+
+    console.log(reCaptcha)
+
     return (
         <Container className="position-relative ">
 
@@ -177,10 +178,10 @@ const ContactUs_ContactUsPage = () => {
                 <ReCAPTCHA
                     sitekey="6LdF0D4pAAAAAGffOXf0Y2kTO4siKlKXvwFdLjlH"
                     onChange={onChange}
-                 
-                />,
+
+                />
                 {/* finalize terms and conditions and send the message */}
-                <Row>
+                <Row className="mt-4">
                     {/* Click to agree terms and conditions */}
                     <Col className=" mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 d-flex  justify-content-between  align-items-start " md={7}>
                         <input className=" mt-2" type="checkbox" id="terms-and-conditions" name="terms-and-conditions" checked={termsAndCondition} onClick={() => setTermsAndCondition(!termsAndCondition)} />
@@ -196,7 +197,7 @@ const ContactUs_ContactUsPage = () => {
 
                     {/* Send Button message */}
                     <Col md={5} className=" d-flex justify-content-end align-items-center">
-                        <button onClick={submitContactUsForm} className=" btn btn-success px-3 rounded-2">
+                        <button onClick={submitContactUsForm} className={reCaptcha ? "btn btn-success px-3 rounded-2" : "btn btn-success px-3 rounded-2 disabled"}  >
                             Send Message
                         </button>
                     </Col>
