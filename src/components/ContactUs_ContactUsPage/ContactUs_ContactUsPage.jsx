@@ -1,7 +1,7 @@
 import { Col, Container, Form, InputGroup, Row } from "react-bootstrap";
 import './ContactUs_ContactUsPage.css'
 import { useState } from "react";
-
+import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactUs_ContactUsPage = () => {
     const [firstName, setfirstName] = useState('');
@@ -30,7 +30,7 @@ const ContactUs_ContactUsPage = () => {
                         'Subject': subject,
                         'Message': message,
                         'Phone Number': phoneNumber,
-                        'Terms And Conditions': termsAndCondition? "checked" : "unChecked"
+                        'Terms And Conditions': termsAndCondition ? "checked" : "unChecked"
                     }
                 ]
             })
@@ -38,6 +38,7 @@ const ContactUs_ContactUsPage = () => {
             .then((response) => response.json())
             .then((data) => {
 
+                console.log(data)
                 setfirstName('')
                 setlastName('')
                 setEmail('')
@@ -46,13 +47,16 @@ const ContactUs_ContactUsPage = () => {
                 setMessage('')
                 setTermsAndCondition(false)
 
-                console.log(data)
+
             });
 
 
     }
 
-    console.log(termsAndCondition)
+    const onChange = (event) => {
+        console.log(event)
+    }
+   
     return (
         <Container className="position-relative ">
 
@@ -170,6 +174,11 @@ const ContactUs_ContactUsPage = () => {
                     </Col>
                 </Row>
 
+                <ReCAPTCHA
+                    sitekey="6LdF0D4pAAAAAGffOXf0Y2kTO4siKlKXvwFdLjlH"
+                    onChange={onChange}
+                 
+                />,
                 {/* finalize terms and conditions and send the message */}
                 <Row>
                     {/* Click to agree terms and conditions */}
@@ -183,6 +192,7 @@ const ContactUs_ContactUsPage = () => {
                             </span>
                         </label>
                     </Col>
+
 
                     {/* Send Button message */}
                     <Col md={5} className=" d-flex justify-content-end align-items-center">
