@@ -47,8 +47,6 @@ const ContactUs_ContactUsPage = () => {
                 setTermsAndCondition(false)
                 setRecaptcha(null)
             });
-
-
     }
 
     // set value of recaptcha===============
@@ -56,7 +54,6 @@ const ContactUs_ContactUsPage = () => {
         setRecaptcha(event)
     }
 
-    console.log(reCaptcha)
 
     return (
         <Container className="position-relative ">
