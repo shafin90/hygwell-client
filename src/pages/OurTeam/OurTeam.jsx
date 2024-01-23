@@ -8,7 +8,7 @@ const OurTeam = () => {
     return (
         <Container fluid className=" px-0 ">
 
-           {/* background image */}
+            {/* background image */}
             {/* <img src="/assets/Images/Mask group (3).png" style={{width:"100vw", height:"320vh", position:"absolute", zIndex:"-2"}} alt="" /> */}
             {/* left bg image */}
             <img className=" leftBgImg_ourTeam" src="/assets/Images/Subtract (1).png" alt="" />
@@ -49,15 +49,16 @@ const OurTeam = () => {
                             details="As the CEO, I chart the course, ensuring innovation, growth, and sustainable success for the company."
                         ></MeetOurTeamCard>
                     </Col>
-
-                    <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
+                    <Col sm={12} md={5} className="d-flex  justify-content-center align-items-center ">
                         <MeetOurTeamCard
-                            img="/assets/Images/Ellipse 14.jpg"
-                            name="Vajrala Asish babu"
-                            designation="Director"
-                            details="The Director steers the organization towards its goals, inspiring teams to achieve excellence."
+                            img="../../../public/assets/Images/WhatsApp Image 2024-01-22 at 1.21.11 AM-modified.png"
+                            name="Sameer Kumar Kalapala"
+                            designation=" COO"
+                            details=" I lead our operational efforts, focusing on process enhancements, customer satisfaction, and team excellence."
                         ></MeetOurTeamCard>
                     </Col>
+
+
                 </Row>
 
                 <Row className=" d-flex  justify-content-center align-items-center ">
@@ -69,6 +70,15 @@ const OurTeam = () => {
                             details="The CFO optimizes financial performance, ensuring fiscal strength and strategic decision-making."
                         ></MeetOurTeamCard>
                     </Col>
+                    <Col md={5} className=" d-flex  justify-content-center  align-content-center ">
+                        <MeetOurTeamCard
+                            img="/assets/Images/Ellipse 14.jpg"
+                            name="Vajrala Asish babu"
+                            designation="Director"
+                            details="The Director steers the organization towards its goals, inspiring teams to achieve excellence."
+                        ></MeetOurTeamCard>
+                    </Col>
+
                 </Row>
             </Container>
 
