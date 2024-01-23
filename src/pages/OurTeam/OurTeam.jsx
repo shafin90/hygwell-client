@@ -51,7 +51,7 @@ const OurTeam = () => {
                     </Col>
                     <Col sm={12} md={5} className="d-flex  justify-content-center align-items-center ">
                         <MeetOurTeamCard
-                            img="../../../public/assets/Images/WhatsApp Image 2024-01-22 at 1.21.11 AM-modified.png"
+                            img="/assets/Images/WhatsApp Image 2024-01-22 at 1.21.11 AM-modified.png"
                             name="Sameer Kumar Kalapala"
                             designation=" COO"
                             details=" I lead our operational efforts, focusing on process enhancements, customer satisfaction, and team excellence."
