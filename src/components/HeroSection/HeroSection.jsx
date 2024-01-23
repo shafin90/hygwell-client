@@ -4,7 +4,7 @@ import Fade, { Bounce, JackInTheBox, Slide, Zoom } from 'react-awesome-reveal'; 
 import { FaRegPlayCircle } from "react-icons/fa";
 import { useState } from "react";
 import video from "../../../public/assets/Images/HYGWELL FINAL.mp4"
-import YouTube from "react-youtube";
+
 
 
 const HeroSection = ({ heading, article, btn }) => {
